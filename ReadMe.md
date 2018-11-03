@@ -3,8 +3,8 @@
 # hackathon2019
 Website and projects for the OHBM Hackathon in Rome 2019
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/hackathon2019/Lobby#) &nbsp;&nbsp;&nbsp;&nbsp; [![mattermost_chat](https://user-images.githubusercontent.com/6297454/47934620-0bf97480-ded8-11e8-9a7c-6c945f1daabf.png)]()  
-(mattermost invitation link will be added asap)
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/hackathon2019/Lobby#) &nbsp;&nbsp;&nbsp;&nbsp; [![slack_brainhack_3](https://user-images.githubusercontent.com/6297454/47951457-5b37b780-df61-11e8-9d77-7b5a4c7af875.png)](https://brainhack-slack-invite.herokuapp.com/)
+
 
 
 Brainhacks have become part of our way of doing science in a connected world since the time we participated in the first ever Brainhack. By creating a friendly and inclusive environment during 3 days of intense collaborations, they can provide the means to create and strengthen collaborations that can be pursued online the rest of the year.  
