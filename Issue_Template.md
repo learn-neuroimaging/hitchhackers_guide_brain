@@ -1,23 +1,36 @@
-# Your awesome project's title
+# Name of your awesome project
 
+## Project Description
 Main idea and context
 
+## Skills required to participate
+What different types of people could contribute?
+
+## Integration
+How would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator? You can check the Mozilla Open Leadership material on [personas](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) and [contribution guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/).  
+Try to define intermediate goals (milestones).  
+
+## Preparation material
+Provide links to preparation material / online tutorials. You can, for example, have a look at our [list of online tutorials](Tutorial_Resources.md).
 
 
-what different types of people could contribute, 
+## Link to your GitHub repo
+[YourGitHubRepo](https://github.com/yourUserName/yourRepo)  
+    with [ReadMe.md](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/) containing  
+        &nbsp;&nbsp;&nbsp;&nbsp;* Project idea and context  
+        &nbsp;&nbsp;&nbsp;&nbsp;* Installation guidelines if applicable  
+        &nbsp;&nbsp;&nbsp;&nbsp;* Links to further reading / tutorials  
+    and if you want, additional files such as  
+        &nbsp;&nbsp;&nbsp;&nbsp;* [Contributors.md](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/), to specify which types of people can contribute how.
 
-links to preparation material / online tutorials
+## Communication
+Link to the communication channel for your project. You can, for example, create a [slack channel](https://brainhack-slack-invite.herokuapp.com/) for your project inside the Brainhack slack community, 
+or create a community on [gitter](https://gitter.im/) and link to the chat by including a Gitter badge linking to your community 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/yourRoom/Lobby#)
 
 
-link to GitHub repo
-    with ReadMe.md  
-        Project idea and context  
-        Links to further reading  
-    and if they want, additional files like  
-        Contributors.md 
 
-link to communication platform: Create a slack channel for the project inside the Brainhack slack community, 
-(or link to a google doc with links)]
+
 
 
 
