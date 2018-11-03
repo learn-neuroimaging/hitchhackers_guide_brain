@@ -1,5 +1,9 @@
 # A list of tutorials and other resources useful for open science and neuroimaging
 
+## Open Science
+
+* The Open Science MOOC: https://opensciencemooc.eu/
+
 ## GitHub
 
 * What is GitHub and how to use it (17 min): https://www.youtube.com/watch?v=AnftV9HBPSc
