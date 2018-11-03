@@ -11,7 +11,7 @@ How would your project integrate a neuroimager/clinician/psychologist/computatio
 Try to define intermediate goals (milestones).  
 
 ## Preparation material
-Provide links to preparation material / online tutorials. You can, for example, have a look at the [list of online tutorials from Neurohackademy](Tutorial_Resources.md).
+Provide links to preparation material / online tutorials. You can, for example, have a look at our [list of online tutorials](Tutorial_Resources.md).
 
 
 ## Link to your GitHub repo
@@ -24,7 +24,7 @@ Provide links to preparation material / online tutorials. You can, for example, 
         &nbsp;&nbsp;&nbsp;&nbsp;* [Contributors.md](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/), to specify which types of people can contribute how.
 
 ## Communication
-Create a [slack channel](https://brainhack-slack-invite.herokuapp.com/) for your project inside the Brainhack slack community, 
+Link to the communication channel for your project. You can, for example, create a [slack channel](https://brainhack-slack-invite.herokuapp.com/) for your project inside the Brainhack slack community, 
 or create a community on [gitter](https://gitter.im/) and link to the chat by including a Gitter badge linking to your community 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/yourRoom/Lobby#)
 
