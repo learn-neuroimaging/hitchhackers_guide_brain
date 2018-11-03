@@ -1,25 +1,26 @@
-# Your awesome project
+# Name of your awesome project
 
 ## Project Description
 Main idea and context
 
 ## Skills required to participate
-What different types of people could contribute? 
+What different types of people could contribute?
 
 ## Integration
-What different types of people could contribute to your project?  
-How would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator?
-Try to define intermediate goals (milestones)
-Possibly provide links to preparation material / online tutorials
+How would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator? You can check the Mozilla Open Leadership material on [personas](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) and [contribution guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/)  
+Try to define intermediate goals (milestones)  
+
+## Preparation material
+Provide links to preparation material / online tutorials. You can, for example, have a look at the [list of online tutorials from Neurohackademy](Tutorial_Resources.md)
 
 
 ## Link to your GitHub repo
-    with ReadMe.md  
-        Project idea and context  
-        Links to further reading / tutorials 
-    and if they want, additional files such as  
-        Contributors.md 
-        to specify which types of people can contribute how
+[YourGitHubRepo](https://github.com/yourUserName/yourRepo)  
+    with [ReadMe.md](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/) containing  
+        &nbsp;&nbsp;&nbsp;&nbsp;* Project idea and context  
+        &nbsp;&nbsp;&nbsp;&nbsp;* Links to further reading / tutorials  
+    and if you want, additional files such as  
+        &nbsp;&nbsp;&nbsp;&nbsp;* [Contributors.md](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/), to specify which types of people can contribute how
 
 ## Communication
 Create a [slack channel](https://brainhack-slack-invite.herokuapp.com/) for your project inside the Brainhack slack community, 
