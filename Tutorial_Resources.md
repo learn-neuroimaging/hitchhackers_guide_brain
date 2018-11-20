@@ -15,25 +15,33 @@
 
 
 ## GitHub
+* [A Quick Introduction to Version Control with
+Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) by Bilschak et al. (2016)
 * [Introduction to git and GitHub](https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp) by Chris Gorgolewski within Brainhack Americas (45 min)
 * [Git and Github 1 & 2](https://neurohackademy.org/course/git-and-github/) by Bernease Herman within Neurohackweek 2016
+* [Git tutorial](https://www.youtube.com/watch?v=0DGCnBZBoc0&index=2&t=5s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (36 min)
+* [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 
 
 ## Python
 #### Introduction
+* [A whirlwind tour of python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas
 * [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) within Brainhack Americas (45 min)
 * [Introduction to Python](https://neurohackademy.org/course/introduction-to-python/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 16 min)
 * [Python programming](https://neurohackademy.org/course/python-programming/) by Valentina Staneva within Neurohackweek 2016
 * [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min)
+* [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
 
 
 #### Specific topics
 * [Cython and numba](https://neurohackademy.org/course/cython-and-numba/) by Ariel Rokem within Neurohackweek 2016
 * [Data manipulation in Python/Pandas](https://neurohackademy.org/course/complex-data-structures/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 21 min)
 * [High-performance Python](https://neurohackademy.org/course/high-performance-python/) by Ariel Rokem within Neurohackweek 2016
-* [Modular Software Design](https://neurohackademy.org/course/modular-software-design/) by Jeremy Freeman at Neurohackweek 2016 (48 min)
+* [Modular Software Design](https://neurohackademy.org/course/modular-software-design/) by Jeremy Freeman within Neurohackweek 2016 (48 min)
 * [Python packaging](https://neurohackademy.org/course/python-packaging/) by Ariel Rokem within Neurohackademy 2018 (1 hr 26 min)
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake Vanderplas
+* [Science Hacking 101](https://www.youtube.com/watch?v=Gin8_AITmS0) by Jeremy Manning within MIND 2018
 * [Software testing 1](https://neurohackademy.org/course/software-testing/) by Chris Gorgolewski within Neurohackweek
 * [Software testing 2](https://neurohackademy.org/course/software-testing-2/) by Chris Gorgolewski within Neurohackweek
 * [Testing scientific code](https://neurohackademy.org/course/testing-scientific-code/) by Chris Gorgolewski within Neurohackweek 2017 (43 min)
@@ -46,6 +54,11 @@
 ## Containers
 * [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
+* [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
+
+## Other tools for reproducible data-science
+* [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
+* [Jupyter tutorial](https://www.youtube.com/watch?v=CSkTJRNBTME&index=3&t=4s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (31 min)
 
 
 ## Open-data platforms
@@ -54,6 +67,7 @@
 * [Allen Institute RNAseq data](https://neurohackademy.org/course/allen-institute-rnaseq-data/) by Jeremy Miller within Neurohackweek 2016 (52 min)
 * [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/) by Nicolas Cain and Justin Kiggins within Neurohackademy 2018 (1 hr 42 min)
 * [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/) by Kirstie Whitaker within Neurohackweek 2016 (28 min)
+* [OpenNeuro](https://openneuro.org/)
 
 
 ## Neuroimaging
@@ -78,7 +92,6 @@
 #### Reproducible neuroimaging tools
 * [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016  
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
-* [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
 * [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/) by Tara Madhyastha within Neurohackweek 2016 (48 min)
 * [Introduction to web technologies](https://neurohackademy.org/course/introduction-to-web-technologies/) by Anisha Keshavan within Neurohackademy 2018 (56 min)
@@ -88,6 +101,7 @@
 * [Reproducible research pipelines](https://neurohackademy.org/course/reproducible-research-pipelines/) by Chris Gorgolewski and Satra Ghosh within Neurohackweek 2016
 * [Software pipelines for reproducible neuroimaging](https://neurohackademy.org/course/software-pipelines-for-reproducible-neuroimaging/) by Satra Ghosh and Chris Gorgolewski within Neurohackademy 2016 (1 hr 14 min)
 * [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/) by Chris Gorgolewski within Neurohackademy 2018 (56 min)
+* [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Yaroslav Halchenko within MIND 2018
 
 #### Other specific topics
 * [Computer Vision](https://neurohackademy.org/course/computer-vision/) by Michael Beyeler within Neurohackademy 2018 (53 min)
