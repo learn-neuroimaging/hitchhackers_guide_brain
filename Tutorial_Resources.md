@@ -12,7 +12,10 @@ Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Bar
 ## GitHub
 
 * What is GitHub and how to use it (17 min): https://www.youtube.com/watch?v=AnftV9HBPSc
-* Introduction to git and GitHub by Chris Gorgolewski within Brainhack 101 (45 min): https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp
+* [Introduction to git and GitHub](https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp) by Chris Gorgolewski within Brainhacking 101 (45 min)
+
+## Python
+* [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) within Brainhacking 101 (45 min)
 
 ## Neuroimaging
 
@@ -95,3 +98,7 @@ Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Bar
 
 * Brainhack 2016  
 [Statistical Decision Theory](https://www.youtube.com/watch?v=OT1i2SKfGPM&index=2&t=0s&list=PLNt4AJV1JZbcCs84XEbN9XdXBXN9U-kyT) Joshua Vogelstein, start at 9 min, end at 48 min
+
+* Brainhacking 101
+
+[NiBabel 101](https://www.youtube.com/watch?v=9ffUQo2mF6w&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=4) by Dan Lurie (18 min)
