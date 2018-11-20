@@ -92,3 +92,6 @@ Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Bar
 [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/)  
 [The evil p value](https://neurohackademy.org/course/the-evil-p-value/)  
 [Using cloud computing for neuroimaging](https://neurohackademy.org/course/using-cloud-computing-for-neuroimaging/)
+
+* Brainhack 2016  
+[Statistical Decision Theory](https://www.youtube.com/watch?v=OT1i2SKfGPM&index=2&t=0s&list=PLNt4AJV1JZbcCs84XEbN9XdXBXN9U-kyT) Joshua Vogelstein, start at 9 min, end at 48 min
