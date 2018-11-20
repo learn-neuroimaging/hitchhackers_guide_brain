@@ -1,5 +1,10 @@
 # A list of tutorials and other resources useful for open science and neuroimaging
 
+## Brainhack
+Introduction to Brainhack by Cameron Craddock (30 min): https://www.youtube.com/watch?v=JLJFKV7p74A  
+
+Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Barrios, F. A., … Xu, T. (2016). Brainhack: a collaborative workshop for the open neuroscience community. GigaScience, 5(1). https://doi.org/10.1186/s13742-016-0121-x.
+
 ## Open Science
 
 * The Open Science MOOC: https://opensciencemooc.eu/
