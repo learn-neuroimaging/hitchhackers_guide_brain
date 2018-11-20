@@ -7,6 +7,7 @@
 ## GitHub
 
 * What is GitHub and how to use it (17 min): https://www.youtube.com/watch?v=AnftV9HBPSc
+* Introduction to git and GitHub by Chris Gorgolewski within Brainhack 101 (45 min): https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp
 
 ## Neuroimaging
 
