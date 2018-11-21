@@ -1,5 +1,38 @@
 # A list of tutorials and other resources useful for open science and neuroimaging
 
+* [Brainhack](#brainhack)
+* [Open Science](#open-science)
+* [GitHub](#github)
+* [Python](#python)
+  + [Introduction](#introduction)
+  + [Specific topics](#specific-topics)
+* [R](#r)
+* [Containers](#containers)
+* [Other tools for reproducible data-science](#other-tools-for-reproducible-data-science)
+* [Open-data platforms](#open-data-platforms)
+* [Neuroimaging](#neuroimaging)
+  + [Courses and tutorials for the main software packages](#courses-and-tutorials-for-the-main-software-packages)
+    - [SPM](#spm)
+    - [Freesurfer](#freesurfer)
+    - [FSL](#fsl)
+    - [AFNI](#afni)
+    - [Nipype](#nipype)
+  + [Analysis](#analysis)
+  + [Cloud computing](#cloud-computing)
+  + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
+  + [Other specific topics](#other-specific-topics)
+* [Statistics](#statistics)
+* [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
+  + [Specific to neuroimaging](#specific-to-neuroimaging)
+* [Neuroimaging video series](#neuroimaging-video-series)
+  + [Mumford brainstats](#mumford-brainstats)
+  + [Andrew Jahn](#andrew-jahn)
+  + [Center for Brains, Minds and Machines](#center-for-brains-minds-and-machines)
+  + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
+  + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
+  + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+
+
 ## Brainhack
 * [Brainhacking](https://neurohackademy.org/course/brain-hacking/) by Cameron Craddock within Neurohackademy 2018 (59 min)
 * Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Barrios, F. A., … Xu, T. (2016). [Brainhack: a collaborative workshop for the open neuroscience community.](https://doi.org/10.1186/s13742-016-0121-x) GigaScience, 5(1).
@@ -25,7 +58,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 
 ## Python
-#### Introduction
+### Introduction
 * [A whirlwind tour of python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas
 * [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) within Brainhack Americas (45 min)
 * [Introduction to Python](https://neurohackademy.org/course/introduction-to-python/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 16 min)
@@ -34,7 +67,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
 
 
-#### Specific topics
+### Specific topics
 * [Cython and numba](https://neurohackademy.org/course/cython-and-numba/) by Ariel Rokem within Neurohackweek 2016
 * [Data manipulation in Python/Pandas](https://neurohackademy.org/course/complex-data-structures/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 21 min)
 * [High-performance Python](https://neurohackademy.org/course/high-performance-python/) by Ariel Rokem within Neurohackweek 2016
@@ -49,12 +82,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 ## R
 * [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016   
-
+* [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
 ## Containers
 * [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
+
 
 ## Other tools for reproducible data-science
 * [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
@@ -72,7 +106,43 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 ## Neuroimaging
 
-#### Analysis
+* [Tor Wager's](https://twitter.com/torwager) and Martin Lindquist's 2 parts MOOC on neuroimaging ([part 1](https://en.coursera.org/learn/functional-mri)
+ and [part 2](https://en.coursera.org/learn/functional-mri-2))
+
+### Courses and tutorials for the main software packages
+
+#### SPM
+* [website](https://www.fil.ion.ucl.ac.uk/spm/)
+* [manual](https://www.fil.ion.ucl.ac.uk/spm/doc/)
+* [mailing list](https://www.fil.ion.ucl.ac.uk/spm/support/)
+* [course/tutorial](http://www.fil.ion.ucl.ac.uk/spm/course/)
+
+#### Freesurfer
+* [website](https://surfer.nmr.mgh.harvard.edu/)
+* [manual](https://surfer.nmr.mgh.harvard.edu/fswiki)
+* [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
+* [course](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA) and [videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription)
+
+#### FSL
+* [website](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+* [manual](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support)
+* [mailing list](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=fsl)
+* [course/tutorial](https://fsl.fmrib.ox.ac.uk/fslcourse/)
+
+#### AFNI
+* [website](https://afni.nimh.nih.gov/)
+* [manual](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
+* [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
+* [course/tutorial]: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
+
+#### Nipype
+Nipype is best viewed as a way to create and run software-agnostic preprocessing/analysis-pipeline. It becomes very powerful when you need to use different softwares in your analysis.
+* [website](https://nipype.readthedocs.io/en/latest/)
+* [manual](https://nipype.readthedocs.io/en/latest/documentation.html)
+* [course/tutorial](https://miykael.github.io/nipype_tutorial/)
+
+
+### Analysis
 * [Advanced time-series analysis (Dynamic Mode Decomposition)](https://neurohackademy.org/course/advanced-time-series-analysis-dynamic-mode-decomposition/) by Bing Brunton within Neurohackweek 2017 (1 hr 1 min)
 * [Advanced time-series analysis](https://neurohackademy.org/course/advanced-time-series-analysis/) by Bing Brunton within Neurohackweek 2016 (1 hr 8 min)
 * [Data visualization](https://neurohackademy.org/course/data-visualization/) by Tal Yarkoni within Neurohackademy 2018
@@ -84,12 +154,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [R for statistical analysis of fMRI data](https://neurohackademy.org/course/r-for-statistical-analysis-of-fmri-data/) by Tara Madhyastha within Neurohackademy 2018 (1 hr 26 min)
 
 
-#### Cloud computing
+### Cloud computing
 * [Cloud Computing for Neuroimaging 1](https://neurohackademy.org/course/cloud-computing-for-neuroimaging/) by Amanda Tan and Ariel Rokem within Neurohackademy 2018 (3 hr 9 min)
 * [Cloud Computing for Neuroimaging 2](https://neurohackademy.org/course/cloud-computing/) by Tara Madhyastha within Neurohackweek 2016
 * [Using cloud computing for neuroimaging](https://neurohackademy.org/course/using-cloud-computing-for-neuroimaging/) by Cameron Craddock within Neurohackweek 2016
 
-#### Reproducible neuroimaging tools
+
+### Reproducible neuroimaging tools
 * [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016  
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
@@ -103,7 +174,8 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/) by Chris Gorgolewski within Neurohackademy 2018 (56 min)
 * [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Yaroslav Halchenko within MIND 2018
 
-#### Other specific topics
+
+### Other specific topics
 * [Computer Vision](https://neurohackademy.org/course/computer-vision/) by Michael Beyeler within Neurohackademy 2018 (53 min)
 * [Finding low-dimensional structure in large-scale neural recordings](https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/) by Eva Dyer within Neurohackademy 2018 (1 hr 36 min)
 * [Interactive Data Visualization with D3](https://neurohackademy.org/course/interactive-data-visualization-with-d3/) by Anisha Keshavan within Neurohackweek 2017 (49 min)
@@ -115,7 +187,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [P-values and reproducibility issues](https://neurohackademy.org/course/p-values-and-reproducibility-issues/) by JB Poline within Neurohackademy 2018 (1 hr 1 min)
 * [The evil p value](https://neurohackademy.org/course/the-evil-p-value/) by JB Poline within Neurohackweek 2017 (1 hr 2 min)
 * [Statistical Decision Theory](https://www.youtube.com/watch?v=OT1i2SKfGPM&index=2&t=0s&list=PLNt4AJV1JZbcCs84XEbN9XdXBXN9U-kyT) by Joshua Vogelstein within Brainhack-Vienna (starts at 8 min, ends at 48 min)
-
+* [Daniel Lakens](https://twitter.com/lakens) MOOC on coursera on [how to improve your statistical inferences](https://www.coursera.org/learn/statistical-inferences)
 
 ## Machine Learning and Deep Learning
 * [Deep learning with Keras part 1](https://neurohackademy.org/course/deep-learning-with-keras/) by Ariel Rokem (2hr 3 min)
@@ -124,7 +196,29 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Machine learning with scikit-learn 2](https://neurohackademy.org/course/machine-learning-with-scikit-learn-2/) by Jake Vanderplas within Neurohackweek 2017 (1 hr 20 min)
 * [Machine learning with scikit-learn 3](https://neurohackademy.org/course/machine-learning-with-scikit-learn-3/)  by Jake Vanderplas within Neurohackademy (2 hr 22 min)
 
-#### Specific to neuroimaging
+### Specific to neuroimaging
 * [Machine learning for neuroimaging](https://neurohackademy.org/course/machine-learning-for-neuroimaging/) by Chris Holdgraf within Neurohackweek 2017 (1 hr 2 min)
 * [Machine learning in neuroimaging](https://neurohackademy.org/course/machine-learning-in-neuroimaging/) by Gael Varoquaux within Neurohackademy 2018 (2 hr 42 min)
 * [Synthesizing fMRI using generative adversarial networks: cognitive neuroscience applications, promises and pitfalls](https://neurohackademy.org/course/gans-for-brain-imaging/) by Sanmi Koyejo within Neurohackademy 2018 (1 hr 7 min)
+
+
+## Neuroimaging video series
+Either on youtube or on some other platform
+
+### Mumford brainstats
+Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). The channel also has [Facebook group](https://www.facebook.com/groups/mumfordbrainstats/).
+
+### Andrew Jahn
+[Here](https://www.youtube.com/user/Shala5ha5ka) for the videos with 'tutorials' for FSL, SPM, Freesurfer and AFNI amongst other things.
+
+### Center for Brains, Minds and Machines
+[Here](https://www.youtube.com/channel/UCGoxKRfTs0jQP52cfHCyyRQ)
+
+### Organization from human brain mapping (OHBM)
+The videos of the lectures and workshops from the previous HBM conferences are available online [here](https://www.pathlms.com/ohbm/courses).
+
+### fMRIf summer courses from the NIH
+[Here](https://fmrif.nimh.nih.gov/public/fmri-course/)
+
+### Conference on Cognitive Computational Neuroscience (CCN)
+This [conference](https://ccneuro.org/) has the videos from its first edition [here](https://ccneuro.org/2017/index.html@p=602.html)
