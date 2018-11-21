@@ -55,6 +55,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Git tutorial](https://www.youtube.com/watch?v=0DGCnBZBoc0&index=2&t=5s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (36 min)
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
+* [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
 
 
 ## Python
