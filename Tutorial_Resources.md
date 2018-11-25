@@ -11,12 +11,42 @@
 * [Other tools for reproducible data-science](#other-tools-for-reproducible-data-science)
 * [Open-data platforms](#open-data-platforms)
 * [Neuroimaging](#neuroimaging)
-  + [Courses and tutorials for the main software packages](#courses-and-tutorials-for-the-main-software-packages)
+  + [Courses and tutorials for the main MRI software packages](#courses-and-tutorials-for-the-main-mri-software-packages)
     - [SPM](#spm)
     - [Freesurfer](#freesurfer)
     - [FSL](#fsl)
     - [AFNI](#afni)
     - [Nipype](#nipype)
+  + [Main EEG and MEG Softwares](#main-eeg-and-meg-softwares)
+    - [General Purpose Tools](#general-purpose-tools)
+      * [MNE](#mne)
+      * [Wonambi](#wonambi)
+      * [NeuroKit](#neurokit)
+      * [FieldTrip](#fieldtrip)
+      * [BrainStorm](#brainstorm)
+      * [EEGLab](#eeglab)
+      * [SPM](#spm-1)
+      * [NutMEG](#nutmeg)
+      * [EEGUtils](#eegutils)
+      * [EEG.jl](#eegjl)
+      * [CarTool](#cartool)
+    - [Standalone Tools - Specific Purposes](#standalone-tools---specific-purposes)
+      * [NeuroDSP](#neurodsp)
+      * [FOOOF](#fooof)
+      * [Spectral Connectivity](#spectral-connectivity)
+      * [PACTools](#pactools)
+      * [Tensor PAC](#tensor-pac)
+      * [PyEEG](#pyeeg)
+      * [ECoGTools](#ecogtools)
+      * [restingIAF](#restingiaf)
+      * [Phase Opposition Code](#phase-opposition-code)
+      * [ADAM - Amsterdam Decoding and Modeling Toolbox](#adam---amsterdam-decoding-and-modeling-toolbox)
+      * [HERMES](#hermes)
+      * [SEREEGA - Simualating Event-Related EEG Activity](#sereega---simualating-event-related-eeg-activity)
+      * [UNFOLD](#unfold)
+      * [ept-TFCE](#ept-tfce)
+      * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
+      * [OpenMEEG](#openmeeg)
   + [Analysis](#analysis)
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
@@ -26,15 +56,13 @@
 * [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
   + [Specific to neuroimaging](#specific-to-neuroimaging)
   + [Softwares for machine learning (or multivariate) analysis in neuroimaging](#softwares-for-machine-learning-or-multivariate-analysis-in-neuroimaging)
-    - [Matlab based](#matlab-based)
-      * [TDT](#tdt)
-      * [ProNTo](#pronto)
-      * [RSA toolbox](#rsa-toolbox)
-      * [PCM toolbox](#pcm-toolbox)
-      * [cvMANOVA](#cvmanova)
-    - [Python based](#python-based)
-      * [pyMVPA](#pymvpa)
-      * [nilearn](#nilearn)
+    - [pyMVPA](#pymvpa)
+    - [nilearn](#nilearn)
+    - [TDT](#tdt)
+    - [ProNTo](#pronto)
+    - [RSA toolbox](#rsa-toolbox)
+    - [PCM toolbox](#pcm-toolbox)
+    - [cvMANOVA](#cvmanova)
 * [Meta analysis](#meta-analysis)
 * [Neuroimaging video series](#neuroimaging-video-series)
   + [Mumford brainstats](#mumford-brainstats)
@@ -43,6 +71,20 @@
   + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
   + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
   + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+
+
+The following list is by far not exhaustive, you will be able to find more resources in the following:
+* the [Neuroimaging Informatics Tools and Resources Clearinghouse](https://www.nitrc.org/)
+* [Mariam Aly's](https://twitter.com/mariam_s_aly) [lab wiki](https://osf.io/kgd9b/wiki/home/)
+* [Jonathan Peelle's](@jpeelle) [list of resources for beignners](http://jonathanpeelle.net/mri-resources-for-beginners)
+* [Stephan Heunis](https://twitter.com/fmrwhy) has a [list](https://www.fmrwhy.com/2018/06/28/spm12-matlab-scripting-tutorial-4/) to many SPM and matlab material.
+* [https://github.com/brainhack101](https://github.com/brainhack101) also has a [collections or links](https://brainhack101.github.io/neurolinks/) to courses, data...
+* [open neuroscience](https://openeuroscience.com/) points to a lot of open things related to neuroscience.
+* a [list](https://docs.google.com/document/d/1Wt6sZUavq4oQf4t3tpQARcajf-6i4TtHlx_lw-WJD1U/edit#heading=h.rgwbys315r9s) of Scientific Coding Resource put together by neuroconscience.
+* [Aya Ben-Yakov](@aya_ben_yakov) compiled a great list of [open-science resources](http://www.mrc-cbu.cam.ac.uk/openscience/resources/) for the CBU in Cambridge.
+* [LabHacks](https://github.com/pbeukema/LabHacks) is a list of resources for data driven neuroscientists put together by Patrick Beukema
+* a list of [open computational neuroscience resources](‏ https://github.com/asoplata/open-computational-neuroscience-resources/blob/master/README.md) put together by [Austin Soplata](https://twitter.com/austinsoplata)
+* a list of [Computational resources](https://github.com/martinagvilas/lists/blob/master/computational_resources.md) put together by [Martina Vilas](https://twitter.com/martinagvilas)
 
 
 ## Brainhack
@@ -78,6 +120,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Python programming](https://neurohackademy.org/course/python-programming/) by Valentina Staneva within Neurohackweek 2016
 * [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min)
 * [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
+* [An introduction to Python!](https://cogs18.github.io/intro/) is course made by Thomas Donoghue
 
 
 ### Specific topics
@@ -124,12 +167,14 @@ Some other platforms to get data from
 * [XNAT](https://www.nitrc.org/ir/)
 * And there are [many](https://brainhack101.github.io/neurolinks/) other [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases)
 
+If you are looking for M/EEG data there is good list of options [here](https://github.com/voytekresearch/OpenData)
+
 
 ## Neuroimaging
 * [Tor Wager's](https://twitter.com/torwager) and Martin Lindquist's 2 parts MOOC on neuroimaging ([part 1](https://en.coursera.org/learn/functional-mri)
  and [part 2](https://en.coursera.org/learn/functional-mri-2))
 
-### Courses and tutorials for the main software packages
+### Courses and tutorials for the main MRI software packages
 
 #### SPM
 * [website](https://www.fil.ion.ucl.ac.uk/spm/)
@@ -160,6 +205,212 @@ Nipype is best viewed as a way to create and run software-agnostic preprocessing
 * [website](https://nipype.readthedocs.io/en/latest/)
 * [manual](https://nipype.readthedocs.io/en/latest/documentation.html)
 * [course/tutorial](https://miykael.github.io/nipype_tutorial/)
+
+### Main EEG and MEG Softwares
+
+The following list has been shamelessly taken from the excellent repo [Open Software for Human Electrophysiology](https://github.com/voytekresearch/OpenTools). Do check it out as it also includes plugins that are not listed here.
+
+#### General Purpose Tools
+
+The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures. They are divided in sub-sections depending on the language they use.
+
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+##### MNE
+MNE is a general purpose tool for processing, analyzing and visualizing M/EEG data.
+
+[HomePage](http://martinos.org/mne/stable/index.html)
+[Github](https://github.com/mne-tools/mne-python)
+[Paper](https://doi.org/10.1016/j.neuroimage.2013.10.027)
+
+##### Wonambi
+Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis.
+
+[HomePage](https://wonambi-python.github.io)
+[Github](https://github.com/wonambi-python/wonambi)
+
+##### NeuroKit
+NeuroKit is a tool for neurophysiological signal processing.
+
+[HomePage](http://neurokit.readthedocs.io/en/latest/)
+[Github](https://github.com/neuropsychology/NeuroKit.py)
+
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+##### FieldTrip
+FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG and iEEG/ECoG data.
+
+[HomePage](http://www.fieldtriptoolbox.org)
+[Github](https://github.com/fieldtrip/fieldtrip)
+[Paper](https://doi.org/10.1155/2011/156869)
+
+##### BrainStorm
+BrainStorm is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, but includes support for EEG & ECoG data.
+
+[HomePage](https://neuroimage.usc.edu/brainstorm/)
+[Github](https://github.com/brainstorm-tools/brainstorm3)
+[Paper](https://doi.org/10.1155/2011/879716)
+
+##### EEGLab
+EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.
+
+[HomePage](https://sccn.ucsd.edu/eeglab/index.php)
+[Paper](https://doi.org/10.1016/j.jneumeth.2003.10.009)
+
+##### SPM
+SPM is a general purpose toolbox for neuroimaging, that includes support for processing M/EEG data.
+
+[HomePage](https://www.fil.ion.ucl.ac.uk/spm/)
+
+##### NutMEG
+NutMEG is a general purpose tool for processing, analyzing and visualizing MEG data.
+
+[HomePage](https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage)
+[Github](https://github.com/UCSFBiomagneticImagingLab/nutmeg)
+[Paper](https://doi.org/10.1155/2011/758973)
+
+
+![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
+
+##### EEGUtils
+EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG data.
+
+[HomePage](https://craddm.github.io/eegUtils/)
+[Github](https://github.com/craddm/eegUtils)
+
+
+![Language](https://img.shields.io/badge/Language-Julia-green.svg)
+
+##### EEG.jl
+EEG.jl is an EEG processing library.
+
+[HomePage](https://eegjl.readthedocs.io/en/latest/)
+[Github](https://github.com/rob-luke/EEG.jl)
+
+
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
+
+##### CarTool
+CarTool is an EEG analysis toolbox.
+
+[HomePage](https://sites.google.com/site/cartoolcommunity/)
+[Paper](https://doi.org/10.1155/2011/813870)
+
+#### Standalone Tools - Specific Purposes
+
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+##### NeuroDSP
+NeuroDSP is a package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.
+
+Note: NeuroDSP is a tool developed by the VoytekLab.
+
+[Github](https://github.com/voytekresearch/neurodsp)
+
+##### FOOOF
+FOOOF is a package for parameterizing neural power spectra.
+
+Note: FOOOF is a tool developed by the VoytekLab.
+
+[Github](https://github.com/voytekresearch/fooof)
+[Paper](https://doi.org/10.1101/299859)
+
+##### Spectral Connectivity
+Spectral connectivity is a package including a group of functional connectivity and coherence related measures.
+
+[HomePage](http://spectral-connectivity.readthedocs.io/en/latest/index.html)
+[Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
+
+##### PACTools
+PACTools is a package for calculating phase-amplitude coupling measures in neural time series.
+
+[HomePage](https://pactools.github.io)
+[Github](https://github.com/pactools/pactools)
+
+##### Tensor PAC
+Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.
+
+[HomePage](https://etiennecmb.github.io/tensorpac/)
+[Github](https://github.com/EtienneCmb/tensorpac)
+
+##### PyEEG
+PyEEG includes some implementations of information theoretic and complexity related measures for neural time series.
+
+[Github](https://github.com/forrestbao/pyeeg)
+[Paper](https://doi.org/10.1155/2011/406391)
+
+##### ECoGTools
+A collection of tools for analyzing ECoG data.
+
+[Github](https://github.com/choldgraf/ecogtools)
+
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+##### restingIAF
+RestingIAF is a tool for estimating the peak individual alpha frequency.
+
+[Github](https://github.com/corcorana/restingIAF)
+[Paper](https://doi.org/10.1111/psyp.13064)
+
+##### Phase Opposition Code
+Phase Opposition is a collection of functions for calculating phase opposition measures.
+
+[HomePage](http://www.cerco.ups-tlse.fr/~rufin/PhaseOppositionCode/)
+[Paper](https://doi.org/10.3389/fnins.2016.00426)
+
+##### ADAM - Amsterdam Decoding and Modeling Toolbox
+The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model analysis on M/EEG data.
+
+[Github](https://github.com/fahrenfort/ADAM)
+[Paper](https://doi.org/10.1007/s12021-013-9186-1)
+
+##### HERMES
+HERMES is tool for estimating connectivity measures between M/EEG signals.
+
+[HomePage](http://hermes.ctb.upm.es)
+[Github](https://github.com/guiomar/HERMES)
+[Paper](https://doi.org/10.3389/fnins.2018.00368)
+
+
+##### SEREEGA - Simualating Event-Related EEG Activity
+SEREEGA is a package for simulating synthetic data that mimic event-related EEG activity.
+
+[Github](https://github.com/lrkrol/SEREEGA)
+[Paper](https://doi.org/10.1101/326066)
+
+##### UNFOLD
+Unfold is a tool for deconvolving overlapping EEG signals and for non-linear modelling.
+
+[HomePage](https://www.unfoldtoolbox.org)
+[Github](https://github.com/unfoldtoolbox/unfold)
+[Paper](https://doi.org/10.1101/360156)
+
+##### ept-TFCE
+A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.
+
+[Github](https://github.com/Mensen/ept_TFCE-matlab)
+[Paper](https://doi.org/10.1016/j.neuroimage.2012.10.027)
+
+##### ERP Reliability Analysis (ERA)
+ERA is a tool for calculating reliability estimates for ERP data.
+
+[HomePage](http://peterclayson.com/era-toolbox/)
+[Github](https://github.com/peclayson/ERA_Toolbox)
+[Paper](https://doi.org/10.1016/j.ijpsycho.2016.10.012)
+
+
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
+
+##### OpenMEEG
+OpemMEEG is a package for solving forward problems for EEG & MEG data.
+
+[HomePage](http://openmeeg.github.io)
+[Github](https://github.com/openmeeg/openmeeg)
+[Paper](https://doi.org/10.1186/1475-925X-9-45)
 
 
 ### Analysis
@@ -246,45 +497,47 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 
 
 ### Softwares for machine learning (or multivariate) analysis in neuroimaging
+They are divided in sub-sections depending on the language they use.
 
-#### Matlab based
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-##### TDT
-TDT is the The Decoding Toolbox.
-* [website](https://sites.google.com/site/tdtdecodingtoolbox/)
-
-##### ProNTo
-PRoNTo is the Pattern Recognition for Neuroimaging Toolbox developed at UCL (UK).
-* [website](http://www.mlnl.cs.ucl.ac.uk/pronto/prtsoftware.html)
-* [manual](http://www.mlnl.cs.ucl.ac.uk/pronto/prtdocs.html)
-* [course/tutorial](http://www.mlnl.cs.ucl.ac.uk/pronto/prtcourses.html)
-
-##### RSA toolbox
-* [website](https://github.com/rsagroup/rsatoolbox)
-* [manual](https://github.com/rsagroup/rsatoolbox/blob/develop/Documentation/toolbox%20documentation.pdf)
-
-##### PCM toolbox
-The pattern components modelling toolbox of the [Diedrichsen lab](https://twitter.com/diedrichsenlab)
-* [website](https://github.com/jdiedrichsen/pcm_toolbox)
-* [manual](https://github.com/jdiedrichsen/pcm_toolbox/blob/master/documentation/pcm_toolbox_manual.pdf)
-
-##### cvMANOVA
-From [Carsten Allefeld](https://twitter.com/c_allefeld)
-* [website](https://github.com/allefeld/cvmanova)
-
-#### Python based
-
-##### pyMVPA
+#### pyMVPA
 Intended to ease statistical learning analyses of large datasets.
 * [website](http://www.pymvpa.org/)
 * [manual](http://www.pymvpa.org/docoverview.html)
 * [course/tutorial](http://www.pymvpa.org/tutorial.html)
 
-##### nilearn
+#### nilearn
 Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.
 * [website](http://nilearn.github.io/)
 * [manual](http://nilearn.github.io/user_guide.html)
 * [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
+
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+#### TDT
+TDT is the The Decoding Toolbox.
+* [website](https://sites.google.com/site/tdtdecodingtoolbox/)
+
+#### ProNTo
+PRoNTo is the Pattern Recognition for Neuroimaging Toolbox developed at UCL (UK).
+* [website](http://www.mlnl.cs.ucl.ac.uk/pronto/prtsoftware.html)
+* [manual](http://www.mlnl.cs.ucl.ac.uk/pronto/prtdocs.html)
+* [course/tutorial](http://www.mlnl.cs.ucl.ac.uk/pronto/prtcourses.html)
+
+#### RSA toolbox
+* [website](https://github.com/rsagroup/rsatoolbox)
+* [manual](https://github.com/rsagroup/rsatoolbox/blob/develop/Documentation/toolbox%20documentation.pdf)
+
+#### PCM toolbox
+The pattern components modelling toolbox of the [Diedrichsen lab](https://twitter.com/diedrichsenlab)
+* [website](https://github.com/jdiedrichsen/pcm_toolbox)
+* [manual](https://github.com/jdiedrichsen/pcm_toolbox/blob/master/documentation/pcm_toolbox_manual.pdf)
+
+#### cvMANOVA
+From [Carsten Allefeld](https://twitter.com/c_allefeld)
+* [website](https://github.com/allefeld/cvmanova)
 
 
 ## Meta analysis
