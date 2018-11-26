@@ -52,7 +52,7 @@
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
     - [The Brain Imaging Data Structure (BIDS)](#the-brain-imaging-data-structure-bids)
-    - [Diffusion Microstructure Imaging in Python (Dmipy)](#diffusion-microstructure-imaging-in-python)
+    - [Diffusion Microstructure Imaging in Python (Dmipy)](#diffusion-microstructure-imaging-in-python-dmipy)
   + [Other specific topics](#other-specific-topics)
 * [Statistics](#statistics)
 * [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
