@@ -474,7 +474,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 
 #### Diffusion Microstructure Imaging in Python (Dmipy)
 The Dmipy software project is dedicated to fasciliting high-level, reproducible diffusion microstructure research.
-* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many microstructure model implementation examples. 
+* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many examples on implementing and fitting microstructure models. 
 * Our Preliminary [Reference Paper](https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf)
 
 
