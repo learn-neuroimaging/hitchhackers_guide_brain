@@ -47,6 +47,7 @@
       * [ept-TFCE](#ept-tfce)
       * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
       * [OpenMEEG](#openmeeg)
+  + [Quality control](#quality-control)
   + [Analysis](#analysis)
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
@@ -411,6 +412,21 @@ OpemMEEG is a package for solving forward problems for EEG & MEG data.
 [HomePage](http://openmeeg.github.io)
 [Github](https://github.com/openmeeg/openmeeg)
 [Paper](https://doi.org/10.1186/1475-925X-9-45)
+
+
+### Quality control
+Be sure to check the newly formed [Neuroimaging quality control task force](https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/)
+
+* [quality control on MRI and fMRI](https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html)
+* [COBIDacq](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
+* [In the wikibook neuroimaging data processing](https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality)
+* [References for quality control](https://www.zotero.org/groups/2221093/niqc)
+
+* [MRIQC](https://mriqc.readthedocs.io/en/stable/) MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
+* [the PCP Quality Assessment Protocol](https://github.com/BIDS-Apps/QAP) is another BIDS app based on the protocol of [the connectome project data}(http://preprocessed-connectomes-project.org/quality-assessment-protocol/)
+* [Scripts for quality control of diffusion data](http://davidroalf.com/script_download/)
+* [Qoala-t](https://github.com/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
+* [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
 ### Analysis
