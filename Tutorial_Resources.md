@@ -17,6 +17,8 @@
     - [FSL](#fsl)
     - [AFNI](#afni)
     - [Nipype](#nipype)
+    - [Dipy](#dipy)
+    - [MRTrix](#mrtrix)
   + [Main EEG and MEG Softwares](#main-eeg-and-meg-softwares)
     - [General Purpose Tools](#general-purpose-tools)
       * [MNE](#mne)
@@ -207,6 +209,16 @@ Nipype is best viewed as a way to create and run software-agnostic preprocessing
 * [website](https://nipype.readthedocs.io/en/latest/)
 * [manual](https://nipype.readthedocs.io/en/latest/documentation.html)
 * [course/tutorial](https://miykael.github.io/nipype_tutorial/)
+
+#### Dipy
+Diffusion neuroimaging in Python
+* [website](https://github.com/ohbm/hackathon2019)
+
+#### MRtrix
+Advanced tools for the analysis of diffusion MRI data
+* [website](http://www.mrtrix.org/)
+* [documentation](https://mrtrix.readthedocs.io/en/latest/)
+* [tutorial](https://osf.io/fkyht/). MRtrix tutorial available on OSF with an awesome title: B.A.T.M.A.N., the Basic and Advanced Tractography with MRtrix for All Neurophiles
 
 ### Main EEG and MEG Softwares
 
