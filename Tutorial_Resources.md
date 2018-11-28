@@ -3,6 +3,7 @@
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
+* [Shell programming](#shell-programming)
 * [Python](#python)
   + [Introduction](#introduction)
   + [Specific topics](#specific-topics)
@@ -114,6 +115,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 * [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
+
+## Shell programming
+* [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
+* [Learn shell](https://www.learnshell.org/)
+* [The shell introduction I wish I had](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) by Max Antonucci
+* [The Unix shell](http://swcarpentry.github.io/shell-novice/)  
+* [Vim interactive tutorial](https://www.openvim.com/)
 
 
 ## Python
@@ -486,7 +494,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 
 #### Diffusion Microstructure Imaging in Python (Dmipy)
 The Dmipy software project is dedicated to fasciliting high-level, reproducible diffusion microstructure research.
-* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many examples on implementing and fitting microstructure models. 
+* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many examples on implementing and fitting microstructure models.
 * Our Preliminary [Reference Paper](https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf)
 
 
