@@ -557,6 +557,13 @@ Nilearn is a Python module for fast and easy statistical learning on NeuroImagin
 * [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
 
 
+#### brainIAK
+BrainIAK applies advanced machine learning methods and high-performance computing to analyzing neuroimaging data.
+
+* [website](http://brainiak.org/)
+* [sample tutorials](http://brainiak.org/events/ohbm2018/brainiak_sample_tutorials/)
+
+
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
 #### TDT
