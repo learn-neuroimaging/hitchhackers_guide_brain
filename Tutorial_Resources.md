@@ -134,7 +134,6 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
 * [An introduction to Python!](https://cogs18.github.io/intro/) is course made by Thomas Donoghue
 
-
 ### Specific topics
 * [Cython and numba](https://neurohackademy.org/course/cython-and-numba/) by Ariel Rokem within Neurohackweek 2016
 * [Data manipulation in Python/Pandas](https://neurohackademy.org/course/complex-data-structures/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 21 min)
@@ -152,11 +151,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016   
 * [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
+
 ## Containers
 * [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
 * [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily create containers suited to your neuroimaging needs. Here is a [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html) on how to use it.
+
 
 ## Other tools for reproducible data-science
 * [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
@@ -170,7 +171,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/) by Nicolas Cain and Justin Kiggins within Neurohackademy 2018 (1 hr 42 min)
 * [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/) by Kirstie Whitaker within Neurohackweek 2016 (28 min)
 
-Some other platforms to get data from
+Some other platforms to get data from:
 * [OpenNeuro](https://openneuro.org/)
 * [INDI](http://fcon_1000.projects.nitrc.org/) for rawdata
 * [neurovault](https://neurovault.org/) for statistical maps
@@ -621,3 +622,8 @@ The videos of the lectures and workshops from the previous HBM conferences are a
 
 ### Conference on Cognitive Computational Neuroscience (CCN)
 This [conference](https://ccneuro.org/) has the videos from its first edition [here](https://ccneuro.org/2017/index.html@p=602.html)
+
+
+### INCF
+
+[Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
