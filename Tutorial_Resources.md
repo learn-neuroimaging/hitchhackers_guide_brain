@@ -3,6 +3,7 @@
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
+* [Shell programming](#shell-programming)
 * [Python](#python)
   + [Introduction](#introduction)
   + [Specific topics](#specific-topics)
@@ -115,6 +116,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 * [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
 
+## Shell programming
+* [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
+* [Learn shell](https://www.learnshell.org/)
+* [The shell introduction I wish I had](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) by Max Antonucci
+* [The Unix shell](http://swcarpentry.github.io/shell-novice/)  
+* [Vim interactive tutorial](https://www.openvim.com/)
+
 
 ## Python
 ### Introduction
@@ -125,7 +133,6 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min)
 * [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
 * [An introduction to Python!](https://cogs18.github.io/intro/) is course made by Thomas Donoghue
-
 
 ### Specific topics
 * [Cython and numba](https://neurohackademy.org/course/cython-and-numba/) by Ariel Rokem within Neurohackweek 2016
@@ -144,11 +151,13 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016   
 * [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
+
 ## Containers
 * [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
 * [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily create containers suited to your neuroimaging needs. Here is a [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html) on how to use it.
+
 
 ## Other tools for reproducible data-science
 * [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
@@ -162,7 +171,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/) by Nicolas Cain and Justin Kiggins within Neurohackademy 2018 (1 hr 42 min)
 * [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/) by Kirstie Whitaker within Neurohackweek 2016 (28 min)
 
-Some other platforms to get data from
+Some other platforms to get data from:
 * [OpenNeuro](https://openneuro.org/)
 * [INDI](http://fcon_1000.projects.nitrc.org/) for rawdata
 * [neurovault](https://neurovault.org/) for statistical maps
@@ -486,7 +495,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 
 #### Diffusion Microstructure Imaging in Python (Dmipy)
 The Dmipy software project is dedicated to fasciliting high-level, reproducible diffusion microstructure research.
-* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many examples on implementing and fitting microstructure models. 
+* The [Dmipy open-source repository](https://github.com/AthenaEPI/dmipy) with many examples on implementing and fitting microstructure models.
 * Our Preliminary [Reference Paper](https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf)
 
 
@@ -546,6 +555,13 @@ Nilearn is a Python module for fast and easy statistical learning on NeuroImagin
 * [website](http://nilearn.github.io/)
 * [manual](http://nilearn.github.io/user_guide.html)
 * [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
+
+
+#### brainIAK
+BrainIAK applies advanced machine learning methods and high-performance computing to analyzing neuroimaging data.
+
+* [website](http://brainiak.org/)
+* [sample tutorials](http://brainiak.org/events/ohbm2018/brainiak_sample_tutorials/)
 
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -613,3 +629,8 @@ The videos of the lectures and workshops from the previous HBM conferences are a
 
 ### Conference on Cognitive Computational Neuroscience (CCN)
 This [conference](https://ccneuro.org/) has the videos from its first edition [here](https://ccneuro.org/2017/index.html@p=602.html)
+
+
+### INCF
+
+[Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
