@@ -68,6 +68,7 @@
     - [RSA toolbox](#rsa-toolbox)
     - [PCM toolbox](#pcm-toolbox)
     - [cvMANOVA](#cvmanova)
+    - [BrainIAK](#brainIAK)
 * [Meta analysis](#meta-analysis)
 * [Neuroimaging video series](#neuroimaging-video-series)
   + [Mumford brainstats](#mumford-brainstats)
