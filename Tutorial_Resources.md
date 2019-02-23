@@ -183,6 +183,9 @@ Some other platforms to get data from:
 
 If you are looking for M/EEG data there is good list of options [here](https://github.com/voytekresearch/OpenData)
 
+If you want to share data but your colleagues argue against it:
+* [Challenges to open data and how to respond](https://github.com/mozillascience/open-data-training/blob/master/Materials/Handouts/ODChallengesQI.md)
+
 
 ## Neuroimaging
 * [Tor Wager's](https://twitter.com/torwager) and Martin Lindquist's 2 parts MOOC on neuroimaging ([part 1](https://en.coursera.org/learn/functional-mri)
