@@ -543,6 +543,10 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 * [Machine learning in neuroimaging](https://neurohackademy.org/course/machine-learning-in-neuroimaging/) by Gael Varoquaux within Neurohackademy 2018 (2 hr 42 min)
 * [Synthesizing fMRI using generative adversarial networks: cognitive neuroscience applications, promises and pitfalls](https://neurohackademy.org/course/gans-for-brain-imaging/) by Sanmi Koyejo within Neurohackademy 2018 (1 hr 7 min)
 
+#### MAIN 2018 Hands-On Deep Learning Training
+[Event webpage](https://brainhack101.github.io/introML/dl-course-outline.html), with presentation slides
+* [Introduction to Keras & Interpretability Methods in Keras](https://colab.research.google.com/drive/1EgdnWZeNqmzqEmnSR9PUnYXlTjeu1wAU) by Andrew Doyle
+* [Brain Segmentation in Keras](https://colab.research.google.com/github/tfunck/minc_keras/blob/master/main2018.ipynb) by Thomas Funck
 
 ### Softwares for machine learning (or multivariate) analysis in neuroimaging
 They are divided in sub-sections depending on the language they use.
