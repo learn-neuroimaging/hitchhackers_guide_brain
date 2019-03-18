@@ -19,7 +19,7 @@
     - [AFNI](#afni)
     - [Nipype](#nipype)
     - [Dipy](#dipy)
-    - [MRTrix](#mrtrix)
+    - [MRtrix3](#mrtrix3)
   + [Main EEG and MEG Softwares](#main-eeg-and-meg-softwares)
     - [General Purpose Tools](#general-purpose-tools)
       * [MNE](#mne)
@@ -96,7 +96,7 @@ The following list is by far not exhaustive, you will be able to find more resou
 ## Brainhack
 * [Brainhacking](https://neurohackademy.org/course/brain-hacking/) by Cameron Craddock within Neurohackademy 2018 (59 min)
 * Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Barrios, F. A., … Xu, T. (2016). [Brainhack: a collaborative workshop for the open neuroscience community.](https://doi.org/10.1186/s13742-016-0121-x) GigaScience, 5(1).
-* [Introduction to Brainhack](https://www.youtube.com/watch?v=JLJFKV7p74A) by Cameron Craddock within Brainhack Proceedings 2017 (30 min)   
+* [Introduction to Brainhack](https://www.youtube.com/watch?v=JLJFKV7p74A) by Cameron Craddock within Brainhack Proceedings 2017 (30 min)
 * [Introduction to Neurohackweek 2017](https://neurohackademy.org/course/introduction-to-neurohackweek-4/) by Ariel Rokem within Neurohackweek 2017
 
 
@@ -121,7 +121,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
 * [Learn shell](https://www.learnshell.org/)
 * [The shell introduction I wish I had](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) by Max Antonucci
-* [The Unix shell](http://swcarpentry.github.io/shell-novice/)  
+* [The Unix shell](http://swcarpentry.github.io/shell-novice/)
 * [Vim interactive tutorial](https://www.openvim.com/)
 
 
@@ -149,12 +149,12 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 
 ## R
-* [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016   
+* [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016
 * [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
 
 ## Containers
-* [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
+* [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
 * [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily create containers suited to your neuroimaging needs. Here is a [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html) on how to use it.
@@ -227,11 +227,14 @@ Nipype is best viewed as a way to create and run software-agnostic preprocessing
 Diffusion neuroimaging in Python
 * [website](https://github.com/ohbm/hackathon2019)
 
-#### MRtrix
+#### MRtrix3
 Advanced tools for the analysis of diffusion MRI data
 * [website](http://www.mrtrix.org/)
-* [documentation](https://mrtrix.readthedocs.io/en/latest/)
-* [tutorial](https://osf.io/fkyht/). MRtrix tutorial available on OSF with an awesome title: B.A.T.M.A.N., the Basic and Advanced Tractography with MRtrix for All Neurophiles
+* [community forum](http://community.mrtrix.org/)
+* [user documentation](https://mrtrix.readthedocs.io/en/latest/)
+* [developer documentation](http://www.mrtrix.org/developer-documentation/)
+* [manuscript preprint](https://www.biorxiv.org/content/10.1101/551739v1). Includes example code for both C++11 and Python libraries.
+* [BATMAN tutorial](https://osf.io/fkyht/). MRtrix3 tutorial available on OSF with an awesome title: B.A.T.M.A.N., the Basic and Advanced Tractography with MRtrix for All Neurophiles
 
 ### Main EEG and MEG Softwares
 
@@ -476,7 +479,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 
 ### Reproducible neuroimaging tools
 * ReproNim is a good [site](http://www.reproducibleimaging.org/index.html) to get up to date on doing reproducible neuroimaging research.
-* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016  
+* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
 * [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/) by Tara Madhyastha within Neurohackweek 2016 (48 min)
