@@ -121,7 +121,11 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
 * [Learn shell](https://www.learnshell.org/)
 * [The shell introduction I wish I had](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) by Max Antonucci
-* [The Unix shell](http://swcarpentry.github.io/shell-novice/)  
+* [The Unix shell](http://swcarpentry.github.io/shell-novice/)
+* [Andrew Jahn's Unix introduction](https://www.youtube.com/watch?v=dBDmIhSWfnM&list=PLIQIswOrUH6992C4FDDCNCIaK4R2FIOCB)
+* [Bash cheatsheet](https://devhints.io/bash)
+* [Explain shell commands](https://explainshell.com/)
+* [Check shell scripts](https://www.shellcheck.net/)
 * [Vim interactive tutorial](https://www.openvim.com/)
 
 
