@@ -1,0 +1,461 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>OHBM Hackathon</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <!--<link href='../css/main.css' rel='stylesheet' type='text/css'>-->
+
+    <style>
+        html, body, table {
+            margin:0;
+            font-family: 'Raleway', sans-serif;
+            font-size:1.2rem;
+            line-height:2rem;
+        }
+        .slide {
+            width:100%;
+            height:60rem;
+            position:relative;
+        }
+        .mainText {
+            position:absolute;
+            right:0;
+            width:500px;
+            margin-right:5%;
+            transform: translate(0,-50%);
+            font-size: 0.9em;
+            border-style: solid;
+            border-width: 0.02px;
+            border-color: #333;
+            /*border:0.5px solid white;*/
+            background: rgba(0,0,0,0.5);
+            padding:5px;
+            /*margin-left:50%;
+            transform: translate(-400px,-50%);*/
+        }
+        td.subtitle {
+            vertical-align:top;
+            text-align:left;
+            padding-right:4rem;
+        }
+        input {
+            font-size:1.2rem;
+        }
+        #imageContainer img {
+            /*filter:grayscale(90%) contrast(120%) opacity(50%);
+            -webkit-filter:grayscale(10%) contrast(120%) opacity(50%);*/
+            min-height:100%;
+            min-width:100%;
+            /*position:absolute;
+            top:0;
+            left:0;*/
+        }
+        #imagesCont {
+            min-height:100%;
+            min-width:100%;
+        }
+        #doge {
+            width:80%;
+            height:80%;
+            overflow:hidden;
+            z-index:1;
+            position:relative;
+            bottom:9.5em;
+            left:21%;
+            transform: rotate(14deg);
+            opacity:0.6;
+        }
+        a {
+            text-decoration: none;
+            color:white;
+        }
+        a:hover,a:focus,a:active {
+            text-decoration: underline;
+        }
+        p.reference {
+            color: black;
+            opacity: 0.5;
+        }
+        p {
+            font-weight:100;
+            color:white;
+        }
+        #thanks b {
+            font-weight:400;
+        }
+        #map iframe {
+            min-width:100%;
+            min-height:100%;
+            pointer-events: none;
+            position: relative;
+        }
+        #map iframe.clicked {
+            pointer-events: auto;
+        }
+
+        @-moz-keyframes sc-down-a {
+        0% {
+            -webkit-transform: translateY(0px) rotate(45deg);
+            -moz-transform: translateY(0px) rotate(45deg);
+            -o-transform: translateY(0px) rotate(45deg);
+            -ms-transform: translateY(0px) rotate(45deg);
+            transform: translateY(0px) rotate(45deg);
+        }
+        100% {
+            -webkit-transform: translateY(2px) rotate(45deg);
+            -moz-transform: translateY(2px) rotate(45deg);
+            -o-transform: translateY(2px) rotate(45deg);
+            -ms-transform: translateY(2px) rotate(45deg);
+            transform: translateY(2px) rotate(45deg);
+        }
+        }
+        @-webkit-keyframes sc-down-a {
+        0% {
+            -webkit-transform: translateY(0px) rotate(45deg);
+            -moz-transform: translateY(0px) rotate(45deg);
+            -o-transform: translateY(0px) rotate(45deg);
+            -ms-transform: translateY(0px) rotate(45deg);
+            transform: translateY(0px) rotate(45deg);
+        }
+        100% {
+            -webkit-transform: translateY(2px) rotate(45deg);
+            -moz-transform: translateY(2px) rotate(45deg);
+            -o-transform: translateY(2px) rotate(45deg);
+            -ms-transform: translateY(2px) rotate(45deg);
+            transform: translateY(2px) rotate(45deg);
+        }
+        }
+        @-o-keyframes sc-down-a {
+        0% {
+            -webkit-transform: translateY(0px) rotate(45deg);
+            -moz-transform: translateY(0px) rotate(45deg);
+            -o-transform: translateY(0px) rotate(45deg);
+            -ms-transform: translateY(0px) rotate(45deg);
+            transform: translateY(0px) rotate(45deg);
+        }
+        100% {
+            -webkit-transform: translateY(2px) rotate(45deg);
+            -moz-transform: translateY(2px) rotate(45deg);
+            -o-transform: translateY(2px) rotate(45deg);
+            -ms-transform: translateY(2px) rotate(45deg);
+            transform: translateY(2px) rotate(45deg);
+        }
+        }
+        @keyframes sc-down-a {
+        0% {
+            -webkit-transform: translateY(0px) rotate(45deg);
+            -moz-transform: translateY(0px) rotate(45deg);
+            -o-transform: translateY(0px) rotate(45deg);
+            -ms-transform: translateY(0px) rotate(45deg);
+            transform: translateY(0px) rotate(45deg);
+        }
+        100% {
+            -webkit-transform: translateY(2px) rotate(45deg);
+            -moz-transform: translateY(2px) rotate(45deg);
+            -o-transform: translateY(2px) rotate(45deg);
+            -ms-transform: translateY(2px) rotate(45deg);
+            transform: translateY(2px) rotate(45deg);
+        }
+        }
+        .btn-scroll-down {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 10;
+            -webkit-transition: display 0.5s easy-in-out;
+            -moz-transition: display 0.5s easy-in-out;
+            -o-transition: display 0.5s easy-in-out;
+            -ms-transition: display 0.5s easy-in-out;
+            transition: display 0.5s easy-in-out;
+        }
+        .btn-scroll-down:before,
+        .btn-scroll-down:after {
+            content: '';
+            display: block;
+            border-bottom: 1px solid #fff;
+            border-right: 1px solid #fff;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+        .btn-scroll-down:before {
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+        }
+        .btn-scroll-down:after {
+            width: 30px;
+            height: 30px;
+            bottom: 35px;
+            -webkit-animation: sc-down-a 0.3s infinite alternate;
+            -moz-animation: sc-down-a 0.3s infinite alternate;
+            -o-animation: sc-down-a 0.3s infinite alternate;
+            -ms-animation: sc-down-a 0.3s infinite alternate;
+            animation: sc-down-a 0.3s infinite alternate;
+        }
+    </style>
+
+    <script src="../libs/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <div class="row" style="width:100%;height:100%">
+        <div class="col sidespace"></div>
+            <div class="col">
+
+                <!--page 1: Landing page-->
+                <div style="width:100%;position:relative">
+                    <div id="imageContainer" style="width:100%;height:40em;overflow:hidden;background-color:black">
+                        <img id="aImage"/>
+                    </div>
+                    <div style="color:white;position:absolute;top:1em;right:15%;text-align:left;padding:0.25em">
+                        <h1 style="font-family:Raleway;font-size:2.7rem;font-weight:100;text-align:left">OHBM Hackathon</h1>
+                        <!--<h2 style="font-family:Raleway;font-size:2.1rem;font-weight:800;text-align:left">Rome, 6–8 June 2019</h2>-->
+                        <h2 style="font-family:Oswald;font-size:2.5rem;font-weight:700;text-align:left">Rome, 6–8 June 2019</h2><br/>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSexFq--i2zZqB4E032HuOgWVseTDRr_B7oVjwjvfv2DLmTNKg/viewform?usp=sf_link" target="_blank" style="color:white;font-family:Raleway;font-size:1.1rem;font-weight:100;line-height:2.1;">APPLY TO ATTEND THE HACKATHON</a> <br/>
+                        <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-hackathon" target="_blank" style="color:white;font-family:Raleway;font-size:1.1rem;font-weight:100;line-height:2.1;">JOIN BRAINHACK ON MATTERMOST</a> <br/>
+                        <a href="https://github.com/ohbm/hackathon2019/issues" target="_blank" style="color:white;font-family:Raleway;font-size:1.1rem;font-weight:100;line-height:2.1;">SEE, DISCUSS AND PROPOSE PROJECTS</a> <br/>
+                    </div>
+                    <span class="btn-scroll-down scroll"></span>
+                </div>
+
+                <!--page 2: Hackathon introduction-->
+                <div class="slide" style="color:white;background-color:#333">
+                    <div class="mainText" style="padding-left:2em;padding-right:2em;line-height:1.5em;">
+                        <p>The OHBM hackathon aims at promoting the interaction between scientists on questions concerning (1) the investigation of brain anatomy based on magnetic resonance imaging or post mortem dissection; (2) the evolution of nervous systems across species; (3) the variability of brain features across healthy participants; (4) the emergence of brain pathologies.</p>
+
+                        <p>Participants can bring their own dataset, discuss a project and recruit a team of collaborators on site. Access to free big online databases of MRI images will be also available during the three days, for new creative ideas to be tested.
+                        This workshop is also an opportunity to learn methods, develop skills and collaborate with other participants.</p>
+                        
+                        <p>The OHBM hackathon is an official satellite event of the OHBM 2019 Meeting.
+                        </p>
+                    </div>
+                    <div id="imagesCont" style="width:100%;height:40em;overflow:hidden;background-color:#111">
+                        <div id="imageContainer" style="width:100%;height:40em;overflow:hidden;background-color:#111">
+                            <img id="anatomyOfChange" src="/bg-img/2_espresso.jpg"/>
+                        </div>
+                        <div id="doge" style="background:none;">
+                            <img id="dogeGif" src="/img/dogeLove.gif" alt="animated gif" repeat style="width:20%;overflow:hidden"
+                        </div>
+                    </div>
+                </div>
+
+                <!--page 3: Info for getting involved-->
+                <div class="slide" style="color:white;background-color:#333">
+                    <div class="mainText" style="padding-left:2em;padding-right:2em;line-height:1.5em;">
+                        <p>Participants are encouraged to post project ideas to our <a href="https://github.com/ohbm/hackathon2019/issues" target="_blank" style="color:white">GitHub project page</a>, and to submit a report describing their project to the 2019 Brainhack Proceedings published by F1000 after the event.</p>
+
+                        <p>Join our projects on <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-hackathon" target="_blank" style="color:white">Brainhack Mattermost</a> for updated information on the developing Hackathon content and to contribute your own ideas.</p>
+                        
+                        <p>The registration fee is 120 USD and includes onsite breakfast, lunch, and refreshments (not housing).</p>
+                        
+                        <p>We have an open <a href="https://forms.gle/TCkRYtRdzZD5Z4bq7" target="_blank" style="color:white">call for Travel Awards</a> (500 USD and free registration)</p>
+                        </p>
+                    </div>
+                    <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:#111">
+                        <img id="anatomyOfChange" src="/bg-img/3_gelato.jpg"/>
+                    </div>
+                </div>
+
+                <!--page 4: Program-->
+                <div class="slide">
+                    <div class="mainText" style="width:400px;padding-left:2em;padding-right:2em;font-size:1rem;line-height:1.1rem;z-index:10">
+                        <pre>
+<b>PROGRAM</b>
+
+<b>Thursday 6 June 2019</b>
+
+8h      Check-in & breakfast
+        Welcome and introduction
+9h      Ignite talk: Tobby-Ann Ounced
+10h     Project pitches
+12h     Lunch
+13-20h  Hackathon / 
+        TrainTrack: Best practices in
+                    open source development
+        TrainTrack: Working Open
+<br>
+<b>Friday 7 June 2019</b>
+
+ 8h     Breakfast
+ 9h     Ignite talk: Woe Mann
+10h     Hackathon /
+        TrainTrack: Reproducible Science
+12h     Lunch
+13-20h  Hackathon
+<br>
+<b>Saturday 8 June 2019</b>
+
+ 8h     Breakfast
+ 9h     Ignite talk: Otter Pearson
+10h     Hackathon
+12h     Lunch
+13-20h  Project summaries
+                        </pre>
+                    </div>
+                    <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:white">
+                        <img id="marie" src="/bg-img/4_colosseum.jpg" style="opacity:0.9"/>
+                    </div>
+                </div>
+
+                <!--page 5: Map-->
+                <div class="slide" id="map" style="color:white;background-color:#333">
+                    <p style="font-size:0.5em;text-align:center;margin:0;padding:0;background-color: #000;font-weight:300;">Double click to zoom in on map</p>
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GWzGW6nlG4lxKEXs-NLL5EfPHEGpYg_v"></iframe>
+                </div>
+
+                <!--page 6: Sponsors-->
+                <div class="slide" style="color:white;background-color:#FFF">
+                    <div class="mainText" style="font-weight:100;left:0;margin-left:5%;padding-left:2em;padding-right:2em;line-height:1.5em;z-index:10">
+                        <p>The OHBM Hackathon is kindly sponsored by</p>
+                        <table>
+                            <tr>
+                                <td style="text-align:right;"><img id="ohbm" src="/img/ohbmLogo.png" style="width:60px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td><p>The International Organisation for Human Brain Mapping</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="mercato" src="/img/mercatoLogo.png" style="width:60px;margin-right:60px;margin-top:0px;margin-bottom:5px;" /img></td>
+                                <td><p>Mercato Centrale di Roma</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="una" src="/img/unaLogo.png" style="width:80px;margin-right:60px;margin-top:15px;margin-bottom:15px;" /img></td>
+                                <td><p>UNAHOTELS Hotel Decò Roma</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="palazzo" src="/img/palazzoMontemartiniLogo.png" style="width:50px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td><p>Palazzo Montemartini Rome, A Radisson Collection Hotel</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="poldrack" src="/img/poldrackLogo.png" style="width:50%;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td><p>The Poldrack Lab at Stanford</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="incf" src="/img/incfLogo.jpeg" style="width:50%;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td><p>International Neuroinformatics Coordination Facility</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:white">
+                        <img id="venus" src="/bg-img/6_golgi.jpg" style="opacity:1.0"/>
+                    </div>
+                </div>
+
+                <!--page 7: Join our channel -->
+                <div class="slide" style="color:white;background-color:#333">
+                    <div class="mainText" style="width:250px;padding-left:2em;padding-right:2em;line-height:1.5em;">
+                        <p><a href="https://github.com/ohbm/hackathon2019/issues" target="_blank" style="color:white">Share your project idea!</a></br></br>
+
+                        <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-hackathon" target="_blank" style="color:white;">And don't forget to join our Mattermost channel!</a><br/><br/>We use Brainhack's channel to meet other participants, discuss projects and people are also getting organised to share accommodations!</p>
+                    </div>
+                    <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:#111">
+                        <img id="anatomyOfChange" src="/bg-img/7_spaghetti.jpg"/>
+                    </div>
+                </div>
+
+                <!--page 8: Thanks-->
+                <div class="slide" style="color:white;background-color:#FFF">
+                    <div class="mainText" id="thanks" style="width:360px;font-size:1rem;font-weight:100;left:0;margin-left:5%;padding-left:2em;padding-right:2em;line-height:1.5em;z-index:10">
+                        <p>Katja <b>Heuer</b> & Roberto <b>Toro</b></p>
+                            <a href="https://neuroanatomy.github.io" target="_blank">https://neuroanatomy.github.io</a></br>
+                            <img style="width:1rem;transform:translate(0,3px);margin-right:5px;" src="/img/twitter.png" /img>@katjaqheuer</br>
+                            <img style="width:1rem;transform:translate(0,3px);margin-right:5px;" src="/img/twitter.png" /img>@r3rt0</br>
+                            #RoK</br>
+                            </br>
+                            The Open Science Special Interest Group</br>
+                            Elisabeth <b>Dupre</b></br> 
+                            Greg <b>Kiar</b></br>
+                            Camille <b>Maumet</b></br>
+                            Chris <b>Gorgolewski</b></br>
+                            Tim Van <b>Mourik</b></br>
+                            Kirstie <b>Whitaker</b></br>
+                            Ana van <b>Gulick</b></br>
+                            </br>
+                            And the invaluable help of</br>
+                            Valentina <b>Borghesani</b></br>
+                            Flavia <b>Torella</b></br>
+                            Matteo <b>Visconti di Ollegio Castello</b></br>
+                            Cristina <b>Zappullo</b>
+                        </p>
+                    </div>
+                    <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:white">
+                        <img id="venus" src="/bg-img/8_doge.jpg" style="opacity:1.0"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+
+        /* randomly select background image for page 1 */
+
+        $("#imageContainer").height($(window).height());
+        $(".slide").height($(window).height());
+        $(".slide .mainText").css({marginTop:$(window).height()/2});
+
+        var gallery=[
+            {image:"/img/a.jpg"},
+            {image:"/img/b.jpg"},
+            {image:"/img/c.jpg"},
+            {image:"/img/d.jpg"},
+            {image:"/img/e.jpg"},
+            /*{image:"/img/f.jpg"},
+            {image:"/img/g.jpg"},
+            {image:"/img/h.jpg"},
+            {image:"/img/i.jpg"},
+            {image:"/img/j.jpg"},
+            {image:"/img/k.jpg"},
+            {image:"/img/l.jpg"},
+            {image:"/img/m.jpg"},
+            {image:"/img/n.jpg"},
+            {image:"/img/o.jpg"},
+            {image:"/img/p.jpg"},
+            {image:"/img/q.jpg"},
+            {image:"/img/r.jpg"},
+            {image:"/img/s.jpg"},
+            {image:"/img/t.jpg"},
+            {image:"/img/u.jpg"}*/
+        ];
+        var    a=Math.floor(Math.random()*gallery.length);
+
+        $("#aImage").attr("src",gallery[a].image);
+
+        setInterval(function() {
+            a=Math.floor(Math.random()*gallery.length);
+            $("#aImage").fadeOut(2000,function() {
+                $("#aImage").attr("src",gallery[a].image);
+                $("#aImage").fadeIn(2000);
+            });
+        },6000);
+
+        for(i=0;i<gallery.length;i++) {
+            var img = new Image();
+            img.src = gallery[i].image;
+        }
+
+
+        /* enable click to zoom in on the map */
+
+        $('#map').click(function(){
+            $(this).find('iframe').addClass('clicked');
+        })
+        .mouseleave(function(){
+            $(this).find('iframe').removeClass('clicked');
+        });
+
+    </script>
+
+</body>
+</html>
