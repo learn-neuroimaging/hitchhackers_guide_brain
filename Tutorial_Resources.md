@@ -96,7 +96,7 @@ The following list is by far not exhaustive, you will be able to find more resou
 ## Brainhack
 * [Brainhacking](https://neurohackademy.org/course/brain-hacking/) by Cameron Craddock within Neurohackademy 2018 (59 min)
 * Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Barrios, F. A., … Xu, T. (2016). [Brainhack: a collaborative workshop for the open neuroscience community.](https://doi.org/10.1186/s13742-016-0121-x) GigaScience, 5(1).
-* [Introduction to Brainhack](https://www.youtube.com/watch?v=JLJFKV7p74A) by Cameron Craddock within Brainhack Proceedings 2017 (30 min)   
+* [Introduction to Brainhack](https://www.youtube.com/watch?v=JLJFKV7p74A) by Cameron Craddock within Brainhack Proceedings 2017 (30 min)
 * [Introduction to Neurohackweek 2017](https://neurohackademy.org/course/introduction-to-neurohackweek-4/) by Ariel Rokem within Neurohackweek 2017
 
 
@@ -153,12 +153,12 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 
 ## R
-* [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016   
+* [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016
 * [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
 
 ## Containers
-* [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)  
+* [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
 * [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily create containers suited to your neuroimaging needs. Here is a [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html) on how to use it.
@@ -220,6 +220,10 @@ If you want to share data but your colleagues argue against it:
 * [manual](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
 * [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
 * [course/tutorial]: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
+
+#### ANTs
+* [website](http://stnava.github.io/ANTs/)
+* [manual/wiki](https://github.com/ANTsX/ANTs/wiki)
 
 #### Nipype
 Nipype is best viewed as a way to create and run software-agnostic preprocessing/analysis-pipeline. It becomes very powerful when you need to use different softwares in your analysis.
@@ -480,7 +484,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 
 ### Reproducible neuroimaging tools
 * ReproNim is a good [site](http://www.reproducibleimaging.org/index.html) to get up to date on doing reproducible neuroimaging research.
-* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016  
+* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
 * [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/) by Tara Madhyastha within Neurohackweek 2016 (48 min)
