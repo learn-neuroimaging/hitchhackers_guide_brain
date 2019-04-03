@@ -128,6 +128,10 @@
         #thanks b {
             font-weight:400;
         }
+        #sponsorsTable p {
+            font-size:0.8em;
+            line-height:1.5em;
+        }
         #map iframe {
             filter:grayscale(80%) contrast(120%) opacity(100%);
             -webkit-filter:grayscale(80%) contrast(120%) opacity(100%);
@@ -288,7 +292,7 @@
                     </div>
                     <div id="imagesCont" style="width:100%;height:40em;overflow:hidden;background-color:#111">
                         <div id="imageContainer" style="width:100%;height:40em;overflow:hidden;background-color:#111">
-                            <img id="anatomyOfChange" src="./bg-img/2_espresso.jpg"/>
+                            <img src="./bg-img/2_espresso.jpg"/>
                         </div>
                         <div id="doge" style="background:none;">
                             <img id="dogeGif" src="./img/dogeLove.gif" alt="animated gif" repeat style="width:20%;overflow:hidden"
@@ -309,7 +313,7 @@
                         </p>
                     </div>
                     <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:#111">
-                        <img id="anatomyOfChange" src="./bg-img/3_gelato.jpg"/>
+                        <img src="./bg-img/3_gelato.jpg"/>
                     </div>
                 </div>
 
@@ -351,7 +355,7 @@
                         </pre>
                     </div>
                     <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:white">
-                        <img id="marie" src="./bg-img/4_colosseum.jpg" style="opacity:0.9"/>
+                        <img src="./bg-img/4_colosseum.jpg" style="opacity:0.9"/>
                     </div>
                 </div>
 
@@ -363,37 +367,45 @@
 
                 <!--page 6: Sponsors-->
                 <div class="slide" style="color:white;background-color:#FFF">
-                    <div class="mainText" style="font-weight:100;left:0;margin-left:5%;padding-left:2em;padding-right:2em;line-height:1.5em;z-index:10">
+                    <div id="page6sponsors" class="mainText" style="font-size:0.9em;font-weight:100;left:0;margin-left:5%;padding-left:2em;padding-right:2em;line-height:1.1em;z-index:10">
                         <p>The OHBM Hackathon is kindly sponsored by</p>
-                        <table>
+                        <table id="sponsorsTable">
                             <tr>
-                                <td style="text-align:right;"><img id="ohbm" src="./img/ohbmLogo.png" style="width:60px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td style="text-align:right;"><img id="ohbm" src="./img/ohbmLogo.png" style="width:46px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
                                 <td><p>The International Organisation for Human Brain Mapping</p></td>
                             </tr>
                             <tr>
-                                <td style="text-align:right;"><img id="mercato" src="./img/mercatoLogo.png" style="width:60px;margin-right:60px;margin-top:0px;margin-bottom:5px;" /img></td>
+                                <td style="text-align:right;"><img id="mercato" src="./img/mercatoLogo.png" style="width:46px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
                                 <td><p>Mercato Centrale di Roma</p></td>
                             </tr>
                             <tr>
-                                <td style="text-align:right;"><img id="una" src="./img/unaLogo.png" style="width:80px;margin-right:60px;margin-top:15px;margin-bottom:15px;" /img></td>
+                                <td style="text-align:right;"><img id="una" src="./img/unaLogo.png" style="width:80px;margin-right:60px;margin-top:20px;margin-bottom:20px;" /img></td>
                                 <td><p>UNAHOTELS Hotel Decò Roma</p></td>
                             </tr>
                             <tr>
-                                <td style="text-align:right;"><img id="palazzo" src="./img/palazzoMontemartiniLogo.png" style="width:50px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td style="text-align:right;"><img id="palazzo" src="./img/palazzoMontemartiniLogo.png" style="width:50px;margin-right:60px;margin-top:10px;margin-bottom:5px;padding-bottom:10px;padding-top:5px;" /img></td>
                                 <td><p>Palazzo Montemartini Rome, A Radisson Collection Hotel</p></td>
                             </tr>
                             <tr>
-                                <td style="text-align:right;"><img id="poldrack" src="./img/poldrackLogo.png" style="width:50%;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
-                                <td><p>The Poldrack Lab at Stanford</p></td>
+                                <td style="text-align:right;"><img id="incf" src="./img/incfLogo.jpeg" style="width:50%;margin-right:60px;margin-top:5px;margin-bottom:5px;padding-bottom:15px;padding-top:10px;" /img></td>
+                                <td><p>International Neuroinformatics Coordination Facility</p></td>
                             </tr>
                             <tr>
-                                <td style="text-align:right;"><img id="incf" src="./img/incfLogo.jpeg" style="width:50%;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
-                                <td><p>International Neuroinformatics Coordination Facility</p></td>
+                                <td style="text-align:right;"><img id="palazzo" src="./img/mcinLogo.png" style="width:60px;margin-right:10px;margin-top:5px;margin-bottom:5px;transform:translate(0,-6px);padding-bottom:0px;padding-top:5px;" /img><img id="palazzo" src="./img/ludmerLogo.png" style="width:30px;margin-right:60px;margin-top:5px;margin-bottom:5px;padding-bottom:0px;padding-top:5px;" /img></td>
+                                <td><p>McGill Centre for Integrative Neuroscience & Ludmer Center</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img src="./img/neuromodLogo.png" style="width:46px;margin-right:60px;margin-top:15px;margin-bottom:5px;" /img></td>
+                                <td style="padding-top:10px;"><p>The Courtois Project on Neuronal Modelling</p></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:right;"><img id="poldrack" src="./img/poldrackLogo.png" style="width:50px;margin-right:60px;margin-top:5px;margin-bottom:5px;" /img></td>
+                                <td><p>The Poldrack Lab at Stanford</p></td>
                             </tr>
                         </table>
                     </div>
                     <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:white">
-                        <img id="venus" src="./bg-img/6_golgi.jpg" style="opacity:1.0"/>
+                        <img src="./bg-img/6_golgi.jpg" style="opacity:1.0"/>
                     </div>
                 </div>
 
@@ -405,7 +417,7 @@
                         <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-hackathon" target="_blank" style="color:white;">And don't forget to join our Mattermost channel!</a><br/><br/>We use Brainhack's channel to meet other participants, discuss projects and people are also getting organised to share accommodations!</p>
                     </div>
                     <div id="imageContainer" style="width:100%;height:48em;overflow:hidden;background-color:#111">
-                        <img id="anatomyOfChange" src="./bg-img/7_spaghetti.jpg"/>
+                        <img src="./bg-img/7_spaghetti.jpg"/>
                     </div>
                 </div>
 
@@ -423,9 +435,9 @@
                             Elisabeth <b>Dupre</b></br>
                             Chris <b>Gorgolewski</b></br>
                             Camille <b>Maumet</b></br>
-                            Tim Van <b>Mourik</b></br>
+                            Tim van <b>Mourik</b></br>
                             Kirstie <b>Whitaker</b></br>
-                            Ana van <b>Gulick</b></br>
+                            Ana Van <b>Gulick</b></br>
                             </br>
                             And the invaluable help of</br>
                             Valentina <b>Borghesani</b></br>
@@ -435,7 +447,7 @@
                         </p>
                     </div>
                     <div id="imageContainer" style="width:100%;height:40em;overflow:hidden;background-color:white">
-                        <img id="venus" src="./bg-img/8_doge.jpg" style="opacity:1.0"/>
+                        <img src="./bg-img/8_doge.jpg" style="opacity:1.0"/>
                     </div>
                 </div>
             </div>
