@@ -219,7 +219,7 @@ If you want to share data but your colleagues argue against it:
 * [website](https://afni.nimh.nih.gov/)
 * [manual](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
 * [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
-* [course/tutorial]: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
+* course/tutorial: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
 
 #### ANTs
 * [website](http://stnava.github.io/ANTs/)
