@@ -17,6 +17,7 @@
     - [Freesurfer](#freesurfer)
     - [FSL](#fsl)
     - [AFNI](#afni)
+    - [ANTs](#ANTs)
     - [Nipype](#nipype)
     - [Dipy](#dipy)
     - [MRTrix](#mrtrix)
