@@ -628,6 +628,11 @@ For image based meta-analysis:
 ## Neuroimaging video series
 Either on youtube or on some other platform
 
+### Neurohackademy Lectures
+Lecture series on neuroimaging and electrophysiology from the [Neurohackademy](https://neurohackademy.org/course_type/lectures/) summer school.
+
+### Mike Cohen's Lectures on Time Series Analysis
+Mike Cohen's lecturelets on time series data analysis [here](https://mikexcohen.com/lectures.html). 
 
 ### Mumford brainstats
 Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). The channel also has [Facebook group](https://www.facebook.com/groups/mumfordbrainstats/).
