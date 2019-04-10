@@ -3,6 +3,7 @@
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
+* [Documenting projects and code](#documenting-projects-and-code)
 * [Shell programming](#shell-programming)
 * [Python](#python)
   + [Introduction](#introduction)
@@ -117,6 +118,10 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 * [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
+
+## Documenting projects and code
+* [Write a great project ReadMe](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
+* [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
 
 ## Shell programming
 * [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
