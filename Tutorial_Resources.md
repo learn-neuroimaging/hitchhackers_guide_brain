@@ -656,3 +656,10 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 ### INCF
 
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
+
+### Computational and Systems Neuroscience (Cosyne) 2018
+[Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
+
+### University of Michigan 2018 Training Course in fMRI
+[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
+
