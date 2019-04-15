@@ -666,6 +666,8 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 ### University of Michigan 2018 Training Course in fMRI
 [Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
 
-### Cambridge University MRC Cognition and Brain Sciences Unit Conference and Method Seminars (Since 2017)
-[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2017/)
 
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2018/)
