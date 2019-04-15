@@ -674,3 +674,6 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 
 ### ISMRM Educational Materials
 [Here](https://www.youtube.com/user/ISMRM/playlists)
+
+### fMRIF NIMH fMRI Course - from 2014 to 2018
+[Here](https://fmrif.nimh.nih.gov/public/fmri-course/fmri-course-summer-2014)
