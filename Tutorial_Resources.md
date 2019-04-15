@@ -106,6 +106,9 @@ The following list is by far not exhaustive, you will be able to find more resou
 * [Panel discussion: fostering open communities](https://neurohackademy.org/course/panel-discussion-fostering-open-communities/) within Neurohackademy 2018 (1 hr 30 min)
 * [Science: open for all](https://neurohackademy.org/course/science-open-for-all/) by Kirstie Whitaker within Neurohackademy 2018
 * [Surviving and thriving as an open scientist](https://neurohackademy.org/course/surviving-and-thriving-as-an-open-scientist/) by Tal Yarkoni within Neurohackweek 2016
+* MRC Cognition and Brain Sciences Unit Open Science Day 2018
+[Here](https://www.youtube.com/watch?list=PLp67eqWCj2f-SsbYZFQVb-ecjxqr1CpRu&v=jKmv3-Nk8iE)
+
 
 
 ## GitHub
@@ -661,5 +664,8 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 [Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
 
 ### University of Michigan 2018 Training Course in fMRI
+[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
+
+### Cambridge University MRC Cognition and Brain Sciences Unit Conference and Method Seminars (Since 2017)
 [Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
 
