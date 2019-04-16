@@ -51,6 +51,7 @@
       * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
       * [OpenMEEG](#openmeeg)
   + [Quality control](#quality-control)
+  + [Interactive Brain Atlases](#interactive-brain-atlases)
   + [Analysis](#analysis)
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
@@ -78,6 +79,14 @@
   + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
   + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
   + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+  + [International Neuroinformatics Coordinating Facility (INCF) Annual Conference](#international-neuroinformatics-coordinating-facility-annual-conference]
+  + [Computational and Systems Neuroscience (Cosyne) Annual Conference - 2018](#computational-and-systems-neuroscience-cosyne-annual-conference)
+  + [University of Michigan 2018 Training Course in fMRI](#university-of-michigan-2018-training-course-in-fMRI)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2017)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2018)
+  + [ISMRM Educational Materials](#ismrm-educational-materials)
+  #[fMRIF NIMH fMRI Course - from 2014 to 2018](#fmrif-nimh-fmri-course-from-2014-to-2018)
+
 
 
 The following list is by far not exhaustive, you will be able to find more resources in the following:
