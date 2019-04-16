@@ -467,6 +467,21 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 * [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
+
+### Interactive Brain Atlases
+
+* [15 pcw - Whole Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322603&_ga=2.75462097.21923152.1555421610-1429565100.1555421610)
+
+* [21 pcw - Cerebrum](http://atlas.brain-map.org/atlas?atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610#atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610&plate=101892610&structure=10390&x=10112&y=23872&zoom=-6&resolution=64.04&z=3)
+
+* [21 pcw - Brain Stem](http://atlas.brain-map.org/atlas?atlas=287730656&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [34 years old - Whole Brain](http://atlas.brain-map.org/atlas?atlas=138322605&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [Brainnetome Atlas](http://atlas.brainnetome.org/bnatlas.html)
+
+* [Anatomy Explorer](https://www.innerbody.com/anatomy/nervous/medial-frontal-gyrus)
+
 ### Analysis
 * [Advanced time-series analysis (Dynamic Mode Decomposition)](https://neurohackademy.org/course/advanced-time-series-analysis-dynamic-mode-decomposition/) by Bing Brunton within Neurohackweek 2017 (1 hr 1 min)
 * [Advanced time-series analysis](https://neurohackademy.org/course/advanced-time-series-analysis/) by Bing Brunton within Neurohackweek 2016 (1 hr 8 min)
