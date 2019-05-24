@@ -3,7 +3,7 @@
 # hackathon2019
 Website and projects for the OHBM Hackathon in Rome 2019
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/hackathon2019/Lobby#) &nbsp;&nbsp;&nbsp;&nbsp; [![slack_brainhack_3](https://user-images.githubusercontent.com/6297454/47951457-5b37b780-df61-11e8-9d77-7b5a4c7af875.png)](https://brainhack-slack-invite.herokuapp.com/)
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/hackathon2019/Lobby#) &nbsp;&nbsp;&nbsp;&nbsp; [![brainhack's mattermost] (http://mattermost.brainhack.org)]
 
 
 
