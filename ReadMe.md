@@ -36,6 +36,17 @@ It contains information on:
 
 Please make sure your group is represented there to make it easy for others to find you and join in!
 
+
+### Venues
+
+There are four physical locations for the largest OHBM Hackathon yet!
+
+* **Mercato Centrale**, Via Giovanni Giolitti, 36, 00185 Roma RM
+* **Sapienza**, Piazzale Aldo Moro, 5, 00185 Roma RM
+* *Thursday only* **Una Hotels Deco Roma**, Via Giovanni Amendola, 57, 00185 Roma RM
+* *Friday and Saturday only* **Palazzo Montemartini Rome**, Largo Giovanni Montemartini, 00185 Roma RM
+
+
 ### Code of conduct
 
 The following text is taken from the OHBM Code of Conduct, available in full at https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3846:
