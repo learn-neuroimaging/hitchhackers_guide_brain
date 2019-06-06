@@ -15,3 +15,19 @@ Brainhacks are the opportunity to try new ideas, to discover new tools, to adopt
 We aim at providing a space where we can all thrive, no matter if it is our first hackathon or if we have never missed one, sharing the best of the support we have received by the open science community during the years.  
 
 Open science is essential for being able to work together effectively. We want to help build a community where openness is the norm and siloes the exception.
+
+### List of projects
+
+You can find a living document of the Hackathon projects as a google sheet at: https://docs.google.com/spreadsheets/d/15grRPW0H4uFXWjUZd4n2UFgaEPEmWnXd4kexYBm3eNU/edit?usp=sharing.
+
+It contains information on:
+* Project name
+* Issue in OHBM Hackathon GitHub repository (link)
+* Other project links	Team leader (point person to tag if you have a question!)
+* Names of team members
+* Mattermost channel name (https://mattermost.brainhack.org)
+* Other online contact
+* Physical location (Thurs PM)
+* Physical location (Fri AM)
+* Physical location (Fri PM)
+* Physical location (Sat AM)
