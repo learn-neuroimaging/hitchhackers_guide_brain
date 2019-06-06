@@ -618,9 +618,10 @@ neuropredict is an easy to use Python tool for comprehensive evaluation of predi
 
 #### brainIAK
 BrainIAK applies advanced machine learning methods and high-performance computing to analyzing neuroimaging data.
+We also have tutorials that cover topics from basics to advanced techniques.
 
 * [website](http://brainiak.org/)
-* [sample tutorials](http://brainiak.org/events/ohbm2018/brainiak_sample_tutorials/)
+* [tutorials](http://brainiak.org/tutorials)
 
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
