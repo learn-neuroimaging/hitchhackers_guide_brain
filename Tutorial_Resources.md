@@ -53,6 +53,7 @@
       * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
       * [OpenMEEG](#openmeeg)
   + [Quality control](#quality-control)
+  + [Interactive Brain Atlases](#interactive-brain-atlases)
   + [Analysis](#analysis)
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
@@ -80,6 +81,14 @@
   + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
   + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
   + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+  + [International Neuroinformatics Coordinating Facility (INCF) Annual Conference](#international-neuroinformatics-coordinating-facility-annual-conference]
+  + [Computational and Systems Neuroscience (Cosyne) Annual Conference - 2018](#computational-and-systems-neuroscience-cosyne-annual-conference)
+  + [University of Michigan 2018 Training Course in fMRI](#university-of-michigan-2018-training-course-in-fMRI)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2017)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2018)
+  + [ISMRM Educational Materials](#ismrm-educational-materials)
+  #[fMRIF NIMH fMRI Course - from 2014 to 2018](#fmrif-nimh-fmri-course-from-2014-to-2018)
+
 
 
 The following list is by far not exhaustive, you will be able to find more resources in the following:
@@ -108,6 +117,9 @@ The following list is by far not exhaustive, you will be able to find more resou
 * [Panel discussion: fostering open communities](https://neurohackademy.org/course/panel-discussion-fostering-open-communities/) within Neurohackademy 2018 (1 hr 30 min)
 * [Science: open for all](https://neurohackademy.org/course/science-open-for-all/) by Kirstie Whitaker within Neurohackademy 2018
 * [Surviving and thriving as an open scientist](https://neurohackademy.org/course/surviving-and-thriving-as-an-open-scientist/) by Tal Yarkoni within Neurohackweek 2016
+* MRC Cognition and Brain Sciences Unit Open Science Day 2018
+[Here](https://www.youtube.com/watch?list=PLp67eqWCj2f-SsbYZFQVb-ecjxqr1CpRu&v=jKmv3-Nk8iE)
+
 
 
 ## GitHub
@@ -474,6 +486,21 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 * [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
+
+### Interactive Brain Atlases
+
+* [15 pcw - Whole Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322603&_ga=2.75462097.21923152.1555421610-1429565100.1555421610)
+
+* [21 pcw - Cerebrum](http://atlas.brain-map.org/atlas?atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610#atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610&plate=101892610&structure=10390&x=10112&y=23872&zoom=-6&resolution=64.04&z=3)
+
+* [21 pcw - Brain Stem](http://atlas.brain-map.org/atlas?atlas=287730656&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [34 years old - Whole Brain](http://atlas.brain-map.org/atlas?atlas=138322605&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [Brainnetome Atlas](http://atlas.brainnetome.org/bnatlas.html)
+
+* [Anatomy Explorer](https://www.innerbody.com/anatomy/nervous/medial-frontal-gyrus)
+
 ### Analysis
 * [Advanced time-series analysis (Dynamic Mode Decomposition)](https://neurohackademy.org/course/advanced-time-series-analysis-dynamic-mode-decomposition/) by Bing Brunton within Neurohackweek 2017 (1 hr 1 min)
 * [Advanced time-series analysis](https://neurohackademy.org/course/advanced-time-series-analysis/) by Bing Brunton within Neurohackweek 2016 (1 hr 8 min)
@@ -671,3 +698,21 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 ### INCF
 
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
+
+### Computational and Systems Neuroscience (Cosyne) 2018
+[Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
+
+### University of Michigan 2018 Training Course in fMRI
+[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
+
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2017/)
+
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2018/)
+
+### ISMRM Educational Materials
+[Here](https://www.youtube.com/user/ISMRM/playlists)
+
+### fMRIF NIMH fMRI Course - from 2014 to 2018
+[Here](https://fmrif.nimh.nih.gov/public/fmri-course/fmri-course-summer-2014)
