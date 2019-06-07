@@ -3,6 +3,7 @@
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
+* [Documenting projects and code](#documenting-projects-and-code)
 * [Shell programming](#shell-programming)
 * [Python](#python)
   + [Introduction](#introduction)
@@ -17,6 +18,7 @@
     - [Freesurfer](#freesurfer)
     - [FSL](#fsl)
     - [AFNI](#afni)
+    - [ANTs](#ANTs)
     - [Nipype](#nipype)
     - [Dipy](#dipy)
     - [MRtrix3](#mrtrix3)
@@ -51,6 +53,7 @@
       * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
       * [OpenMEEG](#openmeeg)
   + [Quality control](#quality-control)
+  + [Interactive Brain Atlases](#interactive-brain-atlases)
   + [Analysis](#analysis)
   + [Cloud computing](#cloud-computing)
   + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
@@ -63,6 +66,7 @@
   + [Softwares for machine learning (or multivariate) analysis in neuroimaging](#softwares-for-machine-learning-or-multivariate-analysis-in-neuroimaging)
     - [pyMVPA](#pymvpa)
     - [nilearn](#nilearn)
+    - [neuropredict](#neuropredict)    
     - [TDT](#tdt)
     - [ProNTo](#pronto)
     - [RSA toolbox](#rsa-toolbox)
@@ -77,6 +81,14 @@
   + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
   + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
   + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+  + [International Neuroinformatics Coordinating Facility (INCF) Annual Conference](#international-neuroinformatics-coordinating-facility-annual-conference]
+  + [Computational and Systems Neuroscience (Cosyne) Annual Conference - 2018](#computational-and-systems-neuroscience-cosyne-annual-conference)
+  + [University of Michigan 2018 Training Course in fMRI](#university-of-michigan-2018-training-course-in-fMRI)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2017)
+  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2018)
+  + [ISMRM Educational Materials](#ismrm-educational-materials)
+  #[fMRIF NIMH fMRI Course - from 2014 to 2018](#fmrif-nimh-fmri-course-from-2014-to-2018)
+
 
 
 The following list is by far not exhaustive, you will be able to find more resources in the following:
@@ -105,6 +117,9 @@ The following list is by far not exhaustive, you will be able to find more resou
 * [Panel discussion: fostering open communities](https://neurohackademy.org/course/panel-discussion-fostering-open-communities/) within Neurohackademy 2018 (1 hr 30 min)
 * [Science: open for all](https://neurohackademy.org/course/science-open-for-all/) by Kirstie Whitaker within Neurohackademy 2018
 * [Surviving and thriving as an open scientist](https://neurohackademy.org/course/surviving-and-thriving-as-an-open-scientist/) by Tal Yarkoni within Neurohackweek 2016
+* MRC Cognition and Brain Sciences Unit Open Science Day 2018
+[Here](https://www.youtube.com/watch?list=PLp67eqWCj2f-SsbYZFQVb-ecjxqr1CpRu&v=jKmv3-Nk8iE)
+
 
 
 ## GitHub
@@ -117,11 +132,19 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 * [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
 
+## Documenting projects and code
+* [Write a great project ReadMe](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
+* [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
+
 ## Shell programming
 * [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
 * [Learn shell](https://www.learnshell.org/)
 * [The shell introduction I wish I had](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) by Max Antonucci
 * [The Unix shell](http://swcarpentry.github.io/shell-novice/)
+* [Andrew Jahn's Unix introduction](https://www.youtube.com/watch?v=dBDmIhSWfnM&list=PLIQIswOrUH6992C4FDDCNCIaK4R2FIOCB)
+* [Bash cheatsheet](https://devhints.io/bash)
+* [Explain shell commands](https://explainshell.com/)
+* [Check shell scripts](https://www.shellcheck.net/)
 * [Vim interactive tutorial](https://www.openvim.com/)
 
 
@@ -146,6 +169,10 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Software testing 1](https://neurohackademy.org/course/software-testing/) by Chris Gorgolewski within Neurohackweek
 * [Software testing 2](https://neurohackademy.org/course/software-testing-2/) by Chris Gorgolewski within Neurohackweek
 * [Testing scientific code](https://neurohackademy.org/course/testing-scientific-code/) by Chris Gorgolewski within Neurohackweek 2017 (43 min)
+* [Porting Python 2 code to Python 3 - official](https://docs.python.org/3/howto/pyporting.html)
+  * [guide 2 - another migration guide](http://blog.pyspoken.com/2018/02/13/python-2-to-3-migration-guide/)
+  * [gudie 3 - migration strategies](http://python3porting.com/strategies.html)
+  * [guide 4 - practicalities and packaging](https://python3statement.org/practicalities)
 
 
 ## R
@@ -215,7 +242,11 @@ If you want to share data but your colleagues argue against it:
 * [website](https://afni.nimh.nih.gov/)
 * [manual](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
 * [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
-* [course/tutorial]: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
+* course/tutorial: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
+
+#### ANTs
+* [website](http://stnava.github.io/ANTs/)
+* [manual/wiki](https://github.com/ANTsX/ANTs/wiki)
 
 #### Nipype
 Nipype is best viewed as a way to create and run software-agnostic preprocessing/analysis-pipeline. It becomes very powerful when you need to use different softwares in your analysis.
@@ -458,6 +489,21 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 * [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
+
+### Interactive Brain Atlases
+
+* [15 pcw - Whole Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322603&_ga=2.75462097.21923152.1555421610-1429565100.1555421610)
+
+* [21 pcw - Cerebrum](http://atlas.brain-map.org/atlas?atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610#atlas=3&_ga=2.106387264.21923152.1555421610-1429565100.1555421610&plate=101892610&structure=10390&x=10112&y=23872&zoom=-6&resolution=64.04&z=3)
+
+* [21 pcw - Brain Stem](http://atlas.brain-map.org/atlas?atlas=287730656&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [34 years old - Whole Brain](http://atlas.brain-map.org/atlas?atlas=138322605&_ga=2.6657777.21923152.1555421610-1429565100.1555421610)
+
+* [Brainnetome Atlas](http://atlas.brainnetome.org/bnatlas.html)
+
+* [Anatomy Explorer](https://www.innerbody.com/anatomy/nervous/medial-frontal-gyrus)
+
 ### Analysis
 * [Advanced time-series analysis (Dynamic Mode Decomposition)](https://neurohackademy.org/course/advanced-time-series-analysis-dynamic-mode-decomposition/) by Bing Brunton within Neurohackweek 2017 (1 hr 1 min)
 * [Advanced time-series analysis](https://neurohackademy.org/course/advanced-time-series-analysis/) by Bing Brunton within Neurohackweek 2016 (1 hr 8 min)
@@ -546,6 +592,10 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 * [Machine learning in neuroimaging](https://neurohackademy.org/course/machine-learning-in-neuroimaging/) by Gael Varoquaux within Neurohackademy 2018 (2 hr 42 min)
 * [Synthesizing fMRI using generative adversarial networks: cognitive neuroscience applications, promises and pitfalls](https://neurohackademy.org/course/gans-for-brain-imaging/) by Sanmi Koyejo within Neurohackademy 2018 (1 hr 7 min)
 
+#### Hands-On Deep Learning Examples
+* [Introduction to Keras](https://nbviewer.jupyter.org/github/brainhack101/IntroDL/blob/master/IntroToKeras.ipynb) by Anisha Keshavan within [OHBM DL Educational Course 2018](https://brainhack101.github.io/IntroDL/)
+* [Introduction to Keras & Interpretability Methods](https://colab.research.google.com/drive/1EgdnWZeNqmzqEmnSR9PUnYXlTjeu1wAU) by Andrew Doyle within [MAIN 2018 Hands-on DL course](https://brainhack101.github.io/introML/dl-course-outline.html)
+* [Brain Segmentation in Keras](https://colab.research.google.com/github/tfunck/minc_keras/blob/master/main2018.ipynb) by Thomas Funck within MAIN 2018 Hands-on DL course
 
 ### Softwares for machine learning (or multivariate) analysis in neuroimaging
 They are divided in sub-sections depending on the language they use.
@@ -564,12 +614,17 @@ Nilearn is a Python module for fast and easy statistical learning on NeuroImagin
 * [manual](http://nilearn.github.io/user_guide.html)
 * [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
 
+#### neuropredict
+neuropredict is an easy to use Python tool for comprehensive evaluation of predictive power of popular ML techniques for features-to-target prediction (such as biomarkers to disease and similar variations)
+* [code](http://github.com/raamana/neuropredict)
+* [docs](http://raamana.github.io/neuropredict)
 
 #### brainIAK
 BrainIAK applies advanced machine learning methods and high-performance computing to analyzing neuroimaging data.
+We also have tutorials that cover topics from basics to advanced techniques.
 
 * [website](http://brainiak.org/)
-* [sample tutorials](http://brainiak.org/events/ohbm2018/brainiak_sample_tutorials/)
+* [tutorials](http://brainiak.org/tutorials)
 
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -614,6 +669,11 @@ For image based meta-analysis:
 ## Neuroimaging video series
 Either on youtube or on some other platform
 
+### Neurohackademy Lectures
+Lecture series on neuroimaging and electrophysiology from the [Neurohackademy](https://neurohackademy.org/course_type/lectures/) summer school.
+
+### Mike Cohen's Lectures on Time Series Analysis
+Mike Cohen's lecturelets on time series data analysis [here](https://mikexcohen.com/lectures.html). 
 
 ### Mumford brainstats
 Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). The channel also has [Facebook group](https://www.facebook.com/groups/mumfordbrainstats/).
@@ -642,3 +702,21 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 ### INCF
 
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
+
+### Computational and Systems Neuroscience (Cosyne) 2018
+[Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
+
+### University of Michigan 2018 Training Course in fMRI
+[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
+
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2017/)
+
+### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018
+[Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2018/)
+
+### ISMRM Educational Materials
+[Here](https://www.youtube.com/user/ISMRM/playlists)
+
+### fMRIF NIMH fMRI Course - from 2014 to 2018
+[Here](https://fmrif.nimh.nih.gov/public/fmri-course/fmri-course-summer-2014)
