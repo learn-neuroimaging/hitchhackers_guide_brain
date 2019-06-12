@@ -582,6 +582,7 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 * [Machine learning with scikit-learn 1](https://neurohackademy.org/course/machine-learning-with-scikit-learn/) by Jake Vanderplas within Neurohackweek
 * [Machine learning with scikit-learn 2](https://neurohackademy.org/course/machine-learning-with-scikit-learn-2/) by Jake Vanderplas within Neurohackweek 2017 (1 hr 20 min)
 * [Machine learning with scikit-learn 3](https://neurohackademy.org/course/machine-learning-with-scikit-learn-3/)  by Jake Vanderplas within Neurohackademy (2 hr 22 min)
+* [Deep learning and machine learing tutorials](https://brainhack101.github.io/introML/) from the Montreal Artificial Intelligence and Neuroscience conference, Montreal 2018 (2 days), many authors.
 
 
 ### Specific to neuroimaging
