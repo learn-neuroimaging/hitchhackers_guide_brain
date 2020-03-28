@@ -1,3 +1,4 @@
+![shiba love](https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif)
 # A list of tutorials and other resources useful for open science and neuroimaging
 
 * [Brainhack](#brainhack)
