@@ -4,6 +4,8 @@
 
 # A list of tutorials and other resources useful for open science and neuroimaging
 
+Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channels/t1ify" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
+
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
