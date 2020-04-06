@@ -680,7 +680,7 @@ Either on youtube or on some other platform
 Lecture series on neuroimaging and electrophysiology from the [Neurohackademy](https://neurohackademy.org/course_type/lectures/) summer school.
 
 ### Mike Cohen's Lectures on Time Series Analysis
-Mike Cohen's lecturelets on time series data analysis [here](https://mikexcohen.com/lectures.html). 
+Mike Cohen's lecturelets on time series data analysis [here](https://mikexcohen.com/lectures.html).
 
 ### Mumford brainstats
 Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). The channel also has [Facebook group](https://www.facebook.com/groups/mumfordbrainstats/).
@@ -709,6 +709,10 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 ### INCF
 
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
+
+### TVB made easy
+Lectures showing how to use The Virtual Brain software in a clinical context
+[Here](https://training.incf.org/course/tvb-made-easy)
 
 ### Computational and Systems Neuroscience (Cosyne) 2018
 [Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
