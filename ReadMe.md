@@ -125,6 +125,7 @@ The following list is by far not exhaustive, you will be able to find more resou
 * [Surviving and thriving as an open scientist](https://neurohackademy.org/course/surviving-and-thriving-as-an-open-scientist/) by Tal Yarkoni within Neurohackweek 2016
 * MRC Cognition and Brain Sciences Unit Open Science Day 2018
 [Here](https://www.youtube.com/watch?list=PLp67eqWCj2f-SsbYZFQVb-ecjxqr1CpRu&v=jKmv3-Nk8iE)
+* Orthogonal Research and Education Laboratory's [Open Science Database] (https://orthogonal-research.weebly.com/open-science-and-data.html)
 
 
 
