@@ -1,12 +1,16 @@
 # Reproducible neuroimaging research
 
-## Reproducible neuroimaging tools   
 
-####Tools:   
+## Reproducible neuroimaging tools
+
+
+### Tools:   
 
 * [ReproNim](http://www.reproducibleimaging.org/index.html) - A Center for Reproducible Neuroimaging Computation (a good site to get up to date on doing reproducible neuroimaging research
 * [Code-ocean](https://codeocean.com/) - A research collaboration platform that uses docker containers to let you run your analysis online
-####Presentations:    
+
+
+#### Presentations
 
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
 * [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/) by Tara Madhyastha within Neurohackweek 2016 (48 min)
@@ -19,7 +23,7 @@
 * [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Yaroslav Halchenko within MIND 2018 (59 min)
 
 
-####Tutorials/instructions/slides:    
+#### Tutorials/instructions/slides    
 
 * [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
@@ -29,6 +33,7 @@
 
 
 ## The Brain Imaging Data Structure (BIDS)
+
 * [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/) presented by Chris Gorgolewski within Neurohackademy 2018 (56 min)
 * [BIDS website](http://bids.neuroimaging.io/) - A simple and intuitive way to organize and describe your neuroimaging and behavioral data
 * [BIDS apps](https://bids-apps.neuroimaging.io/apps/) - Portable neuroimaging pipelines that understand BIDS datasets
@@ -36,7 +41,9 @@
 
 
 ## Open-data platforms
-####Platforms to get data from:   
+
+
+### Platforms to get data from   
 
 * [OpenNeuro](https://openneuro.org/) - A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data
 * [INDI](http://fcon_1000.projects.nitrc.org/) - International Neuroimaging Data-Sharing Initiative for rawdata
@@ -48,7 +55,8 @@
 * [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) - Wikipedia list of neuroscience databases
 * [ElectrophysiologyData](https://github.com/voytekresearch/OpenData) - Open datasets in electrophysiology
 
-####Presentations:   
+
+#### Presentations   
 
 * [Allen Institute Data and Software](https://neurohackademy.org/course/allen-institute-data-and-software/) by Nicolas Cain within Neurohackweek 2017 (53 min)
 * [Allen Institute Datasets](https://neurohackademy.org/course/allen-institute-datasets/) by Terri Gilbert within Neurohackweek 2016 (1 hr 8min)
@@ -56,17 +64,19 @@
 * [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/) by Nicolas Cain and Justin Kiggins within Neurohackademy 2018 (1 hr 42 min)
 * [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/) by Kirstie Whitaker within Neurohackweek 2016 (28 min)
 
-####Other:    
+#### Other    
 
 * [Challenges to open data and how to respond](https://github.com/mozillascience/open-data-training/blob/master/Materials/Handouts/ODChallengesQI.md)
 
 
 ## Other tools for reproducible data-science
+
 * [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
 * [Jupyter tutorial](https://www.youtube.com/watch?v=CSkTJRNBTME&index=3&t=4s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (31 min)
 
 
 ## Containers
+
 * [Docker for scientists 1](https://neurohackademy.org/course/docker-for-scientists/) by Chris Gorgolewski within Neurohackweek 2016 (1 hr 13min)
 * [Docker for scientists 2](https://neurohackademy.org/course/docker/) by Chris Gorgolewski within Neurohackweek
 * [Docker tutorial](https://www.youtube.com/watch?v=hUvYdXo5MfU&index=17&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Lucy Owen within MIND 2018 (20 min)
