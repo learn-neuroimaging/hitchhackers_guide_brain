@@ -417,10 +417,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 * [A video series on dynamic causal modeling](https://www.youtube.com/watch?v=q-yypnHgCII&list=PLwiAO9Cs0Tb8wUGAnYY5yIMckB9tc4T3_) by [Kevin Aquino](https://twitter.com/kevin_m_aquino) [6 hrs]
 * A blog post [tutorial](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc) on active inference (to get a better grasp on what free energy is)
 
-### Cloud computing
-* [Cloud Computing for Neuroimaging 1](https://neurohackademy.org/course/cloud-computing-for-neuroimaging/) by Amanda Tan and Ariel Rokem within Neurohackademy 2018 (3 hr 9 min)
-* [Cloud Computing for Neuroimaging 2](https://neurohackademy.org/course/cloud-computing/) by Tara Madhyastha within Neurohackweek 2016
-* [Using cloud computing for neuroimaging](https://neurohackademy.org/course/using-cloud-computing-for-neuroimaging/) by Cameron Craddock within Neurohackweek 2016
+
 
 
 ### Reproducible neuroimaging tools
