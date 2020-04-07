@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -20,6 +20,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://remi-gau.github.io/"><img src="https://avatars3.githubusercontent.com/u/6961185?v=4" width="100px;" alt=""/><br /><sub><b>Remi Gau</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=Remi-Gau" title="Code">💻</a> <a href="#content-Remi-Gau" title="Content">🖋</a> <a href="#ideas-Remi-Gau" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://katjaq.github.io/graphy/"><img src="https://avatars3.githubusercontent.com/u/6297454?v=4" width="100px;" alt=""/><br /><sub><b>katja heuer</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=katjaq" title="Code">💻</a> <a href="#content-katjaq" title="Content">🖋</a> <a href="#ideas-katjaq" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/roopa-pai/"><img src="https://avatars2.githubusercontent.com/u/33023134?v=4" width="100px;" alt=""/><br /><sub><b>Roopa Pai</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=roopa-pai" title="Code">💻</a> <a href="#content-roopa-pai" title="Content">🖋</a> <a href="#ideas-roopa-pai" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/IRuotsa"><img src="https://avatars1.githubusercontent.com/u/47354027?v=4" width="100px;" alt=""/><br /><sub><b>IRuotsa</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=IRuotsa" title="Code">💻</a> <a href="#content-IRuotsa" title="Content">🖋</a> <a href="#ideas-IRuotsa" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
