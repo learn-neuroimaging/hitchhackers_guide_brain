@@ -158,6 +158,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "jesparent",
+      "name": "Jesse",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11603279?v=4",
+      "profile": "http://www.jesparent.com",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
