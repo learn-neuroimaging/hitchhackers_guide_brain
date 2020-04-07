@@ -180,6 +180,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "avakiai",
+      "name": "Ava",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30446919?v=4",
+      "profile": "http://avakiai.com",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
