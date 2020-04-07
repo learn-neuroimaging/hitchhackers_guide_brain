@@ -81,6 +81,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "rutgerfick",
+      "name": "Rutger Fick",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9418732?v=4",
+      "profile": "http://linkedin.com/in/rutgerfick",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
