@@ -1,0 +1,213 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Remi-Gau",
+      "name": "Remi Gau",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6961185?v=4",
+      "profile": "https://remi-gau.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "katjaq",
+      "name": "katja heuer",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6297454?v=4",
+      "profile": "https://katjaq.github.io/graphy/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "roopa-pai",
+      "name": "Roopa Pai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33023134?v=4",
+      "profile": "https://www.linkedin.com/in/roopa-pai/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "IRuotsa",
+      "name": "IRuotsa",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47354027?v=4",
+      "profile": "https://github.com/IRuotsa",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "martinagvilas",
+      "name": "Martina G. Vilas",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37339384?v=4",
+      "profile": "http://martinagvilas.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "complexbrains",
+      "name": "Isil Bilgin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45263281?v=4",
+      "profile": "https://twitter.com/complexbrains",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "alexandreroutier",
+      "name": "Alexandre Routier",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24808663?v=4",
+      "profile": "http://alexandre-routier.com/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "rutgerfick",
+      "name": "Rutger Fick",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9418732?v=4",
+      "profile": "http://linkedin.com/in/rutgerfick",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "pbellec",
+      "name": "Pierre Bellec",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1670887?v=4",
+      "profile": "http://simexp-lab.org",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "r03ert0",
+      "name": "Roberto Toro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2310732?v=4",
+      "profile": "http://neuroanatomy.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "raamana",
+      "name": "Pradeep Reddy Raamana",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3196357?v=4",
+      "profile": "http://crossinvalidation.com",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "danjgale",
+      "name": "Dan Gale",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14634382?v=4",
+      "profile": "https://danjgale.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "manojneuro",
+      "name": "manojneuro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26097457?v=4",
+      "profile": "https://github.com/manojneuro",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "crocodoyle",
+      "name": "Andrew Doyle",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/345229?v=4",
+      "profile": "http://crocodoyle.ca/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "jesparent",
+      "name": "Jesse",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11603279?v=4",
+      "profile": "http://www.jesparent.com",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "jdkent",
+      "name": "James Kent",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12564882?v=4",
+      "profile": "https://jdkent.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "avakiai",
+      "name": "Ava",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30446919?v=4",
+      "profile": "http://avakiai.com",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Lestropie",
+      "name": "Robert Smith",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5637955?v=4",
+      "profile": "http://www.mrtrix.org",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "tutorials-and-resources",
+  "projectOwner": "learn-neuroimaging",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
