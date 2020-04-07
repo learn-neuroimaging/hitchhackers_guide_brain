@@ -1,114 +1,8 @@
-<!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
-<img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
+
 
 
 # A list of tutorials and other resources useful for open science and neuroimaging
 
-Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channels/tutorial-and-resources" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
-
-* [Brainhack](#brainhack)
-* [Open Science](#open-science)
-* [GitHub](#github)
-* [Documenting projects and code](#documenting-projects-and-code)
-* [Shell programming](#shell-programming)
-* [Python](#python)
-  + [Introduction](#introduction)
-  + [Specific topics](#specific-topics)
-* [R](#r)
-* [Containers](#containers)
-* [Other tools for reproducible data-science](#other-tools-for-reproducible-data-science)
-* [Open-data platforms](#open-data-platforms)
-* [Neuroimaging](#neuroimaging)
-  + [Courses and tutorials for the main MRI software packages](#courses-and-tutorials-for-the-main-mri-software-packages)
-    - [SPM](#spm)
-    - [Freesurfer](#freesurfer)
-    - [FSL](#fsl)
-    - [AFNI](#afni)
-    - [ANTs](#ANTs)
-    - [Nipype](#nipype)
-    - [Dipy](#dipy)
-    - [MRtrix3](#mrtrix3)
-  + [Main EEG and MEG Softwares](#main-eeg-and-meg-softwares)
-    - [General Purpose Tools](#general-purpose-tools)
-      * [MNE](#mne)
-      * [Wonambi](#wonambi)
-      * [NeuroKit](#neurokit)
-      * [FieldTrip](#fieldtrip)
-      * [BrainStorm](#brainstorm)
-      * [EEGLab](#eeglab)
-      * [SPM](#spm-1)
-      * [NutMEG](#nutmeg)
-      * [EEGUtils](#eegutils)
-      * [EEG.jl](#eegjl)
-      * [CarTool](#cartool)
-    - [Standalone Tools - Specific Purposes](#standalone-tools---specific-purposes)
-      * [NeuroDSP](#neurodsp)
-      * [FOOOF](#fooof)
-      * [Spectral Connectivity](#spectral-connectivity)
-      * [PACTools](#pactools)
-      * [Tensor PAC](#tensor-pac)
-      * [PyEEG](#pyeeg)
-      * [ECoGTools](#ecogtools)
-      * [restingIAF](#restingiaf)
-      * [Phase Opposition Code](#phase-opposition-code)
-      * [ADAM - Amsterdam Decoding and Modeling Toolbox](#adam---amsterdam-decoding-and-modeling-toolbox)
-      * [HERMES](#hermes)
-      * [SEREEGA - Simualating Event-Related EEG Activity](#sereega---simualating-event-related-eeg-activity)
-      * [UNFOLD](#unfold)
-      * [ept-TFCE](#ept-tfce)
-      * [ERP Reliability Analysis (ERA)](#erp-reliability-analysis-era)
-      * [OpenMEEG](#openmeeg)
-  + [Quality control](#quality-control)
-  + [Interactive Brain Atlases](#interactive-brain-atlases)
-  + [Analysis](#analysis)
-  + [Cloud computing](#cloud-computing)
-  + [Reproducible neuroimaging tools](#reproducible-neuroimaging-tools)
-    - [The Brain Imaging Data Structure (BIDS)](#the-brain-imaging-data-structure-bids)
-    - [Diffusion Microstructure Imaging in Python (Dmipy)](#diffusion-microstructure-imaging-in-python-dmipy)
-  + [Other specific topics](#other-specific-topics)
-* [Statistics](#statistics)
-* [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
-  + [Specific to neuroimaging](#specific-to-neuroimaging)
-  + [Softwares for machine learning (or multivariate) analysis in neuroimaging](#softwares-for-machine-learning-or-multivariate-analysis-in-neuroimaging)
-    - [pyMVPA](#pymvpa)
-    - [nilearn](#nilearn)
-    - [neuropredict](#neuropredict)    
-    - [TDT](#tdt)
-    - [ProNTo](#pronto)
-    - [RSA toolbox](#rsa-toolbox)
-    - [PCM toolbox](#pcm-toolbox)
-    - [cvMANOVA](#cvmanova)
-    - [BrainIAK](#brainIAK)
-* [Meta analysis](#meta-analysis)
-* [Neuroimaging video series](#neuroimaging-video-series)
-  + [Mumford brainstats](#mumford-brainstats)
-  + [Andrew Jahn](#andrew-jahn)
-  + [Center for Brains, Minds and Machines](#center-for-brains-minds-and-machines)
-  + [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
-  + [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
-  + [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
-  + [International Neuroinformatics Coordinating Facility (INCF) Annual Conference](#international-neuroinformatics-coordinating-facility-annual-conference]
-  + [Computational and Systems Neuroscience (Cosyne) Annual Conference - 2018](#computational-and-systems-neuroscience-cosyne-annual-conference)
-  + [University of Michigan 2018 Training Course in fMRI](#university-of-michigan-2018-training-course-in-fMRI)
-  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2017)
-  + [Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2018](#cambridge-universit-mrc-cognition-and-brain-sciences-unit-method-seminars-2018)
-  + [ISMRM Educational Materials](#ismrm-educational-materials)
-  #[fMRIF NIMH fMRI Course - from 2014 to 2018](#fmrif-nimh-fmri-course-from-2014-to-2018)
-
-
-
-The following list is by far not exhaustive, you will be able to find more resources in the following:
-* the [Neuroimaging Informatics Tools and Resources Clearinghouse](https://www.nitrc.org/)
-* [Mariam Aly's](https://twitter.com/mariam_s_aly) [lab wiki](https://osf.io/kgd9b/wiki/home/)
-* [Jonathan Peelle's](@jpeelle) [list of resources for beignners](http://jonathanpeelle.net/mri-resources-for-beginners)
-* [Stephan Heunis](https://twitter.com/fmrwhy) has a [list](https://www.fmrwhy.com/2018/06/28/spm12-matlab-scripting-tutorial-4/) to many SPM and matlab material.
-* [https://github.com/brainhack101](https://github.com/brainhack101) also has a [collections or links](https://brainhack101.github.io/neurolinks/) to courses, data...
-* [open neuroscience](https://openeuroscience.com/) points to a lot of open things related to neuroscience.
-* a [list](https://docs.google.com/document/d/1Wt6sZUavq4oQf4t3tpQARcajf-6i4TtHlx_lw-WJD1U/edit#heading=h.rgwbys315r9s) of Scientific Coding Resource put together by neuroconscience.
-* [Aya Ben-Yakov](@aya_ben_yakov) compiled a great list of [open-science resources](http://www.mrc-cbu.cam.ac.uk/openscience/resources/) for the CBU in Cambridge.
-* [LabHacks](https://github.com/pbeukema/LabHacks) is a list of resources for data driven neuroscientists put together by Patrick Beukema
-* a list of [open computational neuroscience resources](‏ https://github.com/asoplata/open-computational-neuroscience-resources/blob/master/README.md) put together by [Austin Soplata](https://twitter.com/austinsoplata)
-* a list of [Computational resources](https://github.com/martinagvilas/lists/blob/master/computational_resources.md) put together by [Martina Vilas](https://twitter.com/martinagvilas)
 
 
 ## Brainhack
@@ -258,7 +152,6 @@ If you want to share data but your colleagues argue against it:
 #### Nipype
 Nipype is best viewed as a way to create and run software-agnostic preprocessing/analysis-pipeline. It becomes very powerful when you need to use different softwares in your analysis.
 * [website](https://nipype.readthedocs.io/en/latest/)
-* [manual](https://nipype.readthedocs.io/en/latest/documentation.html)
 * [course/tutorial](https://miykael.github.io/nipype_tutorial/)
 
 #### Dipy
@@ -492,7 +385,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 * [MRIQC](https://mriqc.readthedocs.io/en/stable/) MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
 * [the PCP Quality Assessment Protocol](https://github.com/BIDS-Apps/QAP) is another BIDS app based on the protocol of [the connectome project data}(http://preprocessed-connectomes-project.org/quality-assessment-protocol/)
 * [Scripts for quality control of diffusion data](http://davidroalf.com/script_download/)
-* [Qoala-t](https://github.com/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
+* [Qoala-t](https://github.com/Qoala-T/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
 * [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
@@ -550,7 +443,7 @@ Be sure to check the newly formed [Neuroimaging quality control task force](http
 #### The Brain Imaging Data Structure (BIDS)
 * [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/) presented by Chris Gorgolewski within Neurohackademy 2018 (56 min)
 * the [BIDS website](http://bids.neuroimaging.io/)
-* the [BIDS apps](bids-apps.neuroimaging.io/apps/)
+* the [BIDS apps](https://bids-apps.neuroimaging.io/apps/)
 * the [BIDS starter kit](https://github.com/bids-standard/bids-starter-kit)
 
 #### Diffusion Microstructure Imaging in Python (Dmipy)
@@ -601,7 +494,7 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 * [Synthesizing fMRI using generative adversarial networks: cognitive neuroscience applications, promises and pitfalls](https://neurohackademy.org/course/gans-for-brain-imaging/) by Sanmi Koyejo within Neurohackademy 2018 (1 hr 7 min)
 
 #### Hands-On Deep Learning Examples
-* [Introduction to Keras](https://nbviewer.jupyter.org/github/brainhack101/IntroDL/blob/master/IntroToKeras.ipynb) by Anisha Keshavan within [OHBM DL Educational Course 2018](https://brainhack101.github.io/IntroDL/)
+* Introduction to Keras by Anisha Keshavan within [OHBM DL Educational Course 2018](https://brainhack101.github.io/IntroDL/)
 * [Introduction to Keras & Interpretability Methods](https://colab.research.google.com/drive/1EgdnWZeNqmzqEmnSR9PUnYXlTjeu1wAU) by Andrew Doyle within [MAIN 2018 Hands-on DL course](https://brainhack101.github.io/introML/dl-course-outline.html)
 * [Brain Segmentation in Keras](https://colab.research.google.com/github/tfunck/minc_keras/blob/master/main2018.ipynb) by Thomas Funck within MAIN 2018 Hands-on DL course
 
@@ -665,7 +558,7 @@ From [Carsten Allefeld](https://twitter.com/c_allefeld)
 * [Overview_of_Meta-Analysis_Approaches](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols](https://twitter.com/ten_photos) at OHBM 2018 with [slides](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839) (18 min)
 * [ALE and BrainMap](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066) by Simon B. Eickhoff at OHBM 2018 (22 min)
 
-[NiMARE](https://github.com/neurostuff/NiMARE) is a Python library for coordinate- and image-based meta-analysis. [Chris Gorgolewski](https://twitter.com/ChrisFiloG) wrote a [tutorial](https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare) on how to use it.
+[NiMARE](https://github.com/neurostuff/NiMARE) is a Python library for coordinate- and image-based meta-analysis. Chris Gorgolewski wrote a [tutorial](https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare) on how to use it.
 
 For coordinate based meta-analysis:
 * [brainmap](http://www.brainmap.org/) with [Sleuth](http://www.brainmap.org/software.html#Sleuth) and [GingerALE](http://www.brainmap.org/software.html#GingerALE)
@@ -718,9 +611,6 @@ Lectures showing how to use The Virtual Brain software in a clinical context
 ### Computational and Systems Neuroscience (Cosyne) 2018
 [Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
 
-### University of Michigan 2018 Training Course in fMRI
-[Here](http://leccap.engin.umich.edu/leccap/site/6gxqv9cf6nt2kt7dgkw)
-
 ### Cambridge University MRC Cognition and Brain Sciences Unit Method Seminars 2017
 [Here](http://www.mrc-cbu.cam.ac.uk/conferences/methods-day-2017/)
 
@@ -733,4 +623,15 @@ Lectures showing how to use The Virtual Brain software in a clinical context
 ### fMRIF NIMH fMRI Course - from 2014 to 2018
 [Here](https://fmrif.nimh.nih.gov/public/fmri-course/fmri-course-summer-2014)
 
-###Small test - remove me
+
+The above list is by far not exhaustive, you will be able to find more resources in the following:
+* the [Neuroimaging Informatics Tools and Resources Clearinghouse](https://www.nitrc.org/)
+* [Mariam Aly's](https://twitter.com/mariam_s_aly) [lab wiki](https://osf.io/kgd9b/wiki/home/)
+* [Jonathan Peelle's](@jpeelle) [list of resources for beignners](http://jonathanpeelle.net/mri-resources-for-beginners)
+* [Stephan Heunis](https://twitter.com/fmrwhy) has a [list](https://www.fmrwhy.com/2018/06/28/spm12-matlab-scripting-tutorial-4/) to many SPM and matlab material.
+* [https://github.com/brainhack101](https://github.com/brainhack101) also has a [collections or links](https://brainhack101.github.io/neurolinks/) to courses, data...
+* a [list](https://docs.google.com/document/d/1Wt6sZUavq4oQf4t3tpQARcajf-6i4TtHlx_lw-WJD1U/edit#heading=h.rgwbys315r9s) of Scientific Coding Resource put together by neuroconscience.
+* [Aya Ben-Yakov](@aya_ben_yakov) compiled a great list of [open-science resources](http://www.mrc-cbu.cam.ac.uk/openscience/resources/) for the CBU in Cambridge.
+* [LabHacks](https://github.com/pbeukema/LabHacks) is a list of resources for data driven neuroscientists put together by Patrick Beukema
+* a list of [open computational neuroscience resources](‏ https://github.com/asoplata/open-computational-neuroscience-resources/blob/master/README.md) put together by [Austin Soplata](https://twitter.com/austinsoplata)
+* a list of [Computational resources](https://github.com/martinagvilas/lists/blob/master/computational_resources.md) put together by [Martina Vilas](https://twitter.com/martinagvilas)
