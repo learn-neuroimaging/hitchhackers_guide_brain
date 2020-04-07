@@ -92,6 +92,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "pbellec",
+      "name": "Pierre Bellec",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1670887?v=4",
+      "profile": "http://simexp-lab.org",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
