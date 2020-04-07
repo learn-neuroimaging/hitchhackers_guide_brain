@@ -103,6 +103,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "r03ert0",
+      "name": "Roberto Toro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2310732?v=4",
+      "profile": "http://neuroanatomy.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
