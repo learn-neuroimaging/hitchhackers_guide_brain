@@ -1,58 +1,69 @@
-# reproducible neuroimaging research
+# Reproducible neuroimaging research
 
-### Reproducible neuroimaging tools
-* ReproNim is a good [site](http://www.reproducibleimaging.org/index.html) to get up to date on doing reproducible neuroimaging research.
-* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
-* [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
+## Reproducible neuroimaging tools   
+
+####Tools:   
+
+* [ReproNim](http://www.reproducibleimaging.org/index.html) - A Center for Reproducible Neuroimaging Computation (a good site to get up to date on doing reproducible neuroimaging research
+* [Code-ocean](https://codeocean.com/) - A research collaboration platform that uses docker containers to let you run your analysis online
+####Presentations:    
+
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016 (1 hr 23 min)
 * [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/) by Tara Madhyastha within Neurohackweek 2016 (48 min)
 * [Introduction to web technologies](https://neurohackademy.org/course/introduction-to-web-technologies/) by Anisha Keshavan within Neurohackademy 2018 (56 min)
 * [Neuroimaging pipelines](https://neurohackademy.org/course/neuroimaging-pipelines-2/) by Satra Ghosh within Neurohackweek 2017 (1 hr 33 min)
 * [Reproducibility in fMRI: What is the problem? 1](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-2/) by Russ Poldrack within Neurohackweek 2017 (1 hr 40 min)
-* [Reproducibility in fMRI: What is the problem? 2](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-3/) by Russ Poldrack within Neurohackweek 2017
 * [Same Data - Different Software - Different Results? Analytic Variability of Group fMRI Results](https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/116000) by Alexander Bowring (12 mins)
-* [Reproducible research pipelines](https://neurohackademy.org/course/reproducible-research-pipelines/) by Chris Gorgolewski and Satra Ghosh within Neurohackweek 2016
 * [Software pipelines for reproducible neuroimaging](https://neurohackademy.org/course/software-pipelines-for-reproducible-neuroimaging/) by Satra Ghosh and Chris Gorgolewski within Neurohackademy 2016 (1 hr 14 min)
 * [Neuroimaging Workflows & Statistics for reproducibility](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115885) by Dorota Jarecka, Satrajit Ghosh, Celia Greenwood and Jean-Baptiste Poline at OHBM (3 hr 45 min)
-* [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Yaroslav Halchenko within MIND 2018
-* [Code-ocean](https://codeocean.com/) is web based service that uses docker containers to let you run your analysis online. There is [post](https://www.fmrwhy.com/2018/10/31/reproducible-fmri-codeocean/) by [Stephan Heunis](https://twitter.com/fmrwhy) describing how he did that with an SPM pipeline.
+* [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Yaroslav Halchenko within MIND 2018 (59 min)
 
 
+####Tutorials/instructions/slides:    
 
-#### The Brain Imaging Data Structure (BIDS)
+* [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
+* [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek
+* [Reproducibility in fMRI: What is the problem? 2](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-3/) by Russ Poldrack within Neurohackweek 2017
+* [Reproducible research pipelines](https://neurohackademy.org/course/reproducible-research-pipelines/) by Chris Gorgolewski and Satra Ghosh within Neurohackweek 2016
+* [Reproducible fMRI analysis with Code Ocean](https://www.fmrwhy.com/2018/10/31/reproducible-fmri-codeocean/) by [Stephan Heunis](https://twitter.com/fmrwhy) describing how he did that with an SPM pipeline.
+
+
+## The Brain Imaging Data Structure (BIDS)
 * [The Brain Imaging Data Structure (BIDS)](https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/) presented by Chris Gorgolewski within Neurohackademy 2018 (56 min)
-* the [BIDS website](http://bids.neuroimaging.io/)
-* the [BIDS apps](https://bids-apps.neuroimaging.io/apps/)
-* the [BIDS starter kit](https://github.com/bids-standard/bids-starter-kit)
+* [BIDS website](http://bids.neuroimaging.io/) - A simple and intuitive way to organize and describe your neuroimaging and behavioral data
+* [BIDS apps](https://bids-apps.neuroimaging.io/apps/) - Portable neuroimaging pipelines that understand BIDS datasets
+* [BIDS starter kit](https://github.com/bids-standard/bids-starter-kit) - Collection of tutorials, wikis, and templates to get you started with creating BIDS compliant datasets
 
 
 ## Open-data platforms
+####Platforms to get data from:   
+
+* [OpenNeuro](https://openneuro.org/) - A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data
+* [INDI](http://fcon_1000.projects.nitrc.org/) - International Neuroimaging Data-Sharing Initiative for rawdata
+* [Neurovault](https://neurovault.org/) - A public repository of unthresholded statistical maps, parcellations, and atlases of the brain.
+* [BALSA](https://balsa.wustl.edu/) - A database for neuroimaging and neuroanatomical datasets for human and primate species.   
+* [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) - Open datasets available through LORIS projects
+* [XNAT](https://www.nitrc.org/ir/) - The NITRC Image Repository
+* [NeuroLinks](https://brainhack101.github.io/neurolinks/) - Resources for computational neuroscience
+* [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) - Wikipedia list of neuroscience databases
+* [ElectrophysiologyData](https://github.com/voytekresearch/OpenData) - Open datasets in electrophysiology
+
+####Presentations:   
+
 * [Allen Institute Data and Software](https://neurohackademy.org/course/allen-institute-data-and-software/) by Nicolas Cain within Neurohackweek 2017 (53 min)
 * [Allen Institute Datasets](https://neurohackademy.org/course/allen-institute-datasets/) by Terri Gilbert within Neurohackweek 2016 (1 hr 8min)
 * [Allen Institute RNAseq data](https://neurohackademy.org/course/allen-institute-rnaseq-data/) by Jeremy Miller within Neurohackweek 2016 (52 min)
 * [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/) by Nicolas Cain and Justin Kiggins within Neurohackademy 2018 (1 hr 42 min)
 * [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/) by Kirstie Whitaker within Neurohackweek 2016 (28 min)
 
-Some other platforms to get data from:
-* [OpenNeuro](https://openneuro.org/)
-* [INDI](http://fcon_1000.projects.nitrc.org/) for rawdata
-* [neurovault](https://neurovault.org/) for statistical maps
-* [BALSA](https://balsa.wustl.edu/)
-* [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS)
-* [XNAT](https://www.nitrc.org/ir/)
-* And there are [many](https://brainhack101.github.io/neurolinks/) other [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases)
+####Other:    
 
-If you are looking for M/EEG data there is good list of options [here](https://github.com/voytekresearch/OpenData)
-
-If you want to share data but your colleagues argue against it:
 * [Challenges to open data and how to respond](https://github.com/mozillascience/open-data-training/blob/master/Materials/Handouts/ODChallengesQI.md)
-
 
 
 ## Other tools for reproducible data-science
 * [From interactive exploration to reproducible data science: Jupyter, Binder, Travis and friends.](https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/) by Fernando Perez within Neurohackademy 2018 (1 hr 25 min)
 * [Jupyter tutorial](https://www.youtube.com/watch?v=CSkTJRNBTME&index=3&t=4s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (31 min)
-
 
 
 ## Containers
