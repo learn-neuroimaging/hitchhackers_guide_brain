@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -36,6 +36,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://www.jesparent.com"><img src="https://avatars3.githubusercontent.com/u/11603279?v=4" width="100px;" alt=""/><br /><sub><b>Jesse</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=jesparent" title="Code">💻</a> <a href="#content-jesparent" title="Content">🖋</a> <a href="#ideas-jesparent" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://jdkent.github.io/"><img src="https://avatars0.githubusercontent.com/u/12564882?v=4" width="100px;" alt=""/><br /><sub><b>James Kent</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=jdkent" title="Code">💻</a> <a href="#content-jdkent" title="Content">🖋</a> <a href="#ideas-jdkent" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
