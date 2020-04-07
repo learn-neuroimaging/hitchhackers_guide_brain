@@ -20,6 +20,8 @@ nav:
   - Statistics: "statistics.md"
   - Machine learning and Deep learning: machine_and_deep_learning.md
   - Computing: "computing.md"
-  - Analysis software: "neuroimaging_analysis_software.md"
+  - Analysis software:
+    - MRI: "analysis_software_MRI.md"
+    - MEEG: "analysis_software_MEEG.md"
   - Neuroimaging resources: "neuroimaging_resources.md"
   - Reproducible research: "reproducible_neuroimaging_research.md"
