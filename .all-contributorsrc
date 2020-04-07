@@ -125,6 +125,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "danjgale",
+      "name": "Dan Gale",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14634382?v=4",
+      "profile": "https://danjgale.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
