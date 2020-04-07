@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -33,6 +33,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://danjgale.github.io/"><img src="https://avatars1.githubusercontent.com/u/14634382?v=4" width="100px;" alt=""/><br /><sub><b>Dan Gale</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=danjgale" title="Code">💻</a> <a href="#content-danjgale" title="Content">🖋</a> <a href="#ideas-danjgale" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/manojneuro"><img src="https://avatars2.githubusercontent.com/u/26097457?v=4" width="100px;" alt=""/><br /><sub><b>manojneuro</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=manojneuro" title="Code">💻</a> <a href="#content-manojneuro" title="Content">🖋</a> <a href="#ideas-manojneuro" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://crocodoyle.ca/"><img src="https://avatars3.githubusercontent.com/u/345229?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Doyle</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=crocodoyle" title="Code">💻</a> <a href="#content-crocodoyle" title="Content">🖋</a> <a href="#ideas-crocodoyle" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.jesparent.com"><img src="https://avatars3.githubusercontent.com/u/11603279?v=4" width="100px;" alt=""/><br /><sub><b>Jesse</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=jesparent" title="Code">💻</a> <a href="#content-jesparent" title="Content">🖋</a> <a href="#ideas-jesparent" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
