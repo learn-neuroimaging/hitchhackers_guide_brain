@@ -1,0 +1,25 @@
+# Project information
+site_name: 'neuroimaging tutorials and resources'
+repo_name: 'learn-neuroimaging/tutorials-and-resources'
+repo_url: 'https://github.com/learn-neuroimaging/tutorials-and-resources'
+# docs_dir: alternative_path # docs/ is the default folder
+
+# This will use Material them
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'light blue'
+    accent: 'light blue'
+
+# Pages
+nav:
+  - Learning neuroimaging: "index.md"
+  - Programming: "programming.md"
+  - Open science: "open_science.md"
+  - Statistics: "statistics.md"
+  - Machine learning and Deep learning: machine_and_deep_learning.md
+  - Computing: "computing.md"
+  - Analysis software: "neuroimaging_analysis_software.md"
+  - Neuroimaging resources: "neuroimaging_resources.md"
+  - Reproducible research: "reproducible_neuroimaging_research.md"
