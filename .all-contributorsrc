@@ -48,6 +48,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "martinagvilas",
+      "name": "Martina G. Vilas",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37339384?v=4",
+      "profile": "http://martinagvilas.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
