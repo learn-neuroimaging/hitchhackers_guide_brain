@@ -106,7 +106,8 @@ Some other platforms to get data from:
 * [neurovault](https://neurovault.org/) for statistical maps
 * [BALSA](https://balsa.wustl.edu/)
 * [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS)
-* [XNAT](https://www.nitrc.org/ir/)
+* [NITRC-IR](https://www.nitrc.org/ir/) powered by XNAT
+* [NITRC-R](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) Data-related Projects
 * And there are [many](https://brainhack101.github.io/neurolinks/) other [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases)
 
 If you are looking for M/EEG data there is good list of options [here](https://github.com/voytekresearch/OpenData)
