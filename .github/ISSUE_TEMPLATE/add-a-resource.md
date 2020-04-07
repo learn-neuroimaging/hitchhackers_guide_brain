@@ -9,14 +9,25 @@ assignees: ''
 
 Please specify it it is:
 
-- a software:
-  - repository URL: on gtihub, gitlab... 
-  - programming language: python, matlab/octave, C...
-  - paper: 
+- software: NAME
+  - description: one line description
+  - repository URL: on gtihub, gitlab...
+  - website URL:
+  - tutorial URL :
+  - documentation:
+  - programming language: [python], [matlab/octave], [C], ...
+  - paper DOI:
   - RRID: see https://scicrunch.org/resources  
 
-- a workshop:
+- workshop:
+  - description: one line description
+  - URL:
+  - date:
+  - type: [video], [juptyer], ...
+  - level: [beginner] / [advanced]
 
-- a website:
+- website:
+  - description: one line description
 
-- a video / podcast:
+- video / podcast:
+  - description: one line description
