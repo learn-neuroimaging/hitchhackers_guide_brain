@@ -147,6 +147,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "crocodoyle",
+      "name": "Andrew Doyle",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/345229?v=4",
+      "profile": "http://crocodoyle.ca/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
