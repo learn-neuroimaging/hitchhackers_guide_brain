@@ -15,6 +15,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "katjaq",
+      "name": "katja heuer",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6297454?v=4",
+      "profile": "https://katjaq.github.io/graphy/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
