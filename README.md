@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -29,6 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://linkedin.com/in/rutgerfick"><img src="https://avatars2.githubusercontent.com/u/9418732?v=4" width="100px;" alt=""/><br /><sub><b>Rutger Fick</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=rutgerfick" title="Code">💻</a> <a href="#content-rutgerfick" title="Content">🖋</a> <a href="#ideas-rutgerfick" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://simexp-lab.org"><img src="https://avatars3.githubusercontent.com/u/1670887?v=4" width="100px;" alt=""/><br /><sub><b>Pierre Bellec</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=pbellec" title="Code">💻</a> <a href="#content-pbellec" title="Content">🖋</a> <a href="#ideas-pbellec" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://neuroanatomy.github.io"><img src="https://avatars2.githubusercontent.com/u/2310732?v=4" width="100px;" alt=""/><br /><sub><b>Roberto Toro</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=r03ert0" title="Code">💻</a> <a href="#content-r03ert0" title="Content">🖋</a> <a href="#ideas-r03ert0" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://crossinvalidation.com"><img src="https://avatars2.githubusercontent.com/u/3196357?v=4" width="100px;" alt=""/><br /><sub><b>Pradeep Reddy Raamana</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=raamana" title="Code">💻</a> <a href="#content-raamana" title="Content">🖋</a> <a href="#ideas-raamana" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
