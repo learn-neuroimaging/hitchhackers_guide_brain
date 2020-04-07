@@ -26,6 +26,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "roopa-pai",
+      "name": "Roopa Pai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33023134?v=4",
+      "profile": "https://www.linkedin.com/in/roopa-pai/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
