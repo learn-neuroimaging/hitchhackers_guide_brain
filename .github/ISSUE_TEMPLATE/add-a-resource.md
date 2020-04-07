@@ -9,7 +9,7 @@ assignees: ''
 
 Please specify it it is:
 
-- a software: NAME
+- software: NAME
   - description: one line description
   - repository URL: on gtihub, gitlab...
   - website URL:
@@ -26,6 +26,8 @@ Please specify it it is:
   - type: [video], [juptyer], ...
   - level: [beginner] / [advanced]
 
-- a website:
+- website:
+  - description: one line description
 
-- a video / podcast:
+- video / podcast:
+  - description: one line description
