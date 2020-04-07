@@ -180,6 +180,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "Lestropie",
+      "name": "Robert Smith",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5637955?v=4",
+      "profile": "http://www.mrtrix.org",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
