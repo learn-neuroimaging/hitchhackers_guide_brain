@@ -96,7 +96,7 @@
 - description:
 - URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
 - date:
-- tags:
+- tags: [software]
 - duration:
 - level:
 - event:
