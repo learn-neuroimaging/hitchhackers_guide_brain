@@ -5,7 +5,7 @@
  - URL: [part 1](https://en.coursera.org/learn/functional-mri)
   and [part 2](https://en.coursera.org/learn/functional-mri-2)
  - date:
- - tags: [video] [fMRI]
+ - tags: [video] [fMRI] [MOOC]
  - duration:
  - level: [intermediate] [meta-analysis]
  - event:
@@ -18,7 +18,7 @@
  - description:
  - URL: https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/
  - date: 2018
- - type:
+ - tags:
  - duration:
  - level: [intermediate]
  - event:
@@ -29,7 +29,7 @@
  - description:
  - URL: https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html
  - date:
- - type:
+ - tags:
  - duration:
  - level:
  - event:
@@ -40,7 +40,7 @@
  - description:
  - URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
  - date:
- - type:
+ - tags:
  - duration:
  - level:
  - event:
@@ -51,7 +51,7 @@
 - description:
 - URL: https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality
 - date:
-- type:
+- tags:
 - duration:
 - level:
 - event:
@@ -62,7 +62,7 @@
 - description:
 - URL: https://www.zotero.org/groups/2221093/niqc
 - date:
-- type:
+- tags:
 - duration:
 - level:
 - event:
@@ -73,7 +73,7 @@
 - description: MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
 - URL: https://mriqc.readthedocs.io/en/stable/
 - date:
-- type:
+- tags:
 - duration:
 - level:
 - event:
@@ -84,7 +84,7 @@
 - description: BIDS app based on the protocol of the connectome project data
 - URL: https://github.com/BIDS-Apps/QAP , http://preprocessed-connectomes-project.org/quality-assessment-protocol/
 - date:
-- type:
+- tags:
 - duration:
 - level:
 - event:
@@ -96,7 +96,7 @@
 - description:
 - URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
 - date:
-- type:
+- tags:
 - duration:
 - level:
 - event:
@@ -108,7 +108,7 @@
  - description: QA for freesurfer segmentations
  - URL: https://github.com/Qoala-T/Qoala-T
  - date:
- - type:
+ - tags:
  - duration:
  - level:
  - event:
@@ -118,7 +118,7 @@
   - description: QA for freesurfer segmentations
   - URL: https://qoala-t.shinyapps.io/qoala-t_app/
   - date:
-  - type:
+  - tags:
   - duration:
   - level:
   - event:
@@ -129,7 +129,7 @@
  - description:
  - URL: https://github.com/raamana/visualqc
  - date: 2018
- - type:
+ - tags:
  - duration:
  - level: [intermediate]
  - event:
