@@ -14,14 +14,16 @@ theme:
 
 # Pages
 nav:
-  - Learning neuroimaging: "index.md"
+  - Welcome: "index.md"
   - Programming: "programming.md"
   - Open science: "open_science.md"
+  - Open data: "open_data.md"
   - Statistics: "statistics.md"
-  - Machine learning and Deep learning: machine_and_deep_learning.md
-  - Computing: "computing.md"
   - Analysis software:
     - MRI: "analysis_software_MRI.md"
     - MEEG: "analysis_software_MEEG.md"
+  - Machine learning and Deep learning: machine_and_deep_learning.md
+  - Computing: "computing.md"
+  - learning neuroimaging: "learning_neuroimaging.md"
   - Neuroimaging resources: "neuroimaging_resources.md"
   - Reproducible research: "reproducible_neuroimaging_research.md"

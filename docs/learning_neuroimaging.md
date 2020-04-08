@@ -1,6 +1,7 @@
 
 # Neuroimaging
-*  MOOC on neuroimaging
+
+##  MOOC on neuroimaging
  - description: MOOC on neuroimaging
  - URL: [part 1](https://en.coursera.org/learn/functional-mri)
   and [part 2](https://en.coursera.org/learn/functional-mri-2)
@@ -13,8 +14,10 @@
  - by:[Tor Wager](https://twitter.com/torwager) and Martin Lindquist
 
 
-# Quality control
-* Neuroimaging quality control task force
+## Quality control
+
+### Neuroimaging quality control task force
+
  - description:
  - URL: https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/
  - date: 2018
@@ -25,7 +28,9 @@
  - reference:
  - by:
 
-* quality control on MRI and fMRI
+
+### quality control on MRI and fMRI
+
  - description:
  - URL: https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html
  - date:
@@ -36,7 +41,9 @@
  - reference:
  - by:
 
-* COBIDacq
+
+### COBIDacq
+
  - description:
  - URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
  - date:
@@ -47,7 +54,9 @@
  - reference:
  - by:
 
-* wikibook neuroimaging data processing
+
+### wikibook neuroimaging data processing
+
 - description:
 - URL: https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality
 - date:
@@ -58,7 +67,9 @@
 - reference:
 - by:
 
-* References for quality control
+
+### References for quality control
+
 - description:
 - URL: https://www.zotero.org/groups/2221093/niqc
 - date:
@@ -69,7 +80,9 @@
 - reference:
 - by:
 
-* MRIQC
+
+### MRIQC
+
 - description: MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
 - URL: https://mriqc.readthedocs.io/en/stable/
 - date:
@@ -80,7 +93,9 @@
 - reference:
 - by:
 
-* the PCP Quality Assessment Protocol
+
+### the PCP Quality Assessment Protocol
+
 - description: BIDS app based on the protocol of the connectome project data
 - URL: https://github.com/BIDS-Apps/QAP , http://preprocessed-connectomes-project.org/quality-assessment-protocol/
 - date:
@@ -91,7 +106,9 @@
 - reference:
 - by:
 
-* Scripts for quality control of diffusion data
+
+### Scripts for quality control of diffusion data
+
 (http://davidroalf.com/script_download/)
 - description:
 - URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
@@ -103,8 +120,9 @@
 - reference:
 - by:
 
-* Qoala-t
-* software
+
+### Qoala-t
+
  - description: QA for freesurfer segmentations
  - URL: https://github.com/Qoala-T/Qoala-T
  - date:
@@ -114,18 +132,20 @@
  - event:
  - reference:
  - by:
- * shinyapp
-  - description: QA for freesurfer segmentations
-  - URL: https://qoala-t.shinyapps.io/qoala-t_app/
-  - date:
-  - tags:
-  - duration:
-  - level:
-  - event:
-  - reference:
-  - by:
+ - shinyapp
+    - description: QA for freesurfer segmentations
+    - URL: https://qoala-t.shinyapps.io/qoala-t_app/
+    - date:
+    - tags:
+    - duration:
+    - level:
+    - event:
+    - reference:
+    - by:
 
-* Visual QC
+
+### Visual QC
+
  - description:
  - URL: https://github.com/raamana/visualqc
  - date: 2018
@@ -137,7 +157,8 @@
  - by:[Pradeep](https://twitter.com/raamana_)
 
 
-# Diffusion Microstructure Imaging in Python (Dmipy)
+## Diffusion Microstructure Imaging in Python (Dmipy)
+
  - description: The Dmipy software project is dedicated to fasciliting high-level, reproducible diffusion microstructure research. The Dmipy open-source repository has many examples on implementing and fitting microstructure models.
  - URL: https://github.com/AthenaEPI/dmipy
  - date: 2018
@@ -149,8 +170,10 @@
  - by:
 
 
-# Other specific topics
-* Computer Vision
+## Other specific topics
+
+### Computer Vision
+
  - description: Lecture on Computer Vision by Michael Beyeler within Neurohackademy 2018.
  - URL: https://neurohackademy.org/course/computer-vision/
  - date: 2018
@@ -160,7 +183,8 @@
  - event: Neurohackademy 2018
  - by: Michael Beyeler
 
-* Finding low-dimensional structure in large-scale neural recordings
+###  Finding low-dimensional structure in large-scale neural recordings
+
  - description:
  - URL: https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/
  - date: 2018
@@ -171,7 +195,8 @@
  - reference:
  - by: Eva Dyer
 
-* Interactive Data Visualization with D3
+### Interactive Data Visualization with D3
+
  - description:
  - URL: https://neurohackademy.org/course/interactive-data-visualization-with-d3/
  - date: 2018
@@ -182,7 +207,8 @@
  - reference:
  - by: Anisha Keshavan
 
-* Neuroethics
+### Neuroethics
+
  - description:
  - URL: https://neurohackademy.org/course/neuroethics/
  - date: 2018
@@ -193,7 +219,8 @@
  - reference:
  - by: Eran Klein
 
-* Quantitative and diffusion MRI modeling of developmental data
+### Quantitative and diffusion MRI modeling of developmental data
+
  - description:
  - URL: https://neurohackademy.org/course/quantitative-and-diffusion-mri-modeling-of-developmental-data/
  - date: 2018
@@ -205,10 +232,13 @@
  - by: by Yason Yeatman
 
 
-# Meta analysis
-* Overview_of_Meta-Analysis_Approaches
- * video
-  - description: Overview_of_Meta-Analysis_Approaches
+## Meta analysis
+
+### Overview_of_Meta-Analysis_Approaches
+
+#### video
+
+  - description: Overview of Meta Analysis Approaches
   - URL: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072
   - date: 2018
   - tags:
@@ -218,8 +248,9 @@
   - reference:
   - by: [Tom Nichols](https://twitter.com/ten_photos)
 
- * slides
-  - description: Overview_of_Meta-Analysis_Approaches
+#### slides
+
+  - description: Overview of Meta Analysis Approaches
   - URL: https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839
   - date: 2018
   - tags: [slides]
@@ -228,8 +259,9 @@
   - event: OHBM 2018
   - reference:
 
-* ALE and BrainMap
- - description: Overview_of_Meta-Analysis_Approaches
+#### ALE and BrainMap
+
+ - description: Overview of Meta Analysis Approaches
  - URL: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
  - date: 2018
  - tags: [video]
@@ -239,21 +271,21 @@
  - reference:
  - by: Simon B. Eickhoff
 
-* NiMARE
- * software
+#### NiMARE
+
   - description: NiMARE is a Python library for coordinate- and image-based meta-analysis.
   - URL: https://github.com/neurostuff/NiMARE
   - type: [software] [python] [meta-analysis]
   - level: [intermediate]
+   * tutorial
+    - URL: https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare
+    - type: [tutorial] [juptyer] [meta-analysis]
+    - level: [intermediate]
+    - by: Chris Gorgolewski
 
- * tutorial
-  - URL: https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare
-  - type: [tutorial] [juptyer] [meta-analysis]
-  - level: [intermediate]
-  - by: Chris Gorgolewski
+### coordinate based meta-analysis
 
-## coordinate based meta-analysis:
-* brainmap
+#### brainmap
  - description:
  - URL: http://www.brainmap.org/
  - date:
@@ -264,7 +296,7 @@
  - reference:
  - by:
 
-* Sleuth
+#### Sleuth
  - description:
  - URL: http://www.brainmap.org/software.html#Sleuth
  - date: 2018
@@ -275,7 +307,7 @@
  - reference:
  - by:
 
-* GingerALE
+#### GingerALE
  - description: http://www.brainmap.org/
  - URL: http://www.brainmap.org/software.html#GingerALE
  - date:
@@ -286,8 +318,9 @@
  - reference:
  - by:
 
-## image based meta-analysis:
-* IBMA
+### image based meta-analysis
+
+#### IBMA
  - description: IBMA is the Image-Based Meta-Analysis toolbox for SPM.
  - URL: https://github.com/NeuroimagingMetaAnalysis/ibma
  - date:

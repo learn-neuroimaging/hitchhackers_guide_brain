@@ -4,6 +4,7 @@
 ## Neuroimaging video series
 Either on youtube or on some other platform
 
+
 ### Neurohackademy Lectures
 Lecture series on neuroimaging and electrophysiology from the [Neurohackademy](https://neurohackademy.org/course_type/lectures/) summer school.
 
@@ -12,7 +13,6 @@ Mike Cohen's lecturelets on time series data analysis [here](https://mikexcohen.
 
 ### Mumford brainstats
 Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). The channel also has [Facebook group](https://www.facebook.com/groups/mumfordbrainstats/).
-
 
 ### Andrew Jahn
 [Here](https://www.youtube.com/user/Shala5ha5ka) for the videos with 'tutorials' for FSL, SPM, Freesurfer and AFNI amongst other things.
@@ -23,21 +23,16 @@ HCP 2019 course lecture slides can be found [here](https://store.humanconnectome
 ### Center for Brains, Minds and Machines
 [Here](https://www.youtube.com/channel/UCGoxKRfTs0jQP52cfHCyyRQ)
 
-
 ### Organization from human brain mapping (OHBM)
 The videos of the lectures and workshops from the previous HBM conferences are available online [here](https://www.pathlms.com/ohbm/courses).
-
 
 ### fMRIf summer courses from the NIH
 [Here](https://fmrif.nimh.nih.gov/public/fmri-course/)
 
-
 ### Conference on Cognitive Computational Neuroscience (CCN)
 This [conference](https://ccneuro.org/) has the videos from its first edition [here](https://ccneuro.org/2017/index.html@p=602.html)
 
-
 ### INCF
-
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
 
 ### TVB made easy
@@ -61,6 +56,7 @@ Lectures showing how to use The Virtual Brain software in a clinical context can
 
 
 The above list is by far not exhaustive, you will be able to find more resources in the following:
+
 * the [Neuroimaging Informatics Tools and Resources Clearinghouse](https://www.nitrc.org/)
 * [Mariam Aly's](https://twitter.com/mariam_s_aly) [lab wiki](https://osf.io/kgd9b/wiki/home/)
 * [Jonathan Peelle's](@jpeelle) [list of resources for beignners](http://jonathanpeelle.net/mri-resources-for-beginners)
