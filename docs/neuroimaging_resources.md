@@ -17,6 +17,8 @@ Jeanette Mumford series of videos on neuroimaging analysis on [youtube](https://
 ### Andrew Jahn
 [Here](https://www.youtube.com/user/Shala5ha5ka) for the videos with 'tutorials' for FSL, SPM, Freesurfer and AFNI amongst other things.
 
+### Exploring the Human Connectome 2019
+HCP 2019 course lecture slides can be found [here](https://store.humanconnectome.org/courses/2019/exploring-the-human-connectome.php)
 
 ### Center for Brains, Minds and Machines
 [Here](https://www.youtube.com/channel/UCGoxKRfTs0jQP52cfHCyyRQ)
@@ -39,8 +41,8 @@ This [conference](https://ccneuro.org/) has the videos from its first edition [h
 [Here](https://www.youtube.com/channel/UC6FYCVath84rVzs99Ecfxyw)
 
 ### TVB made easy
-Lectures showing how to use The Virtual Brain software in a clinical context
-[Here](https://training.incf.org/course/tvb-made-easy)
+Lectures showing how to use The Virtual Brain software in a clinical context can be found
+[here](https://training.incf.org/course/tvb-made-easy)
 
 ### Computational and Systems Neuroscience (Cosyne) 2018
 [Here](https://www.youtube.com/playlist?list=PL9YzmV9joj3FNsAV2S_cKxY8Ik_-YlQfu)
