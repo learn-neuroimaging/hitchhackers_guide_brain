@@ -26,7 +26,7 @@ If you do not feel comfortable with GitHub, simply contact us on the [~tutorial-
 
 ## Making direct contributions
 
-If this is your first time contributing to an open source, please read this very clear [tutorial](https://github.com/firstcontributions/first-contributions). You will find how to *fork* this project, *clone* your fork, make a *branch*, add modifications and create a *pull request* using command line or [GUI tools](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools).
+If this is your first time contributing to an open source project, please read this very clear [tutorial](https://github.com/firstcontributions/first-contributions). You will find how to **fork** this project, **clone** your fork, make a **branch**, add modifications and create a **pull request** using command line or [GUI tools](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools).
 
 To sum up these steps:
 

@@ -48,6 +48,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 ## Contributing
 
-We encourage you to contribute to this project! Please check out the [Contributing guide](CONTRIBUTING) for guidelines about how to proceed.
+We encourage you to contribute to this project! Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines about how to proceed.
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
