@@ -57,3 +57,6 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 ## R
 * [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016
 * [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
+
+## Introduction & Basics
+- [Beginners coureswork on programmming, algorithms, and more](Khan Academy)
