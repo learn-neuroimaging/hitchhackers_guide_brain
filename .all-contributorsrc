@@ -202,6 +202,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "dr-xenia",
+      "name": "Xenia Kobeleva",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26187290?v=4",
+      "profile": "https://github.com/dr-xenia",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
