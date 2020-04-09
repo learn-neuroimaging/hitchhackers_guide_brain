@@ -1,48 +1,97 @@
-# neuroimaging analysis software
+# Neuroimaging analysis software
 
 
-#### SPM
-* [website](https://www.fil.ion.ucl.ac.uk/spm/)
-* [manual](https://www.fil.ion.ucl.ac.uk/spm/doc/)
-* [mailing list](https://www.fil.ion.ucl.ac.uk/spm/support/)
-* [course/tutorial](http://www.fil.ion.ucl.ac.uk/spm/course/)
+- a software: [AFNI](https://afni.nimh.nih.gov/)
+    - description: A software suite primarily developed for the analysis and display of anatomical and fMRI data.
+    - repository URL:
+    - website URL: [https://afni.nimh.nih.gov/](https://afni.nimh.nih.gov/)
+    - tutorial URL: [tutorials](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html), [educational examples](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/main_toc.html)
+    - documentation: [https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
+    - programming language: [C], [python], [R], [shell]
+    - paper DOI:
+    - RRID:
+    - contact: [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
 
-#### Freesurfer
-* [website](https://surfer.nmr.mgh.harvard.edu/)
-* [manual](https://surfer.nmr.mgh.harvard.edu/fswiki)
-* [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
-* [course](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA) and [videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription)
 
-#### FSL
-* [website](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
-* [manual](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support)
-* [mailing list](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=fsl)
-* [course/tutorial](https://fsl.fmrib.ox.ac.uk/fslcourse/)
+- a software: [ANTs](http://stnava.github.io/ANTs/)
+    - description: ANTs computes high-dimensional mappings to capture the statistics of brain structure and function.
+    - repository URL: [https://github.com/ANTsX/ANTs](https://github.com/ANTsX/ANTs)
+    - website URL: [http://stnava.github.io/ANTs/](http://stnava.github.io/ANTs/)
+    - tutorial URL: [https://github.com/stnava/ANTsTutorial](https://github.com/stnava/ANTsTutorial)
+    - documentation: [https://github.com/ANTsX/ANTs](https://github.com/ANTsX/ANTs), [https://github.com/ANTsX/ANTs/wiki](https://github.com/ANTsX/ANTs/wiki)
+    - programming language:
+    - paper DOI:
+    - RRID:
+    - contact: [discussion forum](https://sourceforge.net/p/advants/discussion/)
 
-#### AFNI
-* [website](https://afni.nimh.nih.gov/)
-* [manual](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
-* [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
-* course/tutorial: Video recordings from the [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html), with slides, and [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html).
 
-#### ANTs
-* [website](http://stnava.github.io/ANTs/)
-* [manual/wiki](https://github.com/ANTsX/ANTs/wiki)
+- a software: [DIPY](https://dipy.org/)
+    - description: DIPY is a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis.
+    - repository URL: [https://github.com/dipy/dipy](https://github.com/dipy/dipy)
+    - website URL: [https://dipy.org/](https://dipy.org/)
+    - tutorial URL: [https://dipy.org/tutorials/](https://dipy.org/tutorials/)
+    - documentation:[https://dipy.org/documentation/1.1.1./documentation/](https://dipy.org/documentation/1.1.1./documentation/)
+    - programming language: [python]
+    - paper DOI: https://doi.org/10.3389/fninf.2014.00008
+    - RRID:
+    - contact: [mailing list](https://mail.python.org/mailman/listinfo/neuroimaging)
 
-#### Nipype
-Nipype is best viewed as a way to create and run software-agnostic preprocessing/analysis-pipeline. It becomes very powerful when you need to use different softwares in your analysis.
-* [website](https://nipype.readthedocs.io/en/latest/)
-* [course/tutorial](https://miykael.github.io/nipype_tutorial/)
 
-#### Dipy
-Diffusion neuroimaging in Python
-* [website](https://github.com/ohbm/hackathon2019)
+- a software: [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)
+    - description: An open source software suite for processing and analyzing (human) brain MRI images.
+    - repository URL:
+    - website URL: [https://surfer.nmr.mgh.harvard.edu/](https://surfer.nmr.mgh.harvard.edu/)
+    - tutorial URL: [tutorial](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials), [tutorial videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription), [course information](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA)
+    - documentation: [https://surfer.nmr.mgh.harvard.edu/fswiki](https://surfer.nmr.mgh.harvard.edu/fswiki)
+    - programming language:
+    - paper DOI:
+    - RRID:
+    - contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
 
-#### MRtrix3
-Advanced tools for the analysis of diffusion MRI data
-* [website](http://www.mrtrix.org/)
-* [community forum](http://community.mrtrix.org/)
-* [user documentation](https://mrtrix.readthedocs.io/en/latest/)
-* [developer documentation](http://www.mrtrix.org/developer-documentation/)
-* [manuscript preprint](https://www.biorxiv.org/content/10.1101/551739v1). Includes example code for both C++11 and Python libraries.
-* [BATMAN tutorial](https://osf.io/fkyht/). MRtrix3 tutorial available on OSF with an awesome title: B.A.T.M.A.N., the Basic and Advanced Tractography with MRtrix for All Neurophiles
+
+- a software: [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+    - description: A comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.
+    - repository URL:
+    - website URL: [https://fsl.fmrib.ox.ac.uk/fsl/fslwiki](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+    - tutorial URL: [https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support)
+    - documentation: [https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support)
+    - programming language:
+    - paper DOI:
+    - RRID:
+    - contact: [mailing list](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=fsl)
+
+
+- a software: [MRtrix3](http://www.mrtrix.org/)      
+    - description: Advanced tools for the analysis of diffusion MRI data.
+    - repository URL: [https://github.com/MRtrix3](https://github.com/MRtrix3)
+    - website URL: [http://www.mrtrix.org/](http://www.mrtrix.org/)
+    - tutorial URL: [beginner DWI tutorial](https://mrtrix.readthedocs.io/en/latest/getting_started/beginner_dwi_tutorial.html), [basic and advanced tractography with MRtrix tutorial](https://osf.io/fkyht/), [tutorial video1](https://osf.io/fkyht/), [tutorial video2](https://www.youtube.com/watch?v=lQWucXuAXR8)
+    - documentation: [user documentation](https://mrtrix.readthedocs.io/en/latest/), [developer documentation](http://www.mrtrix.org/developer-documentation/)
+    - programming language: [C++], [python]
+    - paper DOI: doi: 10.1016/j.neuroimage.2019.116137
+    - RRID:
+    - contact: [discussion forum](https://community.mrtrix.org/)
+
+
+- a software: [Nipype](https://nipype.readthedocs.io/en/latest/)
+    - description: An open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow.
+    - repository URL:
+    - website URL: [https://nipype.readthedocs.io/en/latest/](https://nipype.readthedocs.io/en/latest/)
+    - tutorial URL: [tutorial1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), [tutorial2](https://miykael.github.io/nipype_tutorial/), [examples](https://nipype.readthedocs.io/en/latest/examples.html)
+    - documentation:
+    - programming language: [python]
+    - paper DOI:
+    - RRID:
+    - contact:
+
+
+- a software: [SPM](https://www.fil.ion.ucl.ac.uk/spm/)
+    - description: Software package for the analysis of brain imaging data sequences (fMRI, PET, SPECT, EEG and MEG).
+    - repository URL:
+    - website URL: [https://www.fil.ion.ucl.ac.uk/spm/](https://www.fil.ion.ucl.ac.uk/spm/)
+    - tutorial URL: [http://www.fil.ion.ucl.ac.uk/spm/course/](http://www.fil.ion.ucl.ac.uk/spm/course/)
+    - documentation: [https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf](https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
+    - programming language: [matlab]
+    - paper DOI:
+    - RRID:
+    - contact: [mailing list](https://www.fil.ion.ucl.ac.uk/spm/support/)
