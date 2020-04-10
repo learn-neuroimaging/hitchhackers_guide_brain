@@ -5,6 +5,7 @@
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
 # Welcome !
+
 ## Introduction
 
 This website is full of links and resources for all your neuro-needs!
@@ -13,9 +14,12 @@ https://learn-neuroimaging.github.io/tutorials-and-resources
 
 We currently use mkdocs for our website. The "docs" directory contains ".md" pages containing domain-specific links to resources.
 
-# A list of tutorials and other resources useful for open science and neuroimaging
+## How to add a resource and contribute
+See our contributing [guidelines](.CONTRIBUTING.md)
 
-Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channels/tutorial-and-resources" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
+## Get in touch
+
+Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channels/tutorial-and-resources" target="blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
 
 ## Contributors ✨
 

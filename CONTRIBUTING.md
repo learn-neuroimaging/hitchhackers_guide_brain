@@ -1,6 +1,6 @@
 # Contributing to this repo
 
-There are many ways in which to contribute to the ongoing improvement of this list of tutorials and other resources useful for open science and neuroimaging.
+There are many ways in which to contribute to the ongoing improvement of this list of tutorials and other resources useful for open science and neuroimaging, EEG and MEG.
 
 
 
