@@ -29,12 +29,21 @@ They are divided in sub-sections depending on the language they use.
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
 ### pyMVPA
-Intended to ease statistical learning analyses of large datasets.
 
--   [website](http://www.pymvpa.org/)
--   [github](https://github.com/PyMVPA/PyMVPA)
--   [manual](http://www.pymvpa.org/docoverview.html)
--   [course/tutorial](http://www.pymvpa.org/tutorial.html)
+??? example "pyMVPA - Intended to ease statistical learning analyses of large datasets."
+    - [code repository](https://github.com/PyMVPA/PyMVPA)
+    - [website](http://www.pymvpa.org/)
+    - [documentation](http://www.pymvpa.org/docoverview.html)
+    - programming language: [python]
+    - tags:
+    - [paper]
+    - RRID:SCR_006099
+    - tutorial:
+        - [URL](http://www.pymvpa.org/tutorial.html)
+        - level: [beginner]
+        - type: [notebook]
+
+
 
 ### nilearn
 Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.
