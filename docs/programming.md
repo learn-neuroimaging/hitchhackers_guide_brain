@@ -29,12 +29,12 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 ## Python
 ### Introduction
-* [A whirlwind tour of python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas
-* [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) within Brainhack Americas (45 min)
-* [Introduction to Python](https://neurohackademy.org/course/introduction-to-python/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 16 min)
-* [Python programming](https://neurohackademy.org/course/python-programming/) by Valentina Staneva within Neurohackweek 2016
-* [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min)
-* [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min)
+* [A whirlwind tour of python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas 2016 (full text of his free O'Reilly book; link to GitHub with Jupyter Notebooks, Python3)
+* [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) by Chris Gorgolewski within Brainhack Americas 2015 (45 min, Python2, screen shared live coding in Ipython Notebook)
+* [Introduction to Python](https://neurohackademy.org/course/introduction-to-python/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 16 min, lecture with code slides and live coding)
+* [Python programming](https://neurohackademy.org/course/python-programming/) by Valentina Staneva within Neurohackweek 2016 (course material & code shared)
+* [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min, lecture with code slides and live coding)
+* [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min, lecture)
 * [An introduction to Python!](https://cogs18.github.io/intro/) is course made by Thomas Donoghue
 
 ### Specific topics
