@@ -9,6 +9,7 @@
 * [Machine learning with scikit-learn 2](https://neurohackademy.org/course/machine-learning-with-scikit-learn-2/) by Jake Vanderplas within Neurohackweek 2017 [Video, ca. 80 mins]
 * [Machine learning with scikit-learn 3](https://neurohackademy.org/course/machine-learning-with-scikit-learn-3/)  by Jake Vanderplas within Neurohackademy  [Video, ca. 140 mins]
 * [Deep learning and machine learing tutorials](https://github.com/brainhack101/introML) from the Montreal Artificial Intelligence and Neuroscience conference, Montreal 2018 by many authors. [Jupyter notebook, 2 days]
+* [TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners](https://www.youtube.com/watch?time_continue=13&v=tPYj3fFJGjk) by Tim Ruscica (Tech with Tim) [Video, 7 hrs]
 
 ### Neuroimaging-related
 
