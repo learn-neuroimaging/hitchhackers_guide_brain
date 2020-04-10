@@ -2,12 +2,12 @@
 
 The following list has been shamelessly taken from the excellent repo [Open Software for Human Electrophysiology](https://github.com/voytekresearch/OpenTools). Do check it out as it also includes plugins that are not listed here.
 
-#### General Purpose Tools
+## General Purpose Tools
 
 The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures.
 
 
-##### MNE
+### MNE
 
 - [MNE](http://martinos.org/mne/stable/index.html) - Open-source Python software for exploring, visualizing, and analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, and more.
 - repository URL: [Github](https://github.com/mne-tools/mne-python)
@@ -20,7 +20,7 @@ The following are general purpose platforms, with functionality including: loadi
 - contact: [mailing list](https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis)
 
 
-##### Wonambi
+### Wonambi
 
 - [Wonambi](https://wonambi-python.github.io) - A general purpose tool for processing, analyzing and visualizing EEG, ECoG and other electrophysiology formats data, including specific tools focused on sleep scoring and analysis.
 - repository URL: [Github](https://github.com/wonambi-python/wonambi)
@@ -33,7 +33,7 @@ The following are general purpose platforms, with functionality including: loadi
 - contact:
 
 
-##### NeuroKit
+### NeuroKit
 
 - [NeuroKit](http://neurokit.readthedocs.io/en/latest/) - A python toolbox for statistics and neurophysiological signal processing (EEG, EDA, ECG, EMG...).
 - repository URL: [Github](https://github.com/neuropsychology/NeuroKit.py)
@@ -46,7 +46,7 @@ The following are general purpose platforms, with functionality including: loadi
 - contact:
 
 
-##### FieldTrip
+### FieldTrip
 
 - [FieldTrip](http://www.fieldtriptoolbox.org) - A general purpose tool for processing, analyzing and visualizing toolbox for MEG, EEG, iEEG and NIRS data.
 - repository URL: [Github](https://github.com/fieldtrip/fieldtrip)
@@ -59,7 +59,7 @@ The following are general purpose platforms, with functionality including: loadi
 - contact: [mailing list](http://www.fieldtriptoolbox.org/discussion_list/)
 
 
-##### BrainStorm
+### BrainStorm
 
 - [BrainStorm](https://neuroimage.usc.edu/brainstorm/) - A collaborative, open-source application dedicated to the analysis of brain recordings:
 MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
@@ -73,7 +73,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact: [discussion forum](https://neuroimage.usc.edu/forums/)
 
 
-##### EEGLab
+### EEGLab
 
 - [EEGLab](https://sccn.ucsd.edu/eeglab/index.php) - A general purpose tool for processing, analyzing and visualizing EEG data.
 - repository URL:
@@ -86,7 +86,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact: [mailing list](https://sccn.ucsd.edu/contact/mailinglists.php)
 
 
-##### SPM
+### SPM
 
 - [SPM](https://www.fil.ion.ucl.ac.uk/spm/) - A general purpose toolbox for neuroimaging, that includes support for processing M/EEG data.
 - repository URL:
@@ -99,7 +99,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### NutMEG
+### NutMEG
 
 - [NutMEG](https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage) - A general purpose tool for processing, analyzing and visualizing MEG data.
 - repository URL: [Github](https://github.com/UCSFBiomagneticImagingLab/nutmeg)
@@ -112,7 +112,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### EEGUtils
+### EEGUtils
 
 - [EEGUtils](https://craddm.github.io/eegUtils/) - A general purpose tool for processing, analyzing and visualizing EEG data.
 - repository URL: [Github](https://github.com/craddm/eegUtils)
@@ -125,7 +125,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### EEG.jl
+### EEG.jl
 
 - [EEG.jl](https://eegjl.readthedocs.io/en/latest/) - An EEG processing library.
 - repository URL: [Github](https://github.com/rob-luke/EEG.jl)
@@ -138,7 +138,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### CarTool
+### CarTool
 
 - [CarTool](https://sites.google.com/site/cartoolcommunity/) - An EEG analysis toolbox.
 - repository URL:
@@ -150,10 +150,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - RRID:
 - contact: [discussion forum](https://sites.google.com/site/cartoolcommunity/forum)
 
-#### Standalone Tools - Specific Purposes
+## Standalone Tools - Specific Purposes
 
 
-##### NeuroDSP
+### NeuroDSP
 
 - [NeuroDSP](https://neurodsp-tools.github.io/neurodsp/index.html) - A package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.
 - repository URL: [Github](https://github.com/voytekresearch/neurodsp)
@@ -166,7 +166,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### FOOOF
+### FOOOF
 
 - [FOOOF](https://fooof-tools.github.io/fooof/index.html) - A package for parameterizing neural power spectra.
 - repository URL: [Github](https://github.com/voytekresearch/fooof)
@@ -179,7 +179,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### Spectral Connectivity
+### Spectral Connectivity
 
 - [Spectral Connectivity](http://spectral-connectivity.readthedocs.io/en/latest/index.html) - A package including a group of functional connectivity and coherence related measures.
 - repository URL: [Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
@@ -192,7 +192,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### pactools
+### pactools
 
 - [pactools](https://pactools.github.io) - Provides tools to estimate phase-amplitude coupling (PAC) in neural time series.
 - repository URL: [Github](https://github.com/pactools/pactools)
@@ -205,7 +205,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### Tensor PAC
+### Tensor PAC
 
 - [Tensor PAC](https://etiennecmb.github.io/tensorpac/) - A tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.
 - repository URL: [Github](https://github.com/EtienneCmb/tensorpac)
@@ -218,7 +218,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact: [chat](https://etiennecmb.github.io/tensorpac/community.html#chat)
 
 
-##### PyEEG
+### PyEEG
 
 - [PyEEG](https://github.com/forrestbao/pyeeg) - A Python module with many functions for time series analysis, including brain physiological signals.
 - repository URL: [Github](https://github.com/forrestbao/pyeeg)
@@ -231,7 +231,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### ECoGTools
+### ECoGTools
 
 - [ECoGTools](https://github.com/choldgraf/ecogtools) - A collection of tools for analyzing ECoG data.
 - repository URL: [Github](https://github.com/choldgraf/ecogtools)
@@ -244,7 +244,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### restingIAF
+### restingIAF
 
 - [restingIAF](https://github.com/corcorana/restingIAF) - A tool for estimating the peak individual alpha frequency.
 - repository URL: [Github](https://github.com/corcorana/restingIAF)
@@ -257,7 +257,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### Phase Opposition Code
+### Phase Opposition Code
 
 - [Phase Opposition Code](http://www.cerco.ups-tlse.fr/~rufin/PhaseOppositionCode/) - A collection of functions for calculating phase opposition measures.
 - repository URL:
@@ -270,7 +270,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### ADAM - Amsterdam Decoding and Modeling Toolbox
+### ADAM - Amsterdam Decoding and Modeling Toolbox
 
 - [ADAM](https://github.com/fahrenfort/ADAM) - An open source Matlab Toolbox that allows you to perform multivariate analyses on your M/EEG data using BDM and FEM.
 - repository URL: [Github](https://github.com/fahrenfort/ADAM)
@@ -283,7 +283,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### HERMES
+### HERMES
 
 - [HERMES](http://hermes.ctb.upm.es) - A tool for estimating connectivity measures between M/EEG signals.
 - repository URL: [Github](https://github.com/guiomar/HERMES)
@@ -296,7 +296,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact: [http://hermes.ctb.upm.es/contact/](http://hermes.ctb.upm.es/contact/)
 
 
-##### SEREEGA - Simualating Event-Related EEG Activity
+### SEREEGA - Simualating Event-Related EEG Activity
 
 - [SEREEGA](https://github.com/lrkrol/SEREEGA) - A package for simulating synthetic data that mimic event-related EEG activity.
 - repository URL: [Github](https://github.com/lrkrol/SEREEGA)
@@ -309,7 +309,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### UNFOLD
+### UNFOLD
 
 - [Unfold](https://www.unfoldtoolbox.org) - A tool for deconvolving overlapping EEG signals and for non-linear modelling.
 - repository URL: [Github](https://github.com/unfoldtoolbox/unfold)
@@ -322,7 +322,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### ept-TFCE
+### ept-TFCE
 
 - [ept-TFCE](https://github.com/Mensen/ept_TFCE-matlab) - A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.
 - repository URL: [Github](https://github.com/Mensen/ept_TFCE-matlab)
@@ -335,7 +335,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### ERP Reliability Analysis (ERA)
+### ERP Reliability Analysis (ERA)
 
 - [ERP Reliability Analysis (ERA)](http://peterclayson.com/era-toolbox/) - The ERA toolbox is an open-source Matlab program that uses generalizability theory to evaluate the reliability of ERP data.
 - repository URL: [Github](https://github.com/peclayson/ERA_Toolbox)
@@ -348,7 +348,7 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 - contact:
 
 
-##### OPENMEEG
+### OPENMEEG
 
 * [OpenMEEG](http://openmeeg.github.io) -  A package for solving forward problems for EEG & MEG data.
 * repository URL: [Github](https://github.com/openmeeg/openmeeg)
