@@ -27,16 +27,3 @@ Many of those templates use some [MKDOCS Material extensions](https://squidfunk.
 ## RRID
 
 For softwares and databases search if they have an research resource identifier ([RRID](https://scicrunch.org/resources)) associated with it and add it where necessary.
-
-
-
-
-```
-- workshop:
- - description: one line description
- - URL:
- - date:
- - type: [video], [juptyer], ...
- - duration: HH:MM
- - level: [beginner] / [advanced]
-```
