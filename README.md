@@ -9,6 +9,8 @@
 
 This website is full of links and resources for all your neuro-needs!
 
+https://learn-neuroimaging.github.io/tutorials-and-resources
+
 We currently use mkdocs for our website. The "docs" directory contains ".md" pages containing domain-specific links to resources.
 
 # A list of tutorials and other resources useful for open science and neuroimaging
