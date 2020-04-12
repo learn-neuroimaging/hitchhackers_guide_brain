@@ -1,10 +1,10 @@
-# course / workshop / tutorial
+# video / video series
 
-??? example "insert course / workshop / tutorial name - insert short description"
+??? example "insert video / video series name - insert short description"
     - [URL]( insert URL )
     - programming language: [python], [matlab/octave], [C], ...
     - level: [beginner] / [intermediate] / [advanced]
-    - tags: [MOOC] [tutorial] [course] [workshop] [notebook] [video] [fMRI]
+    - tags: [video] [fMRI]
     - date:
     - duration: HH:MM
     - by: John Doe and Jane Doe

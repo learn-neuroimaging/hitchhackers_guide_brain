@@ -13,15 +13,16 @@ Many of those templates use some [MKDOCS Material extensions](https://squidfunk.
 ## Templates list
 
 - [software](./software_template.md)
+- [course / workshop / tutorial](./tutorial_template.md)
+- [website / podcast](./website_template.md)
+- [video / series](./video_template.md)
 - database
-- [course](./course_template.md)
-- [tutorial](./tutorial_template.md)
-- website
-- podcast
-- video
-- slides
+- paper / slides / poster
+
 
 ## Tags list
+
+[video] [notebook] [fMRI] [MOOC] [machine learning] [summer school] [meta-analysis] [nipype] [course] [blog] [website] [tutorial] [software] [slides] [EEG] [MEG] [pipeline] [tractography]
 
 
 ## RRID
