@@ -3,6 +3,7 @@
 When planning your study, here are some things you might want to consider:
 
 [PLANNING YOUR STUDY]
+Resources currently collected [here](/docs/reproducible_neuroimaging_research.md# Reproducible neuroimaging research)
     [Reusing data]
     [Defining your terms and your task]
     [Ontologies]

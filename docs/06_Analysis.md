@@ -3,9 +3,10 @@
 Once your data has been processed, you probably want to analyze it.
 
 ## Statistics
+Resources [here](/docs/statistics.md# Statistics).
 
-## Machine learning application
-
+## Machine learning applications
+Resources [here](/docs/machine_and_deep_learning.md# Machine learning and deep learning)
 
 [general linear model]
 [Model selection]

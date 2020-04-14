@@ -1,4 +1,4 @@
-# statistics
+# Statistics
 
 * [P-values and reproducibility issues](https://neurohackademy.org/course/p-values-and-reproducibility-issues/) by JB Poline within Neurohackademy 2018 (1 hr 1 min)
 * [The evil p value](https://neurohackademy.org/course/the-evil-p-value/) by JB Poline within Neurohackweek 2017 (1 hr 2 min)

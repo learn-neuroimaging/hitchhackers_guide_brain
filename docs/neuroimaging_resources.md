@@ -1,4 +1,4 @@
-# neuroimaging resources
+# Neuroimaging resources
 
 
 ## Neuroimaging video series

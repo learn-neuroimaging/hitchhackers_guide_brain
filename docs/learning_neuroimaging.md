@@ -1,4 +1,3 @@
-
 # Neuroimaging
 
 ##  MOOC on neuroimaging

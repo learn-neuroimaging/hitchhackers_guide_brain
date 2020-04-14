@@ -1,4 +1,4 @@
-# programming
+# Programming
 
 ## Documenting projects and code
 * [Write a great project ReadMe](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
