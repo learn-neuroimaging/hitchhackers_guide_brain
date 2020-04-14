@@ -10,6 +10,8 @@ If you are interested in processing a specific type of data, you can refer to th
 * T1w
 * T2w
 * DTI
+* Laminar and high-resolution MRI
+
 #### functional MRI
 * resting state fMRI
 * task-related fMRI
@@ -18,3 +20,7 @@ If you are interested in processing a specific type of data, you can refer to th
 
 ## Multi-modal Processing
 Some processing pipelines require multiple types of data. Pipelines requiring multimodal data can be found [here].
+
+### Meta analysis
+
+### Modeling / Computational neuroscience
