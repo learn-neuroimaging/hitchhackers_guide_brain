@@ -6,4 +6,4 @@ General resources.
 
 
 ## Miscellaneous
-[Podcasts]
+* [Podcasts]
