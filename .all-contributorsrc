@@ -213,6 +213,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "dfsp-spirit",
+      "name": "Tim Schäfer",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1061893?v=4",
+      "profile": "http://rcmd.org/ts/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
