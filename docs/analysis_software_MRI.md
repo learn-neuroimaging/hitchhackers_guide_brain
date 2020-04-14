@@ -1,7 +1,7 @@
 # Neuroimaging analysis software for MRI
 
 
-##### AFNI
+## AFNI
 
 - [AFNI](https://afni.nimh.nih.gov/) - A software suite primarily developed for the analysis and display of anatomical and fMRI data.
 - repository URL:
@@ -14,7 +14,7 @@
 - contact: [mailing list](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
 
 
-##### ANTs
+## ANTs
 - [ANTs](http://stnava.github.io/ANTs/) - ANTs computes high-dimensional mappings to capture the statistics of brain structure and function.
 - repository URL: [Github](https://github.com/ANTsX/ANTs)
 - website URL: [http://stnava.github.io/ANTs/](http://stnava.github.io/ANTs/)
@@ -26,19 +26,19 @@
 - contact: [discussion forum](https://sourceforge.net/p/advants/discussion/)
 
 
-##### BrainSuite
+## BrainSuite
 
 - [BrainSuite](http://brainsuite.org/) -  A collection of open source software tools that enable largely automated processing of MRI of the human brain.
 - repository URL:
 - website URL: [http://brainsuite.org/](http://brainsuite.org/)
 - tutorial URL: [http://brainsuite.org/tutorials/](http://brainsuite.org/tutorials/)
 - documentation:
-- programming language: 
+- programming language:
 - paper DOI:
 - RRID:
 - contact: [discussion forum](http://forums.brainsuite.org/)
 
-##### DIPY
+## DIPY
 
 - [DIPY](https://dipy.org/) - DIPY is a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis.
 - repository URL: [Github](https://github.com/dipy/dipy)
@@ -51,7 +51,7 @@
 - contact: [mailing list](https://mail.python.org/mailman/listinfo/neuroimaging)
 
 
-##### fMRIPrep
+## fMRIPrep
 
 - [fMRIPrep](https://fmriprep.readthedocs.io/en/stable/) - A Robust Preprocessing Pipeline for fMRI Data
 - repository URL: [Github](https://github.com/poldracklab/fmriprep)
@@ -64,7 +64,7 @@
 - contact:
 
 
-##### FreeSurfer
+## FreeSurfer
 
 - [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) - An open source software suite for processing and analyzing (human) brain MRI images.
 - repository URL:
@@ -77,7 +77,7 @@
 - contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
 
 
-##### FSL
+## FSL
 
 - [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) - A comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.
 - repository URL:
@@ -90,7 +90,7 @@
 - contact: [mailing list](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=fsl)
 
 
-##### MRTrix3
+## MRTrix3
 - [MRtrix3](http://www.mrtrix.org/) - Advanced tools for the analysis of diffusion MRI data.
 - repository URL: [Github](https://github.com/MRtrix3)
 - website URL: [http://www.mrtrix.org/](http://www.mrtrix.org/)
@@ -102,7 +102,7 @@
 - contact: [discussion forum](https://community.mrtrix.org/)
 
 
-##### Nipype
+## Nipype
 
 - [Nipype](https://nipype.readthedocs.io/en/latest/) - An open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow.
 - repository URL: [Github](https://github.com/nipy/nipype)
@@ -115,7 +115,7 @@
 - contact: [chat](https://gitter.im/nipy/nipype)
 
 
-##### SPM
+## SPM
 
 - [SPM](https://www.fil.ion.ucl.ac.uk/spm/)- Software package for the analysis of brain imaging data sequences (fMRI, PET, SPECT, EEG and MEG).
 - repository URL:
