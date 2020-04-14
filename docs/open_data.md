@@ -9,5 +9,3 @@ The [Autism Brain Imaging Data Exchange (ABIDE)](http://fcon_1000.projects.nitrc
 
 ## EBRAINS
 Search for human & non-human datasets matching specific criteria [here](https://ebrains.eu/).
-
-
