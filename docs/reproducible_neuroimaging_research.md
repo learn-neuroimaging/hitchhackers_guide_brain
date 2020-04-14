@@ -4,13 +4,13 @@
 ## Reproducible neuroimaging tools
 
 
-#### Tools   
+### Tools   
 
 * [ReproNim](http://www.reproducibleimaging.org/index.html) - A Center for Reproducible Neuroimaging Computation (a good site to get up to date on doing reproducible neuroimaging research)
 * [Code-ocean](https://codeocean.com/) - A research collaboration platform that uses docker containers to let you run your analysis online
 
 
-#### Presentations
+### Presentations
 
 * [Improving the Reproducibility of Neuroimaging Research](https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/) by Russ Poldrack within Neurohackweek 2016
     - duration: 1 hr 23 min
@@ -41,7 +41,7 @@
     - type: [video]
 
 
-#### Tutorials/instructions/slides    
+### Tutorials/instructions/slides    
 
 * [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/) by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
 * [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris Gorgolewski within Neurohackweek

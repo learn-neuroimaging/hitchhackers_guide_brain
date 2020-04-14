@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -8,6 +8,8 @@
 ## Introduction
 
 This website is full of links and resources for all your neuro-needs!
+
+https://learn-neuroimaging.github.io/tutorials-and-resources
 
 We currently use mkdocs for our website. The "docs" directory contains ".md" pages containing domain-specific links to resources.
 
@@ -46,6 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jdkent.github.io/"><img src="https://avatars0.githubusercontent.com/u/12564882?v=4" width="100px;" alt=""/><br /><sub><b>James Kent</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=jdkent" title="Code">💻</a> <a href="#content-jdkent" title="Content">🖋</a> <a href="#ideas-jdkent" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://avakiai.com"><img src="https://avatars2.githubusercontent.com/u/30446919?v=4" width="100px;" alt=""/><br /><sub><b>Ava</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=avakiai" title="Code">💻</a> <a href="#content-avakiai" title="Content">🖋</a> <a href="#ideas-avakiai" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.mrtrix.org"><img src="https://avatars2.githubusercontent.com/u/5637955?v=4" width="100px;" alt=""/><br /><sub><b>Robert Smith</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=Lestropie" title="Code">💻</a> <a href="#content-Lestropie" title="Content">🖋</a> <a href="#ideas-Lestropie" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/dr-xenia"><img src="https://avatars2.githubusercontent.com/u/26187290?v=4" width="100px;" alt=""/><br /><sub><b>Xenia Kobeleva</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=dr-xenia" title="Code">💻</a> <a href="#content-dr-xenia" title="Content">🖋</a> <a href="#ideas-dr-xenia" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
@@ -53,4 +56,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Contributing
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. We encourage you to contribute to this project! Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines about how to proceed. Contributions of any kind are welcome!
