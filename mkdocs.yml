@@ -36,7 +36,7 @@ nav:
   - Analysis:
     - About: "06_Analysis.md"
     - Statistics: "statistics.md"
-    - Machine learning and Deep learning: machine_and_deep_learning.md
+    - Machine learning and Deep learning: "machine_and_deep_learning.md"
   - Reporting methods and results:
     - About: "07_Reporting-methods-and-results.md"
   - Sharing data, code and results:
