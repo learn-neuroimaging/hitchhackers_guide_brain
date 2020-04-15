@@ -15,23 +15,31 @@ theme:
 # Pages
 nav:
   - Welcome: "index.md"
-  - Before you start: "01_Before-you-start.md"
+  - Before you start:
+    - About: "01_Before-you-start.md"
     - Programming: "programming.md"
-  - Planning your study: "02_Planning-your-study.md"
+  - Planning your study:
+      - About: "02_Planning-your-study.md"
       - Reproducible research: "reproducible_neuroimaging_research.md"
-  - Getting data: "03_Getting-data.md"
-      - Open data: "open_data.md"
-  - Processing: "04_Processing.md"
+  - Getting data:
+    - About: "03_Getting-data.md"
+    - Open data: "open_data.md"
+  - Processing:
+    - About: "04_Processing.md"
     - Computing: "computing.md"
     - MRI: "analysis_software_MRI.md"
     - MEEG: "analysis_software_MEEG.md"
     - Learning neuroimaging: "learning_neuroimaging.md"
     - Neuroimaging resources: "neuroimaging_resources.md"
-  - Quality control: "05_Quality-control.md"
-  - Analysis: "06_Analysis.md"
+  - Quality control:
+    - About: "05_Quality-control.md"
+  - Analysis:
+    - About: "06_Analysis.md"
     - Statistics: "statistics.md"
     - Machine learning and Deep learning: machine_and_deep_learning.md
-  - Reporting methods and results: "07_Reporting-methods-and-results.md"
-  - Sharing data, code and results: "08_Sharing-data-code-and-results.md"
+  - Reporting methods and results:
+    - About: "07_Reporting-methods-and-results.md"
+  - Sharing data, code and results:
+    - About: "08_Sharing-data-code-and-results.md"
     - Open science: "open_science.md"
   - Appendix: "99_Appendix.md"
