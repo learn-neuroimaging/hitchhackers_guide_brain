@@ -35,7 +35,7 @@ nav:
     - About: "05_Analysis.md"
     - Statistics: "statistics.md"
     - Machine learning and Deep learning: "machine_and_deep_learning.md"
-    - Quality control:
+  - Quality control:
       - About: "06_Quality-control.md"
   - Reporting methods and results:
     - About: "07_Reporting-methods-and-results.md"
