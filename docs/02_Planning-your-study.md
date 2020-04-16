@@ -1,5 +1,6 @@
 #Planning your study
 <!--
+
 When planning your study, here are some things you might want to consider:
 
 * [PLANNING YOUR STUDY]
@@ -25,4 +26,5 @@ When planning your study, here are some things you might want to consider:
  * [expyriment]
  * [psychtoolbox]
 * [Existing protocols]
+
 -->

@@ -1,4 +1,5 @@
 # Before you start
+
 <!--
 Before you start your study, here are some things you might want to consider:
 
@@ -13,4 +14,4 @@ Before you start your study, here are some things you might want to consider:
     * [BIDS]
     * [Datalad]
     * [Documentation]
-    -->
+-->

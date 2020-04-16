@@ -8,6 +8,8 @@ Resources currently [here](statistics.md#Statistics).
 ## Machine learning applications
 Resources currently [here](machine_and_deep_learning.md#Machine-learning-and-deep-learning)
 
+<!--
+
 * [general linear model]
 * [Model selection]
 * [Multivariate analysis]
@@ -16,3 +18,5 @@ Resources currently [here](machine_and_deep_learning.md#Machine-learning-and-dee
 * [Statistical inferences and multiple comparison correction]
 * [Encoding models]
 * [Robustness checks]
+
+-->
