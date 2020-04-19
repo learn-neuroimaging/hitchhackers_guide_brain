@@ -1,11 +1,4 @@
----
-name: Add a website / blog
-about: Add a website or blog or podcast to this repository
-title: ''
-labels: ''
-assignees: ''
-
----
+# website / blog / podcast
 
 ??? example "insert website name - insert short description"
     -   [URL]( insert URL )

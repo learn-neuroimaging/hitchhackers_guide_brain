@@ -1,11 +1,4 @@
----
-name: Add a video / video series
-about: Add a video / video series to this repository
-title: ''
-labels: ''
-assignees: ''
-
----
+# video / video series
 
 ??? example "insert video / video series name - insert short description"
     -   [URL]( insert URL )

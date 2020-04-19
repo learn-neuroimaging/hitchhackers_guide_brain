@@ -8,9 +8,9 @@ There are many ways in which to contribute to the ongoing improvement of this li
 
 You have two ways for asking questions or reporting an issue:
 
-- Join the [Brainhack Mattermost Team](https://mattermost.brainhack.org/): there is a dedicated channel called [~tutorial-and-resources](https://mattermost.brainhack.org/brainhack/channels/tutorial-and-resources) where you can contact us.
+-   Join the [Brainhack Mattermost Team](https://mattermost.brainhack.org/): there is a dedicated channel called [~tutorial-and-resources](https://mattermost.brainhack.org/brainhack/channels/tutorial-and-resources) where you can contact us.
 
-- [Open an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/).
+-   [Open an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/).
 
 
 
@@ -30,32 +30,32 @@ If this is your first time contributing to an open source project, please read t
 
 To sum up these steps:
 
-- Go to https://github.com/learn-neuroimaging/tutorials-and-resources and click
+-   Go to the [repository](https://github.com/learn-neuroimaging/tutorials-and-resources) and click
   the "Fork" button to create your own copy of the project.
 
-- Clone the project to your local computer:
+-   Clone the project to your local computer:
 ```
 git clone git@github.com:<username>/tutorials-and-resources.git
 ```
 where `<username>` is your GitHub username.
 
-- Create a branch for the feature you want to work on. Since the branch name
+-   Create a branch for the feature you want to work on. Since the branch name
   will appear on the pull request, use a meaningful name:
 ```
 git checkout -b <branch_name>
 ```
 (e.g. `git checkout -b fix_title`)
 
-- Commit locally as you progress (`git add` and `git commit`)
+-   Commit locally as you progress (`git add` and `git commit`)
 
-- To push your changes to your fork on GitHub, type:
+-   To push your changes to your fork on GitHub, type:
 ```
 git push origin <branch_name>
 ```
 
-- Go to GitHub. The new branch will show up with a green Pull Request button. Simply click it.
+-   Go to GitHub. The new branch will show up with a green Pull Request button. Simply click it.
 
-- You pull request will be under review. A friendly discussion with the reviewer(s) will be done in order to improve the quality of your contribution if needed. If so, update your pull request until your changes are pushed up. The pull request will update automatically and will finally be merged by the reviewer(s).
+-   You pull request will be under review. A friendly discussion with the reviewer(s) will be done in order to improve the quality of your contribution if needed. If so, update your pull request until your changes are pushed up. The pull request will update automatically and will finally be merged by the reviewer(s).
 
 
 
@@ -78,6 +78,7 @@ pip install -r pip-requirements.txt
 (If you are working on your *fork*, simply replace `https://github.com/learn-neuroimaging/tutorials-and-resources.git` by `git clone git@github.com:<username>/tutorials-and-resources.git` where
 `<username>` is your GitHub username)
 
+-   Finally, open up `http://127.0.0.1:8000/` in your browser, and you should see the default home page being displayed.
 - Once done, you need to run MkDocs. Simply type:
 ```
 mkdocs serve
@@ -88,6 +89,7 @@ mkdocs serve
 
 <!--## License
 By contributing, you agree that your contributions will be licensed under its
+*LICENSE* License.
 _<LICENSE>_ License.-->
 
 
