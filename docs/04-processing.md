@@ -14,14 +14,14 @@ If you are interested in processing a specific type of data, you can refer to th
 Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-software-for-MRI)
 
 #### structural
--  T1w
--  T2w
--  DTI
--  Laminar and high-resolution MRI
+-   T1w
+-   T2w
+-   DTI
+-   Laminar and high-resolution MRI
 
 #### functional MRI
--  resting state fMRI
--  task-related fMRI
+-   resting state fMRI
+-   task-related fMRI
 
 ### EEG
 
@@ -29,7 +29,9 @@ Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-softwa
 Resources currently [here](analysis_software_MEEG.md#Neuroimaging-analysis-software-for-MEEG).
 
 ## Multi-modal Processing
-Some processing pipelines require multiple types of data. Pipelines requiring multimodal data can be found [here].
+Some processing pipelines require multiple types of data.
+
+<!-- Pipelines requiring multimodal data can be found [here](). -->
 
 ### Meta analysis
 
