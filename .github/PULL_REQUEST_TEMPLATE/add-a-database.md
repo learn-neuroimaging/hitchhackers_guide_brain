@@ -1,4 +1,11 @@
-# database
+---
+name: Add a database
+about: Add a database to this repository
+title: ''
+labels: ''
+assignees: ''
+
+---
 
 ??? example "insert database name - insert short description"
     -   [database repository]( insert URL )

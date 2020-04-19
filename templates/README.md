@@ -12,11 +12,11 @@ Many of those templates use some [MKDOCS Material extensions](https://squidfunk.
 
 ## Templates list
 
--   [software](./software-template.md)
--   [course / workshop / tutorial](./tutorial-template.md)
--   [website / podcast](./website-template.md)
--   [video / series](./video-template.md)
--   [database](./database-template.md)
+-   [software](../.github/ISSUE_TEMPLATE/add-a-software.md)
+-   [course / workshop / tutorial](../.github/ISSUE_TEMPLATE/add-a-tutorial.md)
+-   [website / podcast](../.github/ISSUE_TEMPLATE/add-a-website.md)
+-   [video / series](../.github/ISSUE_TEMPLATE/add-a-video.md)
+-   [database](../.github/ISSUE_TEMPLATE/add-a-database.md)
 -   paper / slides / poster
 
 
