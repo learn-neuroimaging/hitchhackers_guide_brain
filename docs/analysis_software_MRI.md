@@ -66,15 +66,16 @@
 
 ## FreeSurfer
 
--   [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) -   An open source software suite for processing and analyzing (human) brain MRI images.
--   repository URL:
--   website URL: [https://surfer.nmr.mgh.harvard.edu/](https://surfer.nmr.mgh.harvard.edu/)
--   tutorial URL: [tutorial](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials), [tutorial videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription), [course information](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA)
--   documentation: [https://surfer.nmr.mgh.harvard.edu/fswiki](https://surfer.nmr.mgh.harvard.edu/fswiki)
--   programming language:
--   paper DOI:
--   RRID:
--   contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
+- [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) - An open source software suite for processing and analyzing (human) brain MRI images.
+- repository URL: [https://github.com/freesurfer/freesurfer](https://github.com/freesurfer/freesurfer)
+- website URL: [https://surfer.nmr.mgh.harvard.edu/](https://surfer.nmr.mgh.harvard.edu/)
+- tutorial URL: [tutorial](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials), [tutorial videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription), [course information](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA)
+- documentation: [https://surfer.nmr.mgh.harvard.edu/fswiki](https://surfer.nmr.mgh.harvard.edu/fswiki)
+- programming language: [C], [C++], [shell]
+- paper DOI: many, see [http://freesurfer.net/fswiki/FreeSurferMethodsCitation](http://freesurfer.net/fswiki/FreeSurferMethodsCitation)
+- RRID:
+- contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
+
 
 
 ## FSL
