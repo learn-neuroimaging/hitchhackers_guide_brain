@@ -1,12 +1,10 @@
-#Planning your study
-<!--
+# Planning your study
 
 When planning your study, here are some things you might want to consider:
 
-* [PLANNING YOUR STUDY]
+Resources currently collected [here](reproducible_neuroimaging_research.md#Reproducible-neuroimaging-research)
 
- Resources currently collected [here](reproducible_neuroimaging_research.md#Reproducible-neuroimaging-research)
-
+<!--
 * [Reusing data]
 * [Defining your terms and your task]
 * [Ontologies]
@@ -25,6 +23,4 @@ When planning your study, here are some things you might want to consider:
  * [psychopy]
  * [expyriment]
  * [psychtoolbox]
-* [Existing protocols]
-
--->
+* [Existing protocols] -->

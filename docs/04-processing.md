@@ -9,18 +9,22 @@ Processing has several stages, and can vary depending on which image modality (o
 If you are interested in processing a specific type of data, you can refer to the links below.
 
 ## Single-modality Processing
+
 ### MRI
 Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-software-for-MRI)
+
 #### structural
-* T1w
-* T2w
-* DTI
-* Laminar and high-resolution MRI
+-  T1w
+-  T2w
+-  DTI
+-  Laminar and high-resolution MRI
 
 #### functional MRI
-* resting state fMRI
-* task-related fMRI
+-  resting state fMRI
+-  task-related fMRI
+
 ### EEG
+
 ### MEG
 Resources currently [here](analysis_software_MEEG.md#Neuroimaging-analysis-software-for-MEEG).
 
