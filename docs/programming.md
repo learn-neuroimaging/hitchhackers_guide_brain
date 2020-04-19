@@ -13,7 +13,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 -   [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 -   [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
-*
+
 
 ## Shell programming
 -   [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
@@ -47,17 +47,21 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Science Hacking 101](https://www.youtube.com/watch?v=Gin8_AITmS0) by Jeremy Manning within MIND 2018
 -   [Software testing 1](https://neurohackademy.org/course/software-testing/) by Chris Gorgolewski within Neurohackweek
 -   [Software testing 2](https://neurohackademy.org/course/software-testing-2/) by Chris Gorgolewski within Neurohackweek
+
 -   [Testing scientific code](https://neurohackademy.org/course/testing-scientific-code/) by Chris Gorgolewski within Neurohackweek 2017 (43 min)
+
 -   [Porting Python 2 code to Python 3 - official](https://docs.python.org/3/howto/pyporting.html)
+
   -   [guide 2 - another migration guide](http://blog.pyspoken.com/2018/02/13/python-2-to-3-migration-guide/)
   -   [gudie 3 - migration strategies](http://python3porting.com/strategies.html)
+
   -   [guide 4 - practicalities and packaging](https://python3statement.org/practicalities)
 
 
 ## R
 -   [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016
+
 -   [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
 ## Introduction & Basics
 -   [Khan Academy] (https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
-
