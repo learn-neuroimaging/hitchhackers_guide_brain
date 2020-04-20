@@ -86,9 +86,9 @@ mkdocs serve
 - Finally, open up [`http://127.0.0.1:8000/`](http://127.0.0.1:8000/) in your browser, and you should see the default home page being displayed.
 
 
-## License
+<!--## License
 By contributing, you agree that your contributions will be licensed under its
-_<LICENSE>_ License.
+_<LICENSE>_ License.-->
 
 
 
