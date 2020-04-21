@@ -10,10 +10,9 @@ If you're not sure what you're looking for, or you'd like to get an overview, st
 
 General introductory resources can be found [here](99_Appendix.md#Appendix).
 
-
 ## Contribute
 
-If you want to add resource look [open an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/new/choose), we have several templates shown below that will help you make sure that your contribution has all the necessary information.
+To add new resources, [start an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/new/choose), by selecting the type of resource you want add and this should open an issue with a template of code similar the ones listed below. Edit it to add details of your resource and open the issue and you're done! We will get back to you to finalize things and add the resource to our list.
 
 ### software
 
