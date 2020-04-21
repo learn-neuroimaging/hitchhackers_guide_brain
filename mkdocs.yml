@@ -43,3 +43,8 @@ nav:
     - About: "08-sharing-data-code-and-results.md"
     - Open science: "open_science.md"
   - Appendix: "99-appendix.md"
+
+# list of extension
+markdown_extensions:
+  - admonition
+  - pymdownx.details
