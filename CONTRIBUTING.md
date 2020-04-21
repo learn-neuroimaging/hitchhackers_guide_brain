@@ -69,11 +69,11 @@ Currently, this project does not have a consistent style for Markdown files nor 
 
 This project uses [MkDocs](https://www.mkdocs.org/) tool with [Material theme](https://squidfunk.github.io/mkdocs-material/) and extra plugins to generate the website.
 
-- To test locally, you will need to install the dependencies. To do that, type the following commands:
+- To test locally, you will need to install the Python dependencies. To do that, type the following commands:
 ```
 git clone https://github.com/learn-neuroimaging/tutorials-and-resources.git
 cd tutorials-and-resources
-pip install -r requirements.txt
+pip install -r pip-requirements.txt
 ```
 (If you are working on your *fork*, simply replace `https://github.com/learn-neuroimaging/tutorials-and-resources.git` by `git clone git@github.com:<username>/tutorials-and-resources.git` where
 `<username>` is your GitHub username)
