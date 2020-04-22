@@ -13,13 +13,13 @@ If you are interested in processing a specific type of data, you can refer to th
 ### MRI
 Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-software-for-MRI)
 
-#### structural
+#### Structural
 -   T1w
 -   T2w
--   DTI
+-   Diffusion MRI
 -   Laminar and high-resolution MRI
 
-#### functional MRI
+#### Functional MRI
 -   resting state fMRI
 -   task-related fMRI
 

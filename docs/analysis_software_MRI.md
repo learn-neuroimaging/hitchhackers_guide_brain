@@ -16,7 +16,7 @@
 
 ## ANTs
 -   [ANTs](http://stnava.github.io/ANTs/) -   ANTs computes high-dimensional mappings to capture the statistics of brain structure and function.
--   repository URL: [Github](https://github.com/ANTsX/ANTs)
+-   repository URL: [GitHub](https://github.com/ANTsX/ANTs)
 -   website URL: [http://stnava.github.io/ANTs/](http://stnava.github.io/ANTs/)
 -   tutorial URL: [https://github.com/stnava/ANTsTutorial](https://github.com/stnava/ANTsTutorial)
 -   documentation: [https://github.com/ANTsX/ANTs](https://github.com/ANTsX/ANTs), [https://github.com/ANTsX/ANTs/wiki](https://github.com/ANTsX/ANTs/wiki)
@@ -41,7 +41,7 @@
 ## DIPY
 
 -   [DIPY](https://dipy.org/) -   DIPY is a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis.
--   repository URL: [Github](https://github.com/dipy/dipy)
+-   repository URL: [GitHub](https://github.com/dipy/dipy)
 -   website URL: [https://dipy.org/](https://dipy.org/)
 -   tutorial URL: [https://dipy.org/tutorials/](https://dipy.org/tutorials/)
 -   documentation:[https://dipy.org/documentation/1.1.1./documentation/](https://dipy.org/documentation/1.1.1./documentation/)
@@ -54,7 +54,7 @@
 ## fMRIPrep
 
 -   [fMRIPrep](https://fmriprep.readthedocs.io/en/stable/) -   A Robust Preprocessing Pipeline for fMRI Data
--   repository URL: [Github](https://github.com/poldracklab/fmriprep)
+-   repository URL: [GitHub](https://github.com/poldracklab/fmriprep)
 -   website URL: [https://fmriprep.readthedocs.io/en/stable/](https://fmriprep.readthedocs.io/en/stable/)
 -   tutorial URL: (http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/)[http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/]
 -   documentation:
@@ -93,7 +93,7 @@
 
 ## MRTrix3
 -   [MRtrix3](http://www.mrtrix.org/) -   Advanced tools for the analysis of diffusion MRI data.
--   repository URL: [Github](https://github.com/MRtrix3)
+-   repository URL: [GitHub](https://github.com/MRtrix3)
 -   website URL: [http://www.mrtrix.org/](http://www.mrtrix.org/)
 -   tutorial URL: [beginner DWI tutorial](https://mrtrix.readthedocs.io/en/latest/getting_started/beginner_dwi_tutorial.html), [basic and advanced tractography with MRtrix tutorial](https://osf.io/fkyht/), [tutorial video1](https://osf.io/fkyht/), [tutorial video2](https://www.youtube.com/watch?v=lQWucXuAXR8)
 -   documentation: [user documentation](https://mrtrix.readthedocs.io/en/latest/), [developer documentation](http://www.mrtrix.org/developer-documentation/)
@@ -106,7 +106,7 @@
 ## Nipype
 
 -   [Nipype](https://nipype.readthedocs.io/en/latest/) -   An open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow.
--   repository URL: [Github](https://github.com/nipy/nipype)
+-   repository URL: [GitHub](https://github.com/nipy/nipype)
 -   website URL: [https://nipype.readthedocs.io/en/latest/](https://nipype.readthedocs.io/en/latest/)
 -   tutorial URL: [tutorial1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), [tutorial2](https://miykael.github.io/nipype_tutorial/), [examples](https://nipype.readthedocs.io/en/latest/examples.html)
 -   documentation:

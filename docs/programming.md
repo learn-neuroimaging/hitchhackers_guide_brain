@@ -8,7 +8,7 @@
 -   [A Quick Introduction to Version Control with
 Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) by Bilschak et al. (2016)
 -   [Introduction to git and GitHub](https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp) by Chris Gorgolewski within Brainhack Americas (45 min)
--   [Git and Github 1 & 2](https://neurohackademy.org/course/git-and-github/) by Bernease Herman within Neurohackweek 2016
+-   [Git and GitHub 1 & 2](https://neurohackademy.org/course/git-and-github/) by Bernease Herman within Neurohackweek 2016
 -   [Git tutorial](https://www.youtube.com/watch?v=0DGCnBZBoc0&index=2&t=5s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (36 min)
 -   [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 -   [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
@@ -29,7 +29,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 ## Python
 ### Introduction
--   [A whirlwind tour of python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas 2016 (full text of his free O'Reilly book; link to GitHub with Jupyter Notebooks, Python3)
+-   [A whirlwind tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake Vanderplas 2016 (full text of his free O'Reilly book; link to GitHub with Jupyter Notebooks, Python3)
 -   [Introduction to Python](https://www.youtube.com/watch?v=3y55b_Md-N8&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=3) by Chris Gorgolewski within Brainhack Americas 2015 (45 min, Python2, screen shared live coding in Ipython Notebook)
 -   [Introduction to Python](https://neurohackademy.org/course/introduction-to-python/) by Tal Yarkoni within Neurohackademy 2018 (1 hr 16 min, lecture with code slides and live coding)
 -   [Python programming](https://neurohackademy.org/course/python-programming/) by Valentina Staneva within Neurohackweek 2016 (course material & code shared)
@@ -53,7 +53,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Porting Python 2 code to Python 3 - official](https://docs.python.org/3/howto/pyporting.html)
 
   -   [guide 2 - another migration guide](http://blog.pyspoken.com/2018/02/13/python-2-to-3-migration-guide/)
-  -   [gudie 3 - migration strategies](http://python3porting.com/strategies.html)
+  -   [guide 3 - migration strategies](http://python3porting.com/strategies.html)
 
   -   [guide 4 - practicalities and packaging](https://python3statement.org/practicalities)
 
