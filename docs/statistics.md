@@ -5,7 +5,7 @@
 -   [Statistical Decision Theory](https://www.youtube.com/watch?v=OT1i2SKfGPM&index=2&t=0s&list=PLNt4AJV1JZbcCs84XEbN9XdXBXN9U-kyT) by Joshua Vogelstein within Brainhack-Vienna (starts at 8 min, ends at 48 min)
 -   A reminder on how random field theory is used to correct for multiple comparison [here](http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields).
 -   [A primer on permutation testing (not only) for MVPA](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116074) by [Carsten Allefeld](https://twitter.com/c_allefeld) at OHBM 2018 (36 min)
--   [Cross-validation : what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
+-   [Cross-validation: what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
 -   [Daniel Lakens](https://twitter.com/lakens) MOOC on coursera on [how to improve your statistical inferences](https://www.coursera.org/learn/statistical-inferences)
 -   [Statistical thinking for the 21st century](http://statsthinking21.org/) by Russ Poldrack: "I am trained as a psychologist and neuroscientist, not a statistician. However, my research on brain imaging for the last 20 years has required the use of sophisticated statistical and computational tools, and this has required me to teach myself many of the fundamental concepts of statistics. Thus, I think that I have a solid feel for what kinds of statistical methods are important in the scientific trenches."
 

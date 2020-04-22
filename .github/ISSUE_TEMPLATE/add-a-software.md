@@ -8,10 +8,10 @@ assignees: ''
 ---
 
 ??? example "insert software name - insert short description"
-    - [code repository]( insert github or gitlab URL )
+    - [code repository](insert GitHub or GitLab URL )
     - [website](insert URL)
     - [documentation](insert documentation or wiki URL)
-    - [contact](inser URL to mailing list, slack, forum, mattermost)
+    - [contact](insert URL to mailing list, slack, forum, mattermost)
     - programming language: [python], [matlab/octave], [C], ...
     - tags: [fMRI] [nipype]
     - [paper](https://doi.org/insert_paper_DOI_here)

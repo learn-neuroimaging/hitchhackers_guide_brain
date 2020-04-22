@@ -19,7 +19,7 @@ Resources currently collected [here](reproducible_neuroimaging_research.md#Repro
 * [Localizers]
 * [Atlases]
 * [Non-standard templates]
-* [Stimuli presentation softwares]
+* [Stimuli presentation software]
  * [psychopy]
  * [expyriment]
  * [psychtoolbox]

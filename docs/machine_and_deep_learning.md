@@ -23,7 +23,7 @@
 -   [Introduction to Keras & Interpretability Methods](https://colab.research.google.com/drive/1EgdnWZeNqmzqEmnSR9PUnYXlTjeu1wAU) by Andrew Doyle within [MAIN 2018 Hands-on DL course](https://brainhack101.github.io/introML/dl-course-outline.html) [Jupyter notebook]
 -   [Brain Segmentation in Keras](https://colab.research.google.com/github/tfunck/minc_keras/blob/master/main2018.ipynb) by Thomas Funck within MAIN 2018 Hands-on DL course [Jupyter notebook]
 
-## Softwares
+## Software
 They are divided in sub-sections depending on the language they use.
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
@@ -48,14 +48,14 @@ They are divided in sub-sections depending on the language they use.
 ### nilearn
 Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.
 
--   [github](http://nilearn.github.io/)
+-   [GitHub](http://nilearn.github.io/)
 -   [manual](http://nilearn.github.io/user_guide.html)
 -   [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
 
 ### neuropredict
 neuropredict is an easy to use Python tool for comprehensive evaluation of predictive power of popular ML techniques for features-to-target prediction (such as biomarkers to disease and similar variations)
 
--   [github](http://github.com/raamana/neuropredict)
+-   [GitHub](http://github.com/raamana/neuropredict)
 -   [docs](http://raamana.github.io/neuropredict)
 
 ### brainIAK
@@ -63,7 +63,7 @@ BrainIAK applies advanced machine learning methods and high-performance computin
 We also have tutorials that cover topics from basics to advanced techniques.
 
 -   [website](http://brainiak.org/)
--   [github](https://github.com/brainiak/brainiak)
+-   [GitHub](https://github.com/brainiak/brainiak)
 -   [tutorials](http://brainiak.org/tutorials)
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -83,17 +83,17 @@ PRoNTo is the Pattern Recognition for Neuroimaging Toolbox developed at UCL (UK)
 ### RSA toolbox
 A Matlab toolbox for representational similarity analysis
 
--   [github](https://github.com/rsagroup/rsatoolbox)
+-   [GitHub](https://github.com/rsagroup/rsatoolbox)
 -   [manual](https://github.com/rsagroup/rsatoolbox/blob/develop/Documentation/toolbox%20documentation.pdf)
 
 ### Pattern components modelling (PCM) toolbox
 Pattern component modeling (PCM) is a practical Bayesian approach for evaluating representational models - models that specify how complex patterns of neural activity relate to visual stimuli, motor actions, or abstract thoughts.
 
--   [github](https://github.com/jdiedrichsen/pcm_toolbox)
+-   [GitHub](https://github.com/jdiedrichsen/pcm_toolbox)
 -   [manual](https://github.com/jdiedrichsen/pcm_toolbox/blob/master/documentation/pcm_toolbox_manual.pdf)
 
 ### cvMANOVA
 MVPA by cross-validated MANOVA, which is proposed as a replacement of classification.
 
--   [github](https://github.com/allefeld/cvmanova)
+-   [GitHub](https://github.com/allefeld/cvmanova)
 -   [reference](https://www.sciencedirect.com/science/article/abs/pii/S1053811913011920)

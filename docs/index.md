@@ -1,4 +1,4 @@
-# Welcome !
+# Welcome!
 
 ## Introduction
 
@@ -14,16 +14,16 @@ General introductory resources can be found [here](99_Appendix.md#Appendix).
 
 To add new resources, [start an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/new/choose), by selecting the type of resource you want add and this should open an issue with a template of code similar the ones listed below. Edit it to add details of your resource and open the issue and you're done! We will get back to you to finalize things and add the resource to our list.
 
-### software
+### Software
 
 The following code:
 
 ```
 ??? example "insert software name - insert short description"
-    -   [code repository]( insert github or gitlab URL )
+    -   [code repository]( insert GitHub or GitLab URL )
     -   [website](insert URL)
     -   [documentation](insert documentation or wiki URL)
-    -   [contact](inser URL to mailing list, slack, forum, mattermost)
+    -   [contact](insert URL to mailing list, slack, forum, mattermost)
     -   programming language: [python], [matlab/octave], [C], ...
     -   tags: [fMRI] [nipype]
     -   [paper](https://doi.org/insert_paper_DOI_here)
@@ -40,10 +40,10 @@ The following code:
 will render as:
 
 ??? example "insert software name - insert short description"
-    -   [code repository]( insert github or gitlab URL )
+    -   [code repository]( insert GitHub or GitLab URL )
     -   [website](insert URL)
     -   [documentation](insert documentation or wiki URL)
-    -   [contact](inser URL to mailing list, slack, forum, mattermost)
+    -   [contact](insert URL to mailing list, slack, forum, mattermost)
     -   programming language: [python], [matlab/octave], [C], ...
     -   tags: [fMRI] [nipype]
     -   [paper](https://doi.org/insert_paper_DOI_here)
@@ -56,7 +56,7 @@ will render as:
         -   date:
         -   duration: HH:MM
 
-### course / workshop / tutorial
+### Course / Workshop / Tutorial
 
 The following code:
 
@@ -82,7 +82,7 @@ will render as:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
 
-### website / blog / podcast
+### Website / Blog / Podcast
 
 The following code:
 
@@ -104,7 +104,7 @@ will render as:
     -   tags: [video] [notebook] [fMRI] [MOOC] [blog] [website] [podcast]
     -   by: John Doe and Jane Doe
 
-### video / video series
+### Video / Video series
 
 The following code:
 
@@ -130,7 +130,7 @@ will render as:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
 
-### database
+### Database
 
 The following code:
 
