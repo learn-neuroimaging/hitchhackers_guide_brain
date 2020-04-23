@@ -23,7 +23,7 @@ nav:
       - Reproducible research: "reproducible_neuroimaging_research.md"
   - Getting data:
     - About: "03-getting-data.md"
-    - Open data: "data-bases.md"
+    - Databases: "data-bases.md"
   - Processing:
     - About: "04-processing.md"
     - Computing: "computing.md"

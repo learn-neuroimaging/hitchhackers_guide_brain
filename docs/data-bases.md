@@ -1,6 +1,8 @@
 # Data bases
 This section contains links to "open" data resources, that can be accessed for research purposes. A formal request to the organization / data curation team may be required.
 
+-   [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) -   Wikipedia list of neuroscience databases
+
 ## Generic
 
 ### EBRAINS
@@ -35,7 +37,7 @@ Resting state functional magnetic resonance imaging (R-fMRI) datasets from 539 i
 #### ADNI
 Database of the results of the Alzheimer's Disease Neuroimaging Initiative study. ADNI is an initiative to develop biomarker-based methods to detect and track the progression of Alzheimer's disease (AD) that provides access to qualified scientists to their database of imaging, clinical, genomic, and biomarker data.
 
- ??? example "ADNI - Alzheimer's Disease Neuroimaging Initiative"
+??? example "ADNI - Alzheimer's Disease Neuroimaging Initiative"
      -   [database repository](http://adni.loni.usc.edu/data-samples/access-data/)
      -   [documentation]
      -   [contact]
@@ -51,3 +53,35 @@ Database of the results of the Alzheimer's Disease Neuroimaging Initiative study
 <!-- #### Surface (EEG/MEG) -->
 
 <!-- #### Intracranial (ECoG / iEEG / LFP / Single cell) -->
+
+
+
+
+
+
+## Open-data platforms
+
+
+### Platforms to get data from   
+
+-   [OpenNeuro](https://openneuro.org/) -   A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data
+
+-   [INDI](http://fcon_1000.projects.nitrc.org/) -   International Neuroimaging Data-Sharing Initiative for rawdata
+
+-   [Neurovault](https://neurovault.org/) -   A public repository of unthresholded statistical maps, parcellations, and atlases of the brain.
+
+-   [BALSA](https://balsa.wustl.edu/) -   A database for neuroimaging and neuroanatomical datasets for human and primate species.
+
+-   [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) -   Open datasets available through LORIS projects
+
+-   [XNAT](https://www.nitrc.org/ir/) -   The NITRC Image Repository
+
+-   [ElectrophysiologyData](https://github.com/voytekresearch/OpenData) -   Open datasets in electrophysiology
+
+
+* [NITRC-IR](https://www.nitrc.org/ir/) powered by XNAT
+* 
+* [NITRC-R](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) Data-related Projects
+
+
+https://gin.g-node.org/
