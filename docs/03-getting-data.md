@@ -1,3 +1,5 @@
 # Getting data
 
-You can find links to some open data repositories [here](data-bases.md#Data-bases).
+Before you go off and acquire new data, you might want to check if there is not already a data set out there that might be suited to answer your question.
+
+So you might want to check some open data repositories [here](data-repositories.md#Data repositories).
