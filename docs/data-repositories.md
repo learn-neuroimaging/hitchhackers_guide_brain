@@ -4,8 +4,6 @@ This section contains links to "open" data resources, that can be accessed for r
 
 This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) also has a nice list with some more suggestions.
 
-<!-- [ElectrophysiologyData](https://github.com/voytekresearch/OpenData) -   Open datasets in electrophysiology -->
-
 ## Generic
 
 ### Open science framework
@@ -36,7 +34,7 @@ OSF is a platform to support research and enable collaboration. Used to discover
 
 ## NeuroImaging
 
-You first go to should be the [data section](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) of the [Neuroimaging Tools
+To get an exhaustive list of the datasets and databases available out there, you should first go to the [data section](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) of the [Neuroimaging Tools
 an Resources Collaboratory](https://www.nitrc.org/).
 
 ### MRI/fMRI
@@ -167,6 +165,8 @@ Database of the results of the Alzheimer's Disease Neuroimaging Initiative study
 #### fNIRS
 
 ## Electrophysiology
+
+You definitely want to check this [list openly available electrophysiological data](https://github.com/openlists/ElectrophysiologyData), including EEG, MEG, ECoG/iEEG, and LFP data compiled by [Tom Donoghue](https://twitter.com/tomdonoghue)
 
 ### Surface (EEG/MEG)
 
