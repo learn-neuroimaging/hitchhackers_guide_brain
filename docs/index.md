@@ -20,41 +20,43 @@ The following code:
 
 ```
 ??? example "insert software name - insert short description"
-    -   [code repository]( insert GitHub or GitLab URL )
+    -   [code repository](insert GitHub or GitLab URL )
     -   [website](insert URL)
     -   [documentation](insert documentation or wiki URL)
     -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   tags: [fMRI] [nipype]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
     -   tutorial:
         -   [URL]( insert URL )
-        -   programming language: [python], [matlab/octave], [C], ...
-        -   level: [beginner] / [intermediate] / [advanced]
-        -   tags: [video] [notebook]
+        -   programming language: {python}, {matlab/octave}, {C}, ...
+        -   level: {beginner} / {intermediate} / {advanced}
+        -   tags: {video} {notebook}
         -   date:
         -   duration: HH:MM
+        -   by: John Doe and Jane Doe
 ```
 
 will render as:
 
 ??? example "insert software name - insert short description"
-    -   [code repository]( insert GitHub or GitLab URL )
+    -   [code repository](insert GitHub or GitLab URL )
     -   [website](insert URL)
     -   [documentation](insert documentation or wiki URL)
     -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   tags: [fMRI] [nipype]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
     -   tutorial:
         -   [URL]( insert URL )
-        -   programming language: [python], [matlab/octave], [C], ...
-        -   level: [beginner] / [intermediate] / [advanced]
-        -   tags: [video] [notebook]
+        -   programming language: {python}, {matlab/octave}, {C}, ...
+        -   level: {beginner} / {intermediate} / {advanced}
+        -   tags: {video} {notebook}
         -   date:
         -   duration: HH:MM
+        -   by: John Doe and Jane Doe
 
 ### Course / Workshop / Tutorial
 
@@ -63,9 +65,9 @@ The following code:
 ```
 ??? example "insert course / workshop / tutorial name - insert short description"
     -   [URL]( insert URL )
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [MOOC] [tutorial] [course] [workshop] [notebook] [video] [fMRI]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {notebook}
     -   date:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
@@ -75,9 +77,9 @@ will render as:
 
 ??? example "insert course / workshop / tutorial name - insert short description"
     -   [URL]( insert URL )
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [MOOC] [tutorial] [course] [workshop] [notebook] [video] [fMRI]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {notebook}
     -   date:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
@@ -90,8 +92,8 @@ The following code:
 ??? example "insert website name - insert short description"
     -   [URL]( insert URL )
     -   [RSS](_insert_RSS_feed)
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [video] [notebook] [fMRI] [MOOC] [blog] [website] [podcast]
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
     -   by: John Doe and Jane Doe
 ```
 
@@ -100,8 +102,8 @@ will render as:
 ??? example "insert website name - insert short description"
     -   [URL]( insert URL )
     -   [RSS](_insert_RSS_feed)
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [video] [notebook] [fMRI] [MOOC] [blog] [website] [podcast]
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
     -   by: John Doe and Jane Doe
 
 ### Video / Video series
@@ -109,11 +111,11 @@ will render as:
 The following code:
 
 ```
-??? example "insert course / workshop / tutorial name - insert short description"
+??? example "insert video / video series name - insert short description"
     -   [URL]( insert URL )
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [MOOC] [tutorial] [course] [workshop] [notebook] [video] [fMRI]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {MOOC}
     -   date:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
@@ -121,11 +123,11 @@ The following code:
 
 will render as:
 
-??? example "insert course / workshop / tutorial name - insert short description"
+??? example "insert video / video series name - insert short description"
     -   [URL]( insert URL )
-    -   programming language: [python], [matlab/octave], [C], ...
-    -   level: [beginner] / [intermediate] / [advanced]
-    -   tags: [MOOC] [tutorial] [course] [workshop] [notebook] [video] [fMRI]
+    -   programming language: {python}, {matlab/octave}, {C}, ...
+    -   level: {beginner} / {intermediate} / {advanced}
+    -   tags: {video} {MOOC}
     -   date:
     -   duration: HH:MM
     -   by: John Doe and Jane Doe
@@ -139,7 +141,7 @@ The following code:
     -   [database repository]( insert URL )
     -   [documentation](insert documentation or wiki URL)
     -   [contact](inser URL to mailing list, slack, forum, mattermost)
-    -   data type: [fMRI] [MEG] [EEG] [MRI]
+    -   data type: {fMRI} {MEG} {EEG} {MRI}
     -   tags:
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
@@ -151,7 +153,7 @@ will render as:
     -   [database repository]( insert URL )
     -   [documentation](insert documentation or wiki URL)
     -   [contact](inser URL to mailing list, slack, forum, mattermost)
-    -   data type: [fMRI] [MEG] [EEG] [MRI]
+    -   data type: {fMRI} {MEG} {EEG} {MRI}
     -   tags:
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
