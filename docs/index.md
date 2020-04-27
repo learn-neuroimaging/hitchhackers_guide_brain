@@ -18,7 +18,7 @@ To add new resources, [start an issue on GitHub](https://github.com/learn-neuroi
 
 The following code:
 
-```
+```markdown
 ??? example "insert software name - insert short description"
     -   [code repository](insert GitHub or GitLab URL )
     -   [website](insert URL)
@@ -62,7 +62,7 @@ will render as:
 
 The following code:
 
-```
+```markdown
 ??? example "insert course / workshop / tutorial name - insert short description"
     -   [URL]( insert URL )
     -   programming language: {python}, {matlab/octave}, {C}, ...
@@ -88,7 +88,7 @@ will render as:
 
 The following code:
 
-```
+```markdown
 ??? example "insert website name - insert short description"
     -   [URL]( insert URL )
     -   [RSS](_insert_RSS_feed)
@@ -110,7 +110,7 @@ will render as:
 
 The following code:
 
-```
+```markdown
 ??? example "insert video / video series name - insert short description"
     -   [URL]( insert URL )
     -   programming language: {python}, {matlab/octave}, {C}, ...
@@ -136,7 +136,7 @@ will render as:
 
 The following code:
 
-```
+```markdown
 ??? example "insert database name - insert short description"
     -   [database repository]( insert URL )
     -   [documentation](insert documentation or wiki URL)

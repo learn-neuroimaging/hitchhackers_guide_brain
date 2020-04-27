@@ -38,21 +38,21 @@
 ## DIPY
 
 -   [DIPY](https://dipy.org/) -   DIPY is a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis.
--   repository URL: [GitHub](https://github.com/dipy/dipy)
--   website URL: [https://dipy.org/](https://dipy.org/)
--   tutorial URL: [https://dipy.org/tutorials/](https://dipy.org/tutorials/)
--   documentation:[https://dipy.org/documentation/1.1.1./documentation/](https://dipy.org/documentation/1.1.1./documentation/)
+-   [GitHub](https://github.com/dipy/dipy)
+-   [Website](https://dipy.org/)
+-   [Tutorial](https://dipy.org/tutorials/)
+-   [Documentation](https://dipy.org/documentation/1.1.1./documentation/)
 -   programming language: {python}
 -   paper DOI: https://doi.org/10.3389/fninf.2014.00008
 -   RRID:
--   contact: [mailing list](https://mail.python.org/mailman/listinfo/neuroimaging)
--
+-   [mailing list](https://mail.python.org/mailman/listinfo/neuroimaging)
+
 ## fMRIPrep
 
 -   [fMRIPrep](https://fmriprep.readthedocs.io/en/stable/) -   A Robust Preprocessing Pipeline for fMRI Data
--   repository URL: [GitHub](https://github.com/poldracklab/fmriprep)
--   website URL: [https://fmriprep.readthedocs.io/en/stable/](https://fmriprep.readthedocs.io/en/stable/)
--   tutorial URL: (http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/)[http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/]
+-   [GitHub](https://github.com/poldracklab/fmriprep)
+-   [website](https://fmriprep.readthedocs.io/en/stable/)
+-   [tutorial](http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/)
 -   documentation:
 -   programming language: {python}
 -   paper DOI: [https://doi.org/10.1038/s41592-018-0235-4](https://doi.org/10.1038/s41592-018-0235-4)
@@ -61,15 +61,15 @@
 
 ## FreeSurfer
 
-- [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) - An open source software suite for processing and analyzing (human) brain MRI images.
-- repository URL: [https://github.com/freesurfer/freesurfer](https://github.com/freesurfer/freesurfer)
-- website URL: [https://surfer.nmr.mgh.harvard.edu/](https://surfer.nmr.mgh.harvard.edu/)
-- tutorial URL: [tutorial](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials), [tutorial videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription), [course information](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA)
-- documentation: [https://surfer.nmr.mgh.harvard.edu/fswiki](https://surfer.nmr.mgh.harvard.edu/fswiki)
-- programming language: {C}, {C++}, {shell}
-- paper DOI: many, see [http://freesurfer.net/fswiki/FreeSurferMethodsCitation](http://freesurfer.net/fswiki/FreeSurferMethodsCitation)
-- RRID:
-- contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
+-   [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) - An open source software suite for processing and analyzing (human) brain MRI images.
+-   repository URL: [https://github.com/freesurfer/freesurfer](https://github.com/freesurfer/freesurfer)
+-   website URL: [https://surfer.nmr.mgh.harvard.edu/](https://surfer.nmr.mgh.harvard.edu/)
+-   tutorial URL: [tutorial](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials), [tutorial videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription), [course information](https://www.youtube.com/channel/UCruQerP8aa-gYttXkAcyveA)
+-   documentation: [https://surfer.nmr.mgh.harvard.edu/fswiki](https://surfer.nmr.mgh.harvard.edu/fswiki)
+-   programming language: {C}, {C++}, {shell}
+-   paper DOI: many, see [http://freesurfer.net/fswiki/FreeSurferMethodsCitation](http://freesurfer.net/fswiki/FreeSurferMethodsCitation)
+-   RRID:
+-   contact: [mailing list](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSupport)
 
 ## FSL
 
