@@ -6,7 +6,6 @@ The following list has been shamelessly taken from the excellent repo [Open Soft
 
 The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures.
 
-
 ### MNE
 
 -   [MNE](http://martinos.org/mne/stable/index.html) -   Open-source Python software for exploring, visualizing, and analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, and more.
@@ -14,11 +13,10 @@ The following are general purpose platforms, with functionality including: loadi
 -   website URL: [http://martinos.org/mne/stable/index.html](http://martinos.org/mne/stable/index.html)
 -   tutorial URL: [https://mne.tools/stable/auto_tutorials/index.html](https://mne.tools/stable/auto_tutorials/index.html)
 -   documentation: [https://mne.tools/dev/overview/index.html](https://mne.tools/dev/overview/index.html)
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI: [https://doi.org/10.1016/j.neuroimage.2013.10.027](https://doi.org/10.1016/j.neuroimage.2013.10.027)
 -   RRID:
 -   contact: [mailing list](https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis)
-
 
 ### Wonambi
 
@@ -32,7 +30,6 @@ The following are general purpose platforms, with functionality including: loadi
 -   RRID:
 -   contact:
 
-
 ### NeuroKit
 
 -   [NeuroKit](http://neurokit.readthedocs.io/en/latest/) -   A python toolbox for statistics and neurophysiological signal processing (EEG, EDA, ECG, EMG...).
@@ -40,11 +37,10 @@ The following are general purpose platforms, with functionality including: loadi
 -   website URL: [http://neurokit.readthedocs.io/en/latest/](http://neurokit.readthedocs.io/en/latest/)
 -   tutorial URL: [https://neurokit.readthedocs.io/en/latest/tutorials/index.html](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
 -   documentation: [https://neurokit.readthedocs.io/en/latest/documentation.html](https://neurokit.readthedocs.io/en/latest/documentation.html)
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI:
 -   RRID:
 -   contact:
-
 
 ### FieldTrip
 
@@ -53,11 +49,10 @@ The following are general purpose platforms, with functionality including: loadi
 -   website URL: [http://www.fieldtriptoolbox.org](http://www.fieldtriptoolbox.org)
 -   tutorial URL: [http://www.fieldtriptoolbox.org/tutorial/](http://www.fieldtriptoolbox.org/tutorial/)
 -   documentation: [http://www.fieldtriptoolbox.org/documentation/](http://www.fieldtriptoolbox.org/documentation/)
--   programming language: [matlab]
+-   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1155/2011/156869](https://doi.org/10.1155/2011/156869)
 -   RRID:
 -   contact: [mailing list](http://www.fieldtriptoolbox.org/discussion_list/)
-
 
 ### BrainStorm
 
@@ -67,11 +62,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://neuroimage.usc.edu/brainstorm/](https://neuroimage.usc.edu/brainstorm/)
 -   tutorial URL: [https://neuroimage.usc.edu/brainstorm/Tutorials](https://neuroimage.usc.edu/brainstorm/Tutorials)
 -   documentation:
--   programming language: [matlab], [Java]
+-   programming language: {matlab}, {Java}
 -   paper DOI: [https://doi.org/10.1155/2011/879716](https://doi.org/10.1155/2011/879716)
 -   RRID:
 -   contact: [discussion forum](https://neuroimage.usc.edu/forums/)
-
 
 ### EEGLab
 
@@ -80,11 +74,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://sccn.ucsd.edu/eeglab/index.php](https://sccn.ucsd.edu/eeglab/index.php)
 -   tutorial URL: [https://sccn.ucsd.edu/wiki/EEGLAB_TUTORIAL_OUTLINE](https://sccn.ucsd.edu/wiki/EEGLAB_TUTORIAL_OUTLINE)
 -   documentation: [https://sccn.ucsd.edu/wiki/EEGLAB_Wiki](https://sccn.ucsd.edu/wiki/EEGLAB_Wiki)
--   programming language: [matlab]
+-   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1016/j.jneumeth.2003.10.009](https://doi.org/10.1016/j.jneumeth.2003.10.009)
 -   RRID:
 -   contact: [mailing list](https://sccn.ucsd.edu/contact/mailinglists.php)
-
 
 ### SPM
 
@@ -98,7 +91,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### NutMEG
 
 -   [NutMEG](https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage) -   A general purpose tool for processing, analyzing and visualizing MEG data.
@@ -106,11 +98,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage](https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage)
 -   tutorial URL:
 -   documentation:
--   programming language: [R]
+-   programming language: {R}
 -   paper DOI: [https://doi.org/10.1155/2011/758973](https://doi.org/10.1155/2011/758973)
 -   RRID:
 -   contact:
-
 
 ### EEGUtils
 
@@ -119,11 +110,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://craddm.github.io/eegUtils/](https://craddm.github.io/eegUtils/)
 -   tutorial URL:
 -   documentation:
--   programming language: [Julia]
+-   programming language: {Julia}
 -   paper DOI:
 -   RRID:
 -   contact:
-
 
 ### EEG.jl
 
@@ -132,11 +122,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://eegjl.readthedocs.io/en/latest/](https://eegjl.readthedocs.io/en/latest/)
 -   tutorial URL:
 -   documentation:
--   programming language: [C++]
+-   programming language: {C++}
 -   paper DOI:
 -   RRID:
 -   contact:
-
 
 ### CarTool
 
@@ -145,13 +134,12 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://sites.google.com/site/cartoolcommunity/](https://sites.google.com/site/cartoolcommunity/)
 -   tutorial URL: [tutorial videos](https://www.youtube.com/watch?v=xxfotUryojM&list=PLsWOKfVt5ZtIzPy6QZ1u_5c6M2Zs3wM4k)
 -   documentation:
--   programming language: [C++]
+-   programming language: {C++}
 -   paper DOI: [https://doi.org/10.1155/2011/813870](https://doi.org/10.1155/2011/813870)
 -   RRID:
 -   contact: [discussion forum](https://sites.google.com/site/cartoolcommunity/forum)
 
 ## Standalone Tools -   Specific Purposes
-
 
 ### NeuroDSP
 
@@ -160,11 +148,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://neurodsp-tools.github.io/neurodsp/index.html](https://neurodsp-tools.github.io/neurodsp/index.html)
 -   tutorial URL: [https://neurodsp-tools.github.io/neurodsp/auto_tutorials/index.html](https://neurodsp-tools.github.io/neurodsp/auto_tutorials/index.html)
 -   documentation:
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI: [https://doi.org/10.21105/joss.01272](https://doi.org/10.21105/joss.01272)
 -   RRID:
 -   contact:
-
 
 ### FOOOF
 
@@ -173,11 +160,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://fooof-tools.github.io/fooof/index.html](https://fooof-tools.github.io/fooof/index.html)
 -   tutorial URL:
 -   documentation: [https://fooof-tools.github.io/fooof/index.html](https://fooof-tools.github.io/fooof/index.html)
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI: [https://doi.org/10.1101/299859](https://doi.org/10.1101/299859)
 -   RRID:
 -   contact:
-
 
 ### Spectral Connectivity
 
@@ -186,11 +172,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL:
 -   tutorial URL:
 -   documentation:
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI:
 -   RRID:
 -   contact:
-
 
 ### pactools
 
@@ -204,7 +189,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### Tensor PAC
 
 -   [Tensor PAC](https://etiennecmb.github.io/tensorpac/) -   A tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.
@@ -212,11 +196,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [https://etiennecmb.github.io/tensorpac/](https://etiennecmb.github.io/tensorpac/)
 -   tutorial URL:
 -   documentation:
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI:
 -   RRID:
 -   contact: [chat](https://etiennecmb.github.io/tensorpac/community.html#chat)
-
 
 ### PyEEG
 
@@ -225,11 +208,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL:
 -   tutorial URL:
 -   documentation:
--   programming language: [python]
+-   programming language: {python}
 -   paper DOI: [https://doi.org/10.1155/2011/406391](https://doi.org/10.1155/2011/406391)
 -   RRID:
 -   contact:
-
 
 ### ECoGTools
 
@@ -243,7 +225,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### restingIAF
 
 -   [restingIAF](https://github.com/corcorana/restingIAF) -   A tool for estimating the peak individual alpha frequency.
@@ -255,7 +236,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   paper DOI: [https://doi.org/10.1111/psyp.13064](https://doi.org/10.1111/psyp.13064)
 -   RRID:
 -   contact:
-
 
 ### Phase Opposition Code
 
@@ -269,7 +249,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### ADAM -   Amsterdam Decoding and Modeling Toolbox
 
 -   [ADAM](https://github.com/fahrenfort/ADAM) -   An open source Matlab Toolbox that allows you to perform multivariate analyses on your M/EEG data using BDM and FEM.
@@ -277,11 +256,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL:
 -   tutorial URL: [http://doi.org/10.3389/fnins.2018.00368](http://doi.org/10.3389/fnins.2018.00368)
 -   documentation:
--   programming language: [matlab]
+-   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1007/s12021-013-9186-1](https://doi.org/10.1007/s12021-013-9186-1)
 -   RRID:
 -   contact:
-
 
 ### HERMES
 
@@ -295,7 +273,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact: [http://hermes.ctb.upm.es/contact/](http://hermes.ctb.upm.es/contact/)
 
-
 ### SEREEGA -   Simualating Event-Related EEG Activity
 
 -   [SEREEGA](https://github.com/lrkrol/SEREEGA) -   A package for simulating synthetic data that mimic event-related EEG activity.
@@ -303,11 +280,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL:
 -   tutorial URL: [https://github.com/lrkrol/SEREEGA#tutorial](https://github.com/lrkrol/SEREEGA#tutorial)
 -   documentation:
--   programming language: [matlab]
+-   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1101/326066](https://doi.org/10.1101/326066)
 -   RRID:
 -   contact:
-
 
 ### UNFOLD
 
@@ -321,7 +297,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### ept-TFCE
 
 -   [ept-TFCE](https://github.com/Mensen/ept_TFCE-matlab) -   A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.
@@ -334,7 +309,6 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   RRID:
 -   contact:
 
-
 ### ERP Reliability Analysis (ERA)
 
 -   [ERP Reliability Analysis (ERA)](http://peterclayson.com/era-toolbox/) -   The ERA toolbox is an open-source Matlab program that uses generalizability theory to evaluate the reliability of ERP data.
@@ -342,11 +316,10 @@ MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   website URL: [http://peterclayson.com/era-toolbox/](http://peterclayson.com/era-toolbox/)
 -   tutorial URL:
 -   documentation: [https://github.com/peclayson/ERA_Toolbox/wiki](https://github.com/peclayson/ERA_Toolbox/wiki)
--   programming language: [matlab]
+-   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1016/j.ijpsycho.2016.10.012](https://doi.org/10.1016/j.ijpsycho.2016.10.012)
 -   RRID:
 -   contact:
-
 
 ### OPENMEEG
 
