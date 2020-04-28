@@ -11,7 +11,7 @@ This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) a
 OSF is a platform to support research and enable collaboration. Used to discover projects, data, materials, and collaborators helpful to your own research.
 
 ??? example "OSF - The interface can be slow and clunky but it can definitely be used to host and share data... and many other things."
-    -   [database repository](https://ebrains.eu/)
+    -   [database repository](https://osf.io/)
     -   documentation
     -   contact
     -   data type: pretty much anything goes
