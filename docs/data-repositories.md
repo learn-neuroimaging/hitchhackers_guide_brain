@@ -64,7 +64,6 @@ an Resources Collaboratory](https://www.nitrc.org/).
     -   RRID: [SCR_015864](https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_015864/resolver?q=GIN&l=GIN)
     -   The G-Node Data Infrastructure Services is provides a platform for comprehensive and reproducible management and sharing of neuroscience data. Building on well established versioning technology, GIN offers the power of a web based repository management service combined with a distributed file storage.
         -   Very similar to github but for data.
-
         -   As it is based in Europe, this can an interesting option for GDPR compliance.
 
 <!-- #### Neurovault -->
@@ -147,7 +146,7 @@ an Resources Collaboratory](https://www.nitrc.org/).
      -   [database repository](http://adni.loni.usc.edu/data-samples/access-data/)
      -   documentation
      -   contact
-     -   data type: {human} {alzheimer} {MRI} {fMRI} {PET}   
+     -   data type: {human} {alzheimer} {MRI} {fMRI} {PET}
      -   tags:
      -   paper
      -   RRID: [SCR_003007](https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_003007/resolver?q=adni&l=adni)
@@ -162,9 +161,6 @@ You definitely want to check this [list openly available electrophysiological da
 ### Surface (EEG/MEG)
 
 ### Intracranial (ECoG / iEEG / LFP / Single cell)
-
-
-
 
 <!-- #### LORIS
 
