@@ -1,6 +1,7 @@
 # Neuroimaging
 
 ##  MOOC on neuroimaging
+
 -   description: MOOC on neuroimaging
 -   URL: [part 1](https://en.coursera.org/learn/functional-mri)
   and [part 2](https://en.coursera.org/learn/functional-mri-2)

@@ -6,9 +6,9 @@ This website is full of links and resources for all your neuro-needs!
 
 Use the links on the left to discover resources belonging to a particular category.
 
-If you're not sure what you're looking for, or you'd like to get an overview, start [here](01_Before-you-start.md#Before-you-start).
+If you're not sure what you're looking for, or you'd like to get an overview, start [here](01-before-you-start.md#Before-you-start).
 
-General introductory resources can be found [here](99_Appendix.md#Appendix).
+General introductory resources can be found [here](99-appendix.md#Appendix).
 
 ## Contribute
 
@@ -41,7 +41,7 @@ The following code:
 will render as:
 
 ??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
+    -   [code repository](insert GitHub or GitLab URL)
     -   [website](insert URL)
     -   [documentation](insert documentation or wiki URL)
     -   [contact](insert URL to mailing list, slack, forum, mattermost)
@@ -50,7 +50,7 @@ will render as:
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
     -   tutorial:
-        -   [URL]( insert URL )
+        -   [URL](insert URL)
         -   programming language: {python}, {matlab/octave}, {C}, ...
         -   level: {beginner} / {intermediate} / {advanced}
         -   tags: {video} {notebook}
@@ -64,7 +64,7 @@ The following code:
 
 ```markdown
 ??? example "insert course / workshop / tutorial name - insert short description"
-    -   [URL]( insert URL )
+    -   [URL](insert URL)
     -   programming language: {python}, {matlab/octave}, {C}, ...
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {notebook}
@@ -76,7 +76,7 @@ The following code:
 will render as:
 
 ??? example "insert course / workshop / tutorial name - insert short description"
-    -   [URL]( insert URL )
+    -   [URL](insert URL)
     -   programming language: {python}, {matlab/octave}, {C}, ...
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {notebook}
@@ -90,8 +90,8 @@ The following code:
 
 ```markdown
 ??? example "insert website name - insert short description"
-    -   [URL]( insert URL )
-    -   [RSS](_insert_RSS_feed)
+    -   [URL](insert URL)
+    -   [RSS](insert_RSS_feed)
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
     -   by: John Doe and Jane Doe
@@ -100,8 +100,8 @@ The following code:
 will render as:
 
 ??? example "insert website name - insert short description"
-    -   [URL]( insert URL )
-    -   [RSS](_insert_RSS_feed)
+    -   [URL](insert URL)
+    -   [RSS](insert_RSS_feed)
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
     -   by: John Doe and Jane Doe
@@ -112,7 +112,7 @@ The following code:
 
 ```markdown
 ??? example "insert video / video series name - insert short description"
-    -   [URL]( insert URL )
+    -   [URL](insert URL)
     -   programming language: {python}, {matlab/octave}, {C}, ...
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {MOOC}
@@ -138,7 +138,7 @@ The following code:
 
 ```markdown
 ??? example "insert database name - insert short description"
-    -   [database repository]( insert URL )
+    -   [database repository](insert URL)
     -   [documentation](insert documentation or wiki URL)
     -   [contact](inser URL to mailing list, slack, forum, mattermost)
     -   data type: {fMRI} {MEG} {EEG} {MRI}
@@ -150,7 +150,7 @@ The following code:
 will render as:
 
 ??? example "insert database name - insert short description"
-    -   [database repository]( insert URL )
+    -   [database repository](insert URL)
     -   [documentation](insert documentation or wiki URL)
     -   [contact](inser URL to mailing list, slack, forum, mattermost)
     -   data type: {fMRI} {MEG} {EEG} {MRI}

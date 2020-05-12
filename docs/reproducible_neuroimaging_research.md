@@ -9,6 +9,7 @@
 -   [ReproNim](http://www.reproducibleimaging.org/index.html) -   A Center for Reproducible Neuroimaging Computation (a good site to get up to date on doing reproducible neuroimaging research)
 -   [Code-ocean](https://codeocean.com/) -   A research collaboration platform that uses docker containers to let you run your analysis online
 
+-   [NeuroLinks](https://brainhack101.github.io/neurolinks/) -   Resources for computational neuroscience
 
 ### Presentations
 
@@ -58,22 +59,6 @@
 -   [BIDS website](http://bids.neuroimaging.io/) -   A simple and intuitive way to organize and describe your neuroimaging and behavioral data
 -   [BIDS apps](https://bids-apps.neuroimaging.io/apps/) -   Portable neuroimaging pipelines that understand BIDS datasets
 -   [BIDS starter kit](https://github.com/bids-standard/bids-starter-kit) -   Collection of tutorials, wikis, and templates to get you started with creating BIDS compliant datasets
-
-
-## Open-data platforms
-
-
-### Platforms to get data from   
-
--   [OpenNeuro](https://openneuro.org/) -   A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data
--   [INDI](http://fcon_1000.projects.nitrc.org/) -   International Neuroimaging Data-Sharing Initiative for rawdata
--   [Neurovault](https://neurovault.org/) -   A public repository of unthresholded statistical maps, parcellations, and atlases of the brain.
--   [BALSA](https://balsa.wustl.edu/) -   A database for neuroimaging and neuroanatomical datasets for human and primate species.   
--   [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) -   Open datasets available through LORIS projects
--   [XNAT](https://www.nitrc.org/ir/) -   The NITRC Image Repository
--   [NeuroLinks](https://brainhack101.github.io/neurolinks/) -   Resources for computational neuroscience
--   [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) -   Wikipedia list of neuroscience databases
--   [ElectrophysiologyData](https://github.com/voytekresearch/OpenData) -   Open datasets in electrophysiology
 
 
 #### Presentations   

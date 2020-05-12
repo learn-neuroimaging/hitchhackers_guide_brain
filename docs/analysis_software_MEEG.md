@@ -56,8 +56,7 @@ The following are general purpose platforms, with functionality including: loadi
 
 ### BrainStorm
 
--   [BrainStorm](https://neuroimage.usc.edu/brainstorm/) -   A collaborative, open-source application dedicated to the analysis of brain recordings:
-MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
+-   [BrainStorm](https://neuroimage.usc.edu/brainstorm/) -   A collaborative, open-source application dedicated to the analysis of brain recordings: MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.
 -   repository URL: [Github](https://github.com/brainstorm-tools/brainstorm3)
 -   website URL: [https://neuroimage.usc.edu/brainstorm/](https://neuroimage.usc.edu/brainstorm/)
 -   tutorial URL: [https://neuroimage.usc.edu/brainstorm/Tutorials](https://neuroimage.usc.edu/brainstorm/Tutorials)
