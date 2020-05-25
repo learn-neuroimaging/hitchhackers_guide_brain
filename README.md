@@ -15,7 +15,7 @@ https://learn-neuroimaging.github.io/tutorials-and-resources
 We currently use mkdocs for our website. The "docs" directory contains ".md" pages containing domain-specific links to resources.
 
 ## How to add a resource and contribute
-See our contributing [guidelines](.CONTRIBUTING.md)
+See our contributing [guidelines](CONTRIBUTING.md)
 
 ## Get in touch
 
