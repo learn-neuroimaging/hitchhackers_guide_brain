@@ -1,5 +1,4 @@
-# Neuroimaging analysis software for physiological signals (ECG, EDA, EMG...)
-
+# Analysis software for physiological signals (ECG, EDA, EMG...)
 
 ## NeuroKit2
 
@@ -12,5 +11,3 @@
 - paper DOI:
 - RRID:
 - contact: [issues](https://github.com/neuropsychology/NeuroKit/issues)
-
-

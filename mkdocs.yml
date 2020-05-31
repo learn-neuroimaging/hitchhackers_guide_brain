@@ -29,6 +29,7 @@ nav:
     - Computing: "computing.md"
     - MRI: "analysis_software_MRI.md"
     - MEEG: "analysis_software_MEEG.md"
+    - Other physiological signals: "analysis_software_physio.md"
     - Learning neuroimaging: "learning_neuroimaging.md"
     - Neuroimaging resources: "neuroimaging_resources.md"
   - Analysis:

@@ -1,4 +1,4 @@
-# Neuroimaging analysis software for MEEG
+# Analysis software for EEG and MEG
 
 The following list has been shamelessly taken from the excellent repo [Open Software for Human Electrophysiology](https://github.com/voytekresearch/OpenTools). Do check it out as it also includes plugins that are not listed here.
 
