@@ -1,4 +1,4 @@
-# Neuroimaging analysis software for MRI
+# Analysis software for MRI
 
 ## AFNI
 

@@ -1,4 +1,4 @@
-# Neuroimaging analysis software for MEEG
+# Analysis software for EEG and MEG
 
 The following list has been shamelessly taken from the excellent repo [Open Software for Human Electrophysiology](https://github.com/voytekresearch/OpenTools). Do check it out as it also includes plugins that are not listed here.
 
@@ -26,18 +26,6 @@ The following are general purpose platforms, with functionality including: loadi
 -   tutorial URL: [https://wonambi-python.github.io/analysis/index.html](https://wonambi-python.github.io/analysis/index.html)
 -   documentation:
 -   programming language:
--   paper DOI:
--   RRID:
--   contact:
-
-### NeuroKit
-
--   [NeuroKit](http://neurokit.readthedocs.io/en/latest/) -   A python toolbox for statistics and neurophysiological signal processing (EEG, EDA, ECG, EMG...).
--   repository URL: [Github](https://github.com/neuropsychology/NeuroKit.py)
--   website URL: [http://neurokit.readthedocs.io/en/latest/](http://neurokit.readthedocs.io/en/latest/)
--   tutorial URL: [https://neurokit.readthedocs.io/en/latest/tutorials/index.html](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
--   documentation: [https://neurokit.readthedocs.io/en/latest/documentation.html](https://neurokit.readthedocs.io/en/latest/documentation.html)
--   programming language: {python}
 -   paper DOI:
 -   RRID:
 -   contact:
