@@ -42,24 +42,6 @@ The following are general purpose platforms, with functionality including: loadi
         -   duration:
         -   by:
 
-??? example "NeuroKit -  A python toolbox for statistics and neurophysiological signal processing"
-    -   [code repository](https://github.com/neuropsychology/NeuroKit.py)
-    -   [website](http://neurokit.readthedocs.io/en/latest/)
-    -   [documentation](https://neurokit.readthedocs.io/en/latest/documentation.html)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}
-    -   tags: {MEG} {EEG} {EDA} {EMG} {ECG}
-    -   [paper]
-    -   RRID:
-    -   tutorial:
-        -   [URL](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
-        -   programming language: {python}
-        -   level:
-        -   tags:
-        -   date:
-        -   duration:
-        -   by:
-
 ### FieldTrip
 
 -   [FieldTrip](http://www.fieldtriptoolbox.org) -   A general purpose tool for processing, analyzing and visualizing toolbox for MEG, EEG, iEEG and NIRS data.
