@@ -6,8 +6,8 @@
     -   [code repository]( )
     -   [website](https://www.fil.ion.ucl.ac.uk/spm/)
     -   [documentation](https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {matlab}
+    -   [contact](https://www.fil.ion.ucl.ac.uk/spm/support/)
+    -   programming language: {matlab} {octave}
     -   tags: {fMRI} {MEG} {EEG} {SPECT} {PET} {nipype}
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID:
@@ -40,7 +40,6 @@
 
 
 ??? example "AFNI - A software suite primarily developed for the analysis and display of anatomical and fMRI data."
-    -   [code repository](insert GitHub or GitLab URL )
     -   [website](https://afni.nimh.nih.gov/)
     -   [documentation](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)
     -   [contact](https://afni.nimh.nih.gov/afni/community/board/list.php?1)
@@ -50,9 +49,11 @@
     -   RRID: insert_RRID_here
     -   tutorial:
         -   [URL](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html)
+        - [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html)
+        - [example data](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/unix_tutorial/misc/install.data.html)
         -   programming language: {shell}
 
-??? example "FreeSurfere - An open source software suite for processing and analyzing (human) brain MRI images."
+??? example "FreeSurfer - An open source software suite for processing and analyzing (human) brain MRI images."
     -   [code repository](https://github.com/freesurfer/freesurfer)
     -   [website](https://surfer.nmr.mgh.harvard.edu/)
     -   [documentation](https://surfer.nmr.mgh.harvard.edu/fswiki)
@@ -62,7 +63,8 @@
     -   [paper]
     -   RRID:
     -   tutorial:
-        -   [URL](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials)
+        -   [URL](https://surfer.nmr.mgh.harvard.edu/fswiki/Tutorials
+        -   [videos](https://surfer.nmr.mgh.harvard.edu/fswiki/CourseDescription)
         -   programming language: {shell}
 
 ??? example "FSL - A comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data."
@@ -75,7 +77,7 @@
     -   [paper]
     -   RRID:
     -   tutorial:
-        -   [URL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Support)
+        -   [URL](https://fsl.fmrib.ox.ac.uk/fslcourse/)
 
 ## Diffusion MRI
 
