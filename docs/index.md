@@ -1,4 +1,18 @@
-# Welcome!
+# Welcome to the hitchhacker's guide to the brain!
+
+This is place where you will find your way around the multiverse of resources and methods that have almost, but not quite, entirely everything to do about the brain.
+
+So in case you get lost and you don't where to find something or in case you are not sure what you were looking for in the first place...
+
+_Just remember..._
+
+[![DON'T PANIC](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don%27t_Panic.svg/1280px-Don%27t_Panic.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don%27t_Panic.svg/1280px-Don%27t_Panic.svg.png)
+
+And come back here.
+
+---
+
+---
 
 ## Introduction
 
