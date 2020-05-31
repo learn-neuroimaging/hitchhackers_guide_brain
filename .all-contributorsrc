@@ -224,6 +224,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "DominiqueMakowski",
+      "name": "Dominique Makowski",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8875533?v=4",
+      "profile": "https://dominiquemakowski.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
