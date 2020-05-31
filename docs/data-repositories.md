@@ -6,6 +6,19 @@ This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) a
 
 ## Generic
 
+<!-- ### GIN -->
+
+??? example "GIN - The equivalent of github but for data. Based in Europe."
+    -   [database repository](https://gin.g-node.org/)
+    -   contact
+    -   data type: {MRI} {EEG} {iEEG} {ECoG} {human} {non-human}
+    -   datalad compatible: yes
+    -   paper: [10.12751/incf.ni2017.0040](10.12751/incf.ni2017.0040)
+    -   RRID: [SCR_015864](https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_015864/resolver?q=GIN&l=GIN)
+    -   The G-Node Data Infrastructure Services is provides a platform for comprehensive and reproducible management and sharing of neuroscience data. Building on well established versioning technology, GIN offers the power of a web based repository management service combined with a distributed file storage.
+        -   Very similar to github but for data.
+        -   As it is based in Europe, this can an interesting option for GDPR compliance.
+
 <!-- ### Open science framework -->
 
 ??? example "OSF - The interface can be slow and clunky but it can definitely be used to host and share data... and many other things."
@@ -40,23 +53,10 @@ an Resources Collaboratory](https://www.nitrc.org/).
     -   [database repository](https://openneuro.org/)
     -   contact
     -   data type: {MRI} {EEG} {iEEG} {ECoG} {human}
-    -   datalad compatible: yes  
+    -   datalad compatible: yes
     -   paper
     -   RRID: [SCR_005031](https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_005031/resolver?q=openneuro&l=openneuro)
     -   Open platform for analyzing and sharing neuroimaging data from human brain imaging research studies. Brain Imaging Data Structure (BIDS) compliant database. Formerly known as OpenfMRI. Platform for sharing MRI, MEG, EEG, iEEG, and ECoG data.
-
-<!-- #### GIN -->
-
-??? example "GIN - The equivalent of github but for data. Based in Europe."
-    -   [database repository](https://gin.g-node.org/)
-    -   contact
-    -   data type: {MRI} {EEG} {iEEG} {ECoG} {human} {non-human}
-    -   datalad compatible: yes
-    -   paper: [10.12751/incf.ni2017.0040](10.12751/incf.ni2017.0040)
-    -   RRID: [SCR_015864](https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_015864/resolver?q=GIN&l=GIN)
-    -   The G-Node Data Infrastructure Services is provides a platform for comprehensive and reproducible management and sharing of neuroscience data. Building on well established versioning technology, GIN offers the power of a web based repository management service combined with a distributed file storage.
-        -   Very similar to github but for data.
-        -   As it is based in Europe, this can an interesting option for GDPR compliance.
 
 <!-- #### Neurovault -->
 
@@ -130,6 +130,8 @@ an Resources Collaboratory](https://www.nitrc.org/).
      -   RRID: [SCR_003007](https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_003007/resolver?q=adni&l=adni)
      -    Database of the results of the Alzheimer's Disease Neuroimaging Initiative study. ADNI is an initiative to develop biomarker-based methods to detect and track the progression of Alzheimer's disease (AD) that provides access to qualified scientists to their database of imaging, clinical, genomic, and biomarker data.
 
+<!-- [Pain repository](https://www.painrepository.org/]) -->
+
 #### fNIRS
 
 ## Electrophysiology
@@ -142,7 +144,7 @@ You definitely want to check this [list openly available electrophysiological da
 
 <!-- #### LORIS
 
--   [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) -   Open datasets available through LORIS projects  
+-   [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) -   Open datasets available through LORIS projects
 
 ??? example "LORIS - "
     -   [database repository]()
