@@ -1,4 +1,4 @@
-# Neuroimaging analysis software for MEEG
+# Neuroimaging analysis software for EEG and MEG
 
 The following list has been shamelessly taken from the excellent repo [Open Software for Human Electrophysiology](https://github.com/voytekresearch/OpenTools). Do check it out as it also includes plugins that are not listed here.
 
@@ -6,93 +6,59 @@ The following list has been shamelessly taken from the excellent repo [Open Soft
 
 The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures.
 
-<!-- ### MNE -->
-
-??? example "MNE - Open-source Python software for exploring, visualizing, and analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, and more."
+??? example "MNE - Open-source Python software for exploring, visualizing, and analyzing human neurophysiological data"
     -   [code repository](https://github.com/mne-tools/mne-python)
     -   [website](http://martinos.org/mne/stable/index.html)
     -   [documentation](https://mne.tools/dev/overview/index.html)
     -   [contact](https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis)
     -   programming language: {python}
-    -   tags: {MEG} {EEG}
+    -   tags: {MEG} {EEG} {sEEG} {ECoG}
     -   [paper](https://doi.org/10.1016/j.neuroimage.2013.10.027)
-    -   RRID: insert_RRID_here
+    -   RRID:
     -   tutorial:
         -   [URL](https://mne.tools/stable/auto_tutorials/index.html)
         -   programming language: {python}
-
-### Wonambi
-
--   [Wonambi](https://wonambi-python.github.io) -   A general purpose tool for processing, analyzing and visualizing EEG, ECoG and other electrophysiology formats data, including specific tools focused on sleep scoring and analysis.
--   repository URL: [Github](https://github.com/wonambi-python/wonambi)
--   website URL: [https://wonambi-python.github.io](https://wonambi-python.github.io)
--   tutorial URL: [https://wonambi-python.github.io/analysis/index.html](https://wonambi-python.github.io/analysis/index.html)
--   documentation:
--   programming language:
--   paper DOI:
--   RRID:
--   contact:
-
-
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
-    -   tutorial:
-        -   [URL]( insert URL )
-        -   programming language: {python}, {matlab/octave}, {C}, ...
-        -   level: {beginner} / {intermediate} / {advanced}
-        -   tags: {video} {notebook}
+        -   level:
+        -   tags:
         -   date:
-        -   duration: HH:MM
-        -   by: John Doe and Jane Doe
+        -   duration:
+        -   by:
 
-
-
-
-
-### NeuroKit
-
--   [NeuroKit](http://neurokit.readthedocs.io/en/latest/) -   A python toolbox for statistics and neurophysiological signal processing (EEG, EDA, ECG, EMG...).
--   repository URL: [Github](https://github.com/neuropsychology/NeuroKit.py)
--   website URL: [http://neurokit.readthedocs.io/en/latest/](http://neurokit.readthedocs.io/en/latest/)
--   tutorial URL: [https://neurokit.readthedocs.io/en/latest/tutorials/index.html](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
--   documentation: [https://neurokit.readthedocs.io/en/latest/documentation.html](https://neurokit.readthedocs.io/en/latest/documentation.html)
--   programming language: {python}
--   paper DOI:
--   RRID:
--   contact:
-
-
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
+??? example "Wonambi - A general purpose tool for processing, analyzing and visualizing EEG, ECoG and other electrophysiology formats data, including specific tools focused on sleep scoring and analysis."
+    -   [code repository](https://github.com/wonambi-python/wonambi)
+    -   [website](https://wonambi-python.github.io)
+    -   [documentation]( )
+    -   [contact]( )
+    -   programming language: {python}
+    -   tags: {MEG} {EEG} {sleep} {ECoG}
     -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
+    -   RRID:
     -   tutorial:
-        -   [URL]( insert URL )
-        -   programming language: {python}, {matlab/octave}, {C}, ...
-        -   level: {beginner} / {intermediate} / {advanced}
-        -   tags: {video} {notebook}
+        -   [URL](https://wonambi-python.github.io/analysis/index.html)
+        -   programming language: {python}
+        -   level:
+        -   tags:
         -   date:
-        -   duration: HH:MM
-        -   by: John Doe and Jane Doe
+        -   duration:
+        -   by:
 
-
-
-
-
+??? example "NeuroKit -  A python toolbox for statistics and neurophysiological signal processing"
+    -   [code repository](https://github.com/neuropsychology/NeuroKit.py)
+    -   [website](http://neurokit.readthedocs.io/en/latest/)
+    -   [documentation](https://neurokit.readthedocs.io/en/latest/documentation.html)
+    -   [contact](insert URL to mailing list, slack, forum, mattermost)
+    -   programming language: {python}
+    -   tags: {MEG} {EEG} {EDA} {EMG} {ECG}
+    -   [paper]
+    -   RRID:
+    -   tutorial:
+        -   [URL](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
+        -   programming language: {python}
+        -   level:
+        -   tags:
+        -   date:
+        -   duration:
+        -   by:
 
 ### FieldTrip
 
@@ -297,6 +263,7 @@ The following are general purpose platforms, with functionality including: loadi
 
 
 
+
 ### EEG.jl
 
 -   [EEG.jl](https://eegjl.readthedocs.io/en/latest/) -   An EEG processing library.
@@ -326,6 +293,8 @@ The following are general purpose platforms, with functionality including: loadi
         -   date:
         -   duration: HH:MM
         -   by: John Doe and Jane Doe
+
+
 
 
 
@@ -361,6 +330,8 @@ The following are general purpose platforms, with functionality including: loadi
 
 
 
+
+
 ## Standalone Tools -   Specific Purposes
 
 ### NeuroDSP
@@ -374,7 +345,6 @@ The following are general purpose platforms, with functionality including: loadi
 -   paper DOI: [https://doi.org/10.21105/joss.01272](https://doi.org/10.21105/joss.01272)
 -   RRID:
 -   contact:
-
 
 ??? example "insert software name - insert short description"
     -   [code repository](insert GitHub or GitLab URL )
@@ -393,6 +363,8 @@ The following are general purpose platforms, with functionality including: loadi
         -   date:
         -   duration: HH:MM
         -   by: John Doe and Jane Doe
+
+
 
 
 
@@ -425,6 +397,7 @@ The following are general purpose platforms, with functionality including: loadi
         -   date:
         -   duration: HH:MM
         -   by: John Doe and Jane Doe
+
 
 
 
