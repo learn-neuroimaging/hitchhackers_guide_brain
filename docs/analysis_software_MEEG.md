@@ -30,18 +30,6 @@ The following are general purpose platforms, with functionality including: loadi
 -   RRID:
 -   contact:
 
-### NeuroKit
-
--   [NeuroKit](http://neurokit.readthedocs.io/en/latest/) -   A python toolbox for statistics and neurophysiological signal processing (EEG, EDA, ECG, EMG...).
--   repository URL: [Github](https://github.com/neuropsychology/NeuroKit.py)
--   website URL: [http://neurokit.readthedocs.io/en/latest/](http://neurokit.readthedocs.io/en/latest/)
--   tutorial URL: [https://neurokit.readthedocs.io/en/latest/tutorials/index.html](https://neurokit.readthedocs.io/en/latest/tutorials/index.html)
--   documentation: [https://neurokit.readthedocs.io/en/latest/documentation.html](https://neurokit.readthedocs.io/en/latest/documentation.html)
--   programming language: {python}
--   paper DOI:
--   RRID:
--   contact:
-
 ### FieldTrip
 
 -   [FieldTrip](http://www.fieldtriptoolbox.org) -   A general purpose tool for processing, analyzing and visualizing toolbox for MEG, EEG, iEEG and NIRS data.
