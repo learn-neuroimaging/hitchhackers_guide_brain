@@ -64,4 +64,4 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 
 ## Introduction & Basics
--   [Khan Academy] (https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
+-   [Khan Academy](https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
