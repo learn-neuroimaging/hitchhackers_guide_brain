@@ -13,7 +13,8 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 -   [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 -   [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
--   [Collaborating with git and GitHub](https://neurohackademy.org/course/collaborating-with-git-and-github/) by Elizabeth DuPre within Neurohackademy 2019 (2 hr 15 min, lecture with [code slides](https://emdupre.github.io/git-course/))
+-   [Collaborating with Git and GitHub](https://neurohackademy.org/course/collaborating-with-git-and-github/) by Elizabeth DuPre within Neurohackademy 2019 (2 hr 15 min, lecture with [code slides](https://emdupre.github.io/git-course/))
+-   [Version Control with Git] (http://swcarpentry.github.io/git-novice/) Software Carpentry practical lesson (~2h57min) by Gonzalez, I., Huang, D., Hejazi, N., Koziar, K., & Munk, M.
 
 
 ## Shell programming
