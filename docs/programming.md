@@ -13,7 +13,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 -   [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 -   [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
--   [Version Control with Git] (http://swcarpentry.github.io/git-novice/) Software Carpentry practical lesson (~2h57min) by Gonzalez, I., Huang, D., Hejazi, N., Koziar, K., & Munk, M.
+-   [Version Control with Git] (http://swcarpentry.github.io/git-novice/) Software Carpentry practical lesson (~2h57min) by Gonzalez, I., Huang, D., Hejazi, N., Koziar, K., & Munk, M. – [GitHub repo](https://github.com/swcarpentry/git-novice)
 
 ## Shell programming
 -   [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
