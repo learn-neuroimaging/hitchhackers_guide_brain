@@ -9,4 +9,4 @@ Resources for writing and reviewing papers:
 * Tools to check results/statistics
 * Peer review -->
 
-   - [Best Practices in Data Analysis and Sharing in Neuroimaging Using MRI] (https://pubmed.ncbi.nlm.nih.gov/28230846/) COBIDAS guide
+-  [Best Practices in Data Analysis and Sharing in Neuroimaging Using MRI](https://pubmed.ncbi.nlm.nih.gov/28230846/) COBIDAS guide

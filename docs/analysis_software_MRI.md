@@ -127,4 +127,4 @@
 -   programming language: {None, utilizing one txt file containing coordinates of activation}
 -   paper DOI:
 -   RRID:
--   contact: [mailing list](https://www.fil.ion.ucl.ac.uk/spm/support/)
+-   contact: [mailing list](http://www.brainmap.org/forum/)
