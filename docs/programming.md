@@ -64,7 +64,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 
 -   [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
 -   [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) Software Carpentry practical lesson (~6h40min) by Leinweber, K., Das, D., & Goswami, R. – [GitHub repo](https://github.com/swcarpentry/r-novice-inflammation)
-
+-   [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) Software Carpentry lesson (~12h20min) by Wright, T., Zimmerman, N., Oliver, J., & Mawdsley, D. – [GitHub repo](https://github.com/swcarpentry/r-novice-gapminder)
 
 ## Introduction & Basics
 -   [Khan Academy] (https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
