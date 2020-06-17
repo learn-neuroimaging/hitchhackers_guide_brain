@@ -15,6 +15,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
 -   [Version Control with Git] (http://swcarpentry.github.io/git-novice/) Software Carpentry practical lesson (~2h57min) by Gonzalez, I., Huang, D., Hejazi, N., Koziar, K., & Munk, M. – [GitHub repo](https://github.com/swcarpentry/git-novice)
 -   [Git tutorial](https://psyarxiv.com/6tzh8/) Vuorre, M., & Curley, J. P. (2017, June 21). Curating Research Assets: A Tutorial on the Git Version Control System. https://doi.org/10.31234/osf.io/6tzh8
+-   [A Friendly Github Intro Workshop](https://kirstiejane.github.io/friendly-github-intro/) Workshop with presentations, exercises and resources - by Mozilla Science Lab
 
 ## Shell programming
 -   [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
