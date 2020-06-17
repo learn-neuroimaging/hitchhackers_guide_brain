@@ -7,7 +7,7 @@ cache:
 before_script:
   - npm install `cat npm-requirements.txt`
 script:
-  - remark docs/*.md --frail
+  - remark docs/*.md
 deploy:
   provider: pages
   local-dir: site
