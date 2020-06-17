@@ -23,4 +23,4 @@ The following list includes software/packages and useful resources that can be u
 -   repository URL: [Github](https://github.com/BMHLab/AHBAprocessing)
 -   programming language: {matlab}
 -   paper DOI: [https://doi.org/10.1016/j.neuroimage.2019.01.011](https://doi.org/10.1016/j.neuroimage.2019.01.011)
--   contact: [Aurina Arnatkeviciute](aurina.arnatkeviciute@monash.edu)
+-   contact: aurina.arnatkeviciute@monash.edu

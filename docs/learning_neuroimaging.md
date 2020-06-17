@@ -45,7 +45,7 @@
 ### COBIDacq
 
 -   description:
--   URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
+-   URL: [URL](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
 -   date:
 -   tags:
 -   duration:
@@ -109,7 +109,7 @@
 
 ### Scripts for quality control of diffusion data
 
-(http://davidroalf.com/script_download/)
+[Scripts](http://davidroalf.com/script_download/)
 -   description:
 -   URL: [URL](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
 -   date:
@@ -166,7 +166,7 @@
 -   duration:
 -   level: [intermediate]
 -   event:
--   reference: https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf
+-   reference: [reference](https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf)
 -   by:
 
 
