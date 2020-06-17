@@ -8,3 +8,11 @@ before_script:
   - npm install `cat npm-requirements.txt`
 script:
   - remark docs/*.md --frail
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
