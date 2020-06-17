@@ -36,6 +36,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Python tips and tricks](https://neurohackademy.org/course/python-tips-and-tricks/) by Tal Yarkoni within Neurohackweek 2016 (58 min, lecture with code slides and live coding)
 -   [Scientific computing with Python](https://www.youtube.com/watch?v=RhNfnQlnCEo&index=18&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Luke Chang within MIND 2018 (24 min, lecture)
 -   [An introduction to Python!](https://cogs18.github.io/intro/) is course made by Thomas Donoghue
+-   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/) Software Carpentry practical lesson (~7h25min) by Bekolay, T., Staneva, V., Fouilloux, A., Belkin, M., & Ko, L. – [GitHub repo](https://github.com/swcarpentry/python-novice-inflammation)
 
 ### Specific topics
 -   [Cython and numba](https://neurohackademy.org/course/cython-and-numba/) by Ariel Rokem within Neurohackweek 2016
