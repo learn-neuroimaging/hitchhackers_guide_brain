@@ -63,6 +63,8 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Programming with R](https://neurohackademy.org/course/programming-with-r/) by Jeanette Mumford within Neurohackweek 2016
 
 -   [Introduction to Neurohacking in R](https://www.coursera.org/learn/neurohacking) MOOC on coursera
+-   [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) Software Carpentry practical lesson (~6h40min) by Leinweber, K., Das, D., & Goswami, R. – [GitHub repo](https://github.com/swcarpentry/r-novice-inflammation)
+
 
 ## Introduction & Basics
 -   [Khan Academy] (https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
