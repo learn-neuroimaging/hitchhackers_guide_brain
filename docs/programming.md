@@ -25,6 +25,7 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [Explain shell commands](https://explainshell.com/)
 -   [Check shell scripts](https://www.shellcheck.net/)
 -   [Vim interactive tutorial](https://www.openvim.com/)
+-   	[The Linux Command Line](http://linuxcommand.org/tlcl.php)
 
 
 ## Python
