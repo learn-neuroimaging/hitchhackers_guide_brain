@@ -36,6 +36,7 @@ nav:
     - About: "05-analysis.md"
     - Statistics: "statistics.md"
     - Machine learning and Deep learning: "machine_and_deep_learning.md"
+    - The Allen atlas (postmortem gene expression data): "allen_software.md"
   - Quality control:
       - About: "06-quality-control.md"
   - Reporting methods and results:
