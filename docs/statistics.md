@@ -8,6 +8,7 @@
 -   [Cross-validation: what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
 -   [Daniel Lakens](https://twitter.com/lakens) MOOC on coursera on [how to improve your statistical inferences](https://www.coursera.org/learn/statistical-inferences)
 -   [Statistical thinking for the 21st century](http://statsthinking21.org/) by Russ Poldrack: "I am trained as a psychologist and neuroscientist, not a statistician. However, my research on brain imaging for the last 20 years has required the use of sophisticated statistical and computational tools, and this has required me to teach myself many of the fundamental concepts of statistics. Thus, I think that I have a solid feel for what kinds of statistical methods are important in the scientific trenches."
+-   [Principles, Statistical and Computational Tools for Reproducible Data Science](https://www.edx.org/course/principles-statistical-and-computational-tools-for) Intermediate-level course by Harvard University in edX
 
 A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R psychologist](http://rpsychologist.com/) to help better understand:
 

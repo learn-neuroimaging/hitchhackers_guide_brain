@@ -1,4 +1,4 @@
-# Neuroimaging resources
+﻿# Neuroimaging resources
 
 
 ## Neuroimaging video series
@@ -53,6 +53,9 @@ Lectures showing how to use The Virtual Brain software in a clinical context can
 
 ### fMRIF NIMH fMRI Course - from 2014 to 2018
 [Here](https://fmrif.nimh.nih.gov/public/fmri-course/fmri-course-summer-2014)
+
+### Rad229: MRI Signals and Sequences – Stanford University 2020 course
+[Here](https://www.youtube.com/playlist?list=PLscv4NA0bNSOWYDILwQPuXURMVkSaGuEU)
 
 
 The above list is by far not exhaustive, you will be able to find more resources in the following:
