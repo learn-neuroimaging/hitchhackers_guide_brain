@@ -17,3 +17,13 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 -   [null hypothesis significance testing](http://rpsychologist.com/d3/NHST/)
 -   [p hacking](https://www.shinyapps.org/apps/p-hacker/)
 -   [positive predictive values](http://shinyapps.org/showapp.php?app=https://tellmi.psy.lmu.de/felix/PPV&by=Michael%20Zehetleitner%20and%20Felix%20Sch%C3%B6nbrodt&title=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?&shorttitle=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?)
+
+Partial least squares regression:
+
+This is particularly useful for highdimensional neuroimaging data (particularly when correlating with genetic/transcriptome data). It finds a linear regression model by projecting the predicted variables and the observable variables to a new space. 
+Useful resources if you are new to PLS-R:
+
+- [A beginner's guide to PLS](https://www.researchgate.net/publication/228861711_A_Beginner's_Guide_to_Partial_Least_Squares_Analysis)
+- [python package](https://hoggorm.readthedocs.io/en/latest/)
+- [r package](https://cran.r-project.org/web/packages/pls/)
+- [matlab](https://uk.mathworks.com/help/stats/examples/partial-least-squares-regression-and-principal-components-regression.html)
