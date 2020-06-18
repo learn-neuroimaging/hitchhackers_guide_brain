@@ -1,4 +1,6 @@
-# Extracting data from the Allen atlas
+# Integrating genetics
+
+## Extracting data from the Allen atlas
 
 The Allen atlas is an amazing resource of regional gene expression in the human brain. It contains a database of expression levels of 20,737 genes represented by 58,692 probes across the complete cortical mantle and is constructed postmortem from the brains of 6 human donors with no history of psychiatric or neuropathological disorders. The donor brains also underwent MRI postmortem and the probe locations mapped into each donor's MRI data in MNI space, providing a great opportunity to correlate regional gene expression with imaging findings!
 
