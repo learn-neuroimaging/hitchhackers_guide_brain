@@ -15,7 +15,7 @@ When processing data, it is considered good practice (and is also very useful!) 
 
 3. Keeping records to make sure you have the data that you should have. 
 ??? example "Quality Checks for fMRI Data - Lecture on quality control for neuroimaging data, especially fMRI data"
-    -   [URL](URL: https://www.youtube.com/watch?v=fvv2dr3pT7I)
+    -   [URL](https://www.youtube.com/watch?v=fvv2dr3pT7I)
     -   programming language: {python}, {matlab/octave}, {C}, ...
     -   level: {beginner} 
     -   tags: {video} {MOOC}
