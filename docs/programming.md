@@ -5,8 +5,7 @@
 -   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
 
 ## GitHub
--   [A Quick Introduction to Version Control with
-Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) by Bilschak et al. (2016)
+-   [A Quick Introduction to Version Control with Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) by Bilschak et al. (2016)
 -   [Introduction to git and GitHub](https://www.youtube.com/watch?v=XyMCsEGPcjM&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp) by Chris Gorgolewski within Brainhack Americas (45 min)
 -   [Git and GitHub 1 & 2](https://neurohackademy.org/course/git-and-github/) by Bernease Herman within Neurohackweek 2016
 -   [Git tutorial](https://www.youtube.com/watch?v=0DGCnBZBoc0&index=2&t=5s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9) by Eshin Jolly within MIND 2018 (36 min)
@@ -71,4 +70,4 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 -   [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) Software Carpentry lesson (~12h20min) by Wright, T., Zimmerman, N., Oliver, J., & Mawdsley, D. � [GitHub repo](https://github.com/swcarpentry/r-novice-gapminder)
 
 ## Introduction & Basics
--   [Khan Academy] (https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
+-   [Khan Academy](https://www.khanacademy.org/): Beginners' coursework on programming, algorithms, and more.
