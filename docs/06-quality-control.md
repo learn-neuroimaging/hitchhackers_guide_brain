@@ -35,8 +35,7 @@ When processing data, it is considered good practice (and is also very useful!) 
 ##Different python libraries for QA for different modalities
 
   
-??? example ""INCF Tools for quality assessment - 
-This website has a list of QA libraries in python for different modalities with their documentation"
+??? example "INCF Tools for quality assessment - This website has a list of QA libraries in python for different modalities with their documentation"
     -   [URL](https://incf.github.io/niQC/tools)
     -   level: {beginner} / {intermediate} / {advanced}
     -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
