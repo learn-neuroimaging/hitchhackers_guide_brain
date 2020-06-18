@@ -27,7 +27,6 @@ When processing data, it is considered good practice (and is also very useful!) 
 ## It is called Basic quality control routine MRI
 ??? example "Basic quality control in routine MRI - Scientific research about the steps of QA"
     -   [URL](https://www.sciencedirect.com/science/article/abs/pii/S112017971630401X)
-    -   [RSS](insert_RSS_feed)
     -   level: {beginner} 
     -   tags: {video} {notebook} {fMRI} {MOOC} {blog} {website} {podcast}
     -   by: Thomas Maris
