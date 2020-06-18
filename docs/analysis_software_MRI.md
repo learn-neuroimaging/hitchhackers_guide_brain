@@ -121,9 +121,9 @@
 ## 	GingerALE
 -   [GingerAle](http://www.brainmap.org/ale/) -   A software for meta-analysis for fMRI studies.
 -   repository URL:
--   website URL: [http://www.brainmap.org/ale/](http://www.brainmap.org/ale/)
--   tutorial URL: [http://www.fil.ion.ucl.ac.uk/spm/course/](http://www.fil.ion.ucl.ac.uk/spm/course/)
--   documentation: [http://www.brainmap.org/ale/manual.pdf](http://www.brainmap.org/ale/manual.pdf)
+-   [website](http://www.brainmap.org/ale/)
+-   [documentation](http://www.fil.ion.ucl.ac.uk/spm/course/)
+-   [documentation](http://www.brainmap.org/ale/manual.pdf)
 -   programming language: {None, utilizing one txt file containing coordinates of activation}
 -   paper DOI:
 -   RRID:
