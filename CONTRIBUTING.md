@@ -73,12 +73,11 @@ This project uses [MkDocs](https://www.mkdocs.org/) tool with [Material theme](h
 ```
 git clone https://github.com/learn-neuroimaging/tutorials-and-resources.git
 cd tutorials-and-resources
-pip install -r pip-requirements.txt
+pip install -r requirements.txt
 ```
 (If you are working on your *fork*, simply replace `https://github.com/learn-neuroimaging/tutorials-and-resources.git` by `git clone git@github.com:<username>/tutorials-and-resources.git` where
 `<username>` is your GitHub username)
 
--   Finally, open up `http://127.0.0.1:8000/` in your browser, and you should see the default home page being displayed.
 - Once done, you need to run MkDocs. Simply type:
 ```
 mkdocs serve
