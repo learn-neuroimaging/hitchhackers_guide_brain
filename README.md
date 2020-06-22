@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/tutorials-and-resources/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
 
@@ -59,6 +59,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/DimitraMoraiti"><img src="https://avatars3.githubusercontent.com/u/67006597?v=4" width="100px;" alt=""/><br /><sub><b>Dimitra Moraiti</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=DimitraMoraiti" title="Code">💻</a> <a href="#content-DimitraMoraiti" title="Content">🖋</a> <a href="#ideas-DimitraMoraiti" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://erasmus-synclab.nl/"><img src="https://avatars1.githubusercontent.com/u/41283173?v=4" width="100px;" alt=""/><br /><sub><b>Eduard Klapwijk</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=eduardklap" title="Code">💻</a> <a href="#content-eduardklap" title="Content">🖋</a> <a href="#ideas-eduardklap" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/LA837"><img src="https://avatars2.githubusercontent.com/u/67006239?v=4" width="100px;" alt=""/><br /><sub><b>LA837</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/tutorials-and-resources/commits?author=LA837" title="Code">💻</a> <a href="#content-LA837" title="Content">🖋</a> <a href="#ideas-LA837" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
