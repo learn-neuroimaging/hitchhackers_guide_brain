@@ -246,6 +246,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "eduardklap",
+      "name": "Eduard Klapwijk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/41283173?v=4",
+      "profile": "https://erasmus-synclab.nl/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
