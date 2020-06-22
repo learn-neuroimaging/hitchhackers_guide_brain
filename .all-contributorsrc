@@ -235,6 +235,17 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "DimitraMoraiti",
+      "name": "Dimitra Moraiti",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/67006597?v=4",
+      "profile": "https://github.com/DimitraMoraiti",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
