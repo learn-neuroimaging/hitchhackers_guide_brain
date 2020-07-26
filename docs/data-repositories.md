@@ -134,6 +134,15 @@ an Resources Collaboratory](https://www.nitrc.org/).
 
 <!-- [Pain repository](https://www.painrepository.org/]) -->
 
+<!-- [Brain Development IXI Dataset]([https://brain-development.org/ixi-dataset/]) -->
+??? example "IXI Dataset - Brain Development from ICL"
+    -   [database repository](https://brain-development.org/ixi-dataset/)
+    -   contact: Biomedical Image Analysis Group, Imperial College London
+    -   data type: {human} {MRI} {DTI}
+    -   RRID: [SCR_005839](https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_005839/resolver?q=*&l=)
+    -   Nearly 600 MR images from normal, healthy subjects. The MR image acquisition protocol for each subject includes: T1, T2 and PD-weighted images, MRA images, and Diffusion-weighted images (15 directions).
+
+
 #### fNIRS
 
 ## Electrophysiology
