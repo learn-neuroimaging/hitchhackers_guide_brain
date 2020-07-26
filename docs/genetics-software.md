@@ -1,4 +1,6 @@
-# Extracting data from the Allen atlas
+# Genetics sotfware
+
+## Extracting data from the Allen atlas
 
 The Allen atlas is an amazing resource of regional gene expression in the human brain. It contains a database of expression levels of 20,737 genes represented by 58,692 probes across the complete cortical mantle and is constructed postmortem from the brains of 6 human donors with no history of psychiatric or neuropathological disorders. The donor brains also underwent MRI postmortem and the probe locations mapped into each donor's MRI data in MNI space, providing a great opportunity to correlate regional gene expression with imaging findings!
 
@@ -7,7 +9,7 @@ Extracting appropriate gene expression data from the Allen Atlas has many caveat
 
 The following list includes software/packages and useful resources that can be used to extract gene expression data in imaging space. 
 
-## Abagen
+### Abagen
 
 -   Open-source Python software for extracting gene expression data from the ALlen atlas.
 -   repository URL: [Github](https://github.com/rmarkello/abagen/)
@@ -17,7 +19,7 @@ The following list includes software/packages and useful resources that can be u
 -   programming language: {python}
 -   paper DOI: [https://doi.org/10.5281/zenodo.3726257.](https://doi.org/10.5281/zenodo.3726257.)
 
-## Matlab repository from Aurina Arnatkeviciute
+### Matlab repository from Aurina Arnatkeviciute
 
 -   Repository from the Aurina's paper describing best practice when extracting data from the Allen atlas.
 -   repository URL: [Github](https://github.com/BMHLab/AHBAprocessing)
