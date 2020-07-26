@@ -7,4 +7,12 @@ cache:
 before_script:
   - npm install `cat npm-requirements.txt`
 script:
-  - remark docs/*.md --frail
+  - remark docs/*.md
+deploy:
+  provider: pages
+  local-dir: site
+  cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master

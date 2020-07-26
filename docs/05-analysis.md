@@ -8,6 +8,9 @@ Resources currently [here](statistics.md#Statistics).
 ## Machine learning applications
 Resources currently [here](machine_and_deep_learning.md#Machine-learning-and-deep-learning)
 
+## Genetics sotfware
+Resources currently [here](genetics-software.md#genetics-software)
+
 <!--
 
 * [general linear model]

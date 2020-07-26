@@ -19,7 +19,7 @@
 ### Neuroimaging quality control task force
 
 -   description:
--   URL: https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/
+-   URL: [URL](https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/)
 -   date: 2018
 -   tags:
 -   duration:
@@ -32,7 +32,7 @@
 ### quality control on MRI and fMRI
 
 -   description:
--   URL: https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html
+-   URL: [URL](https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html)
 -   date:
 -   tags:
 -   duration:
@@ -45,7 +45,7 @@
 ### COBIDacq
 
 -   description:
--   URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
+-   URL: [URL](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
 -   date:
 -   tags:
 -   duration:
@@ -58,7 +58,7 @@
 ### wikibook neuroimaging data processing
 
 -   description:
--   URL: https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality
+-   URL: [URL](https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality)
 -   date:
 -   tags:
 -   duration:
@@ -71,7 +71,7 @@
 ### References for quality control
 
 -   description:
--   URL: https://www.zotero.org/groups/2221093/niqc
+-   URL: [URL](https://www.zotero.org/groups/2221093/niqc)
 -   date:
 -   tags:
 -   duration:
@@ -84,7 +84,7 @@
 ### MRIQC
 
 -   description: MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
--   URL: https://mriqc.readthedocs.io/en/stable/
+-   URL: [URL](https://mriqc.readthedocs.io/en/stable/)
 -   date:
 -   tags:
 -   duration:
@@ -97,7 +97,7 @@
 ### the PCP Quality Assessment Protocol
 
 -   description: BIDS app based on the protocol of the connectome project data
--   URL: https://github.com/BIDS-Apps/QAP , http://preprocessed-connectomes-project.org/quality-assessment-protocol/
+-   URL: [URL1](https://github.com/BIDS-Apps/QAP) , [URL2](http://preprocessed-connectomes-project.org/quality-assessment-protocol/)
 -   date:
 -   tags:
 -   duration:
@@ -109,9 +109,9 @@
 
 ### Scripts for quality control of diffusion data
 
-(http://davidroalf.com/script_download/)
+[Scripts](http://davidroalf.com/script_download/)
 -   description:
--   URL: https://practicalfmri.blogspot.com/2017/12/cobidacq.html
+-   URL: [URL](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
 -   date:
 -   tags: [software]
 -   duration:
@@ -124,7 +124,7 @@
 ### Qoala-t
 
 -   description: QA for freesurfer segmentations
--   URL: https://github.com/Qoala-T/Qoala-T
+-   URL: [URL](https://github.com/Qoala-T/Qoala-T)
 -   date:
 -   tags:
 -   duration:
@@ -134,7 +134,7 @@
 -   by:
 -   shinyapp
    -   description: QA for freesurfer segmentations
-   -   URL: https://qoala-t.shinyapps.io/qoala-t_app/
+   -   URL: [URL](https://qoala-t.shinyapps.io/qoala-t_app/)
    -   date:
    -   tags:
    -   duration:
@@ -147,7 +147,7 @@
 ### Visual QC
 
 -   description:
--   URL: https://github.com/raamana/visualqc
+-   URL: [URL](https://github.com/raamana/visualqc)
 -   date: 2018
 -   tags:
 -   duration:
@@ -160,13 +160,13 @@
 ## Diffusion Microstructure Imaging in Python (Dmipy)
 
 -   description: The Dmipy software project is dedicated to fasciliting high-level, reproducible diffusion microstructure research. The Dmipy open-source repository has many examples on implementing and fitting microstructure models.
--   URL: https://github.com/AthenaEPI/dmipy
+-   URL: [URL](https://github.com/AthenaEPI/dmipy)
 -   date: 2018
 -   tags: [software] [image processing]
 -   duration:
 -   level: [intermediate]
 -   event:
--   reference: https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf
+-   reference: [reference](https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf)
 -   by:
 
 
@@ -175,7 +175,7 @@
 ### Computer Vision
 
 -   description: Lecture on Computer Vision by Michael Beyeler within Neurohackademy 2018.
--   URL: https://neurohackademy.org/course/computer-vision/
+-   URL: [URL](https://neurohackademy.org/course/computer-vision/)
 -   date: 2018
 -   tags: [video] [summer school] [image processing] [machine learning]
 -   duration: 00:53
@@ -186,7 +186,7 @@
 ###  Finding low-dimensional structure in large-scale neural recordings
 
 -   description:
--   URL: https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/
+-   URL: [URL](https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/)
 -   date: 2018
 -   tags: [video] [summer school]
 -   duration: 00:36
@@ -198,7 +198,7 @@
 ### Interactive Data Visualization with D3
 
 -   description:
--   URL: https://neurohackademy.org/course/interactive-data-visualization-with-d3/
+-   URL: [URL](https://neurohackademy.org/course/interactive-data-visualization-with-d3/)
 -   date: 2018
 -   tags: [video] [summer school]
 -   duration: 00:49
@@ -222,7 +222,7 @@
 ### Quantitative and diffusion MRI modeling of developmental data
 
 -   description:
--   URL: https://neurohackademy.org/course/quantitative-and-diffusion-mri-modeling-of-developmental-data/
+-   URL: [URL](https://neurohackademy.org/course/quantitative-and-diffusion-mri-modeling-of-developmental-data/)
 -   date: 2018
 -   tags: [video] [summer school]
 -   duration:
@@ -239,7 +239,7 @@
 #### video
 
  -   description: Overview of Meta Analysis Approaches
- -   URL: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072
+ -   URL: [URL](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072)
  -   date: 2018
  -   tags:
  -   duration: 00:18
@@ -251,7 +251,7 @@
 #### slides
 
  -   description: Overview of Meta Analysis Approaches
- -   URL: https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839
+ -   URL: [URL](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
  -   date: 2018
  -   tags: [slides]
  -   duration:
@@ -262,7 +262,7 @@
 #### ALE and BrainMap
 
 -   description: Overview of Meta Analysis Approaches
--   URL: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
+-   URL: [URL](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066)
 -   date: 2018
 -   tags: [video]
 -   duration: 00:22
@@ -274,11 +274,11 @@
 #### NiMARE
 
  -   description: NiMARE is a Python library for coordinate-   and image-based meta-analysis.
- -   URL: https://github.com/neurostuff/NiMARE
+ -   URL: [URL](https://github.com/neurostuff/NiMARE)
  -   type: [software] [python] [meta-analysis]
  -   level: [intermediate]
   -   tutorial
-   -   URL: https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare
+   -   URL: [URL](https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare)
    -   type: [tutorial] [juptyer] [meta-analysis]
    -   level: [intermediate]
    -   by: Chris Gorgolewski
@@ -287,7 +287,7 @@
 
 #### brainmap
 -   description:
--   URL: http://www.brainmap.org/
+-   URL: [URL](http://www.brainmap.org/)
 -   date:
 -   tags:
 -   duration:
@@ -298,7 +298,7 @@
 
 #### Sleuth
 -   description:
--   URL: http://www.brainmap.org/software.html#Sleuth
+-   URL: [URL](http://www.brainmap.org/software.html#Sleuth)
 -   date: 2018
 -   tags: [software] [meta-analysis]
 -   duration:
@@ -308,8 +308,8 @@
 -   by:
 
 #### GingerALE
--   description: http://www.brainmap.org/
--   URL: http://www.brainmap.org/software.html#GingerALE
+-   [description](http://www.brainmap.org/)
+-   URL: [URL](http://www.brainmap.org/software.html#GingerALE)
 -   date:
 -   tags: [software] [meta-analysis]
 -   duration:
@@ -322,7 +322,7 @@
 
 #### IBMA
 -   description: IBMA is the Image-Based Meta-Analysis toolbox for SPM.
--   URL: https://github.com/NeuroimagingMetaAnalysis/ibma
+-   URL: [URL](https://github.com/NeuroimagingMetaAnalysis/ibma)
 -   date:
 -   tags: [software] [meta-analysis]
 -   duration:
