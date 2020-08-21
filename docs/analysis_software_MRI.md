@@ -20,6 +20,7 @@
         -   duration:
         -   by:
 
+<!-- TODO -->
 
 <!-- * The first place to look is the [SPM wiki book](https://en.wikibooks.org/wiki/SPM) that could become a even better resource if users contributed even more to it.
 * Then you can check the [add-ons for SPM](https://www.fil.ion.ucl.ac.uk/spm/ext/).
@@ -46,7 +47,7 @@
     -   programming language: {C}, {python}, {R}, {shell}
     -   tags: {fMRI} {MRI} {nipype}
     -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
+    -   RRID: 
     -   tutorial:
         -   [URL](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html)
         - [AFNI bootcamp](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/educational/bootcamp_recordings.html)
@@ -81,95 +82,78 @@
 
 ## Diffusion MRI
 
-## MRTrix3
--   [MRtrix3](http://www.mrtrix.org/) -   Advanced tools for the analysis of diffusion MRI data.
--   repository URL: [GitHub](https://github.com/MRtrix3)
--   website URL: [http://www.mrtrix.org/](http://www.mrtrix.org/)
--   tutorial URL: [beginner DWI tutorial](https://mrtrix.readthedocs.io/en/latest/getting_started/beginner_dwi_tutorial.html), [basic and advanced tractography with MRtrix tutorial](https://osf.io/fkyht/), [tutorial video1](https://osf.io/fkyht/), [tutorial video2](https://www.youtube.com/watch?v=lQWucXuAXR8)
--   documentation: [user documentation](https://mrtrix.readthedocs.io/en/latest/), [developer documentation](http://www.mrtrix.org/developer-documentation/)
--   programming language: {C++}, {python}
--   paper DOI: doi: 10.1016/j.neuroimage.2019.116137
--   RRID:
--   contact: [discussion forum](https://community.mrtrix.org/)
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
+??? example "MRtrix3 - Advanced tools for the analysis of diffusion MRI data."
+    -   [GitHub]([insert GitHub or GitLab URL ](https://github.com/MRtrix3))
+    -   [website]([insert URL](http://www.mrtrix.org/))
+    -   [documentation](https://mrtrix.readthedocs.io/en/latest/)
+    -   [developer documentation](http://www.mrtrix.org/developer-documentation/)
+    -   [discussion forum](https://community.mrtrix.org/)
+    -   programming language:  {C++}, {python}
+    -   tags: {dMRI}
+    -   [paper](doi: 10.1016/j.neuroimage.2019.116137)
     -   RRID: insert_RRID_here
     -   tutorial:
-        -   [URL]( insert URL )
+        -   [beginner DWI tutorial](https://mrtrix.readthedocs.io/en/latest/getting_started/beginner_dwi_tutorial.html)
+        -   programming language:
+        -   level: beginner
+        -   tags:
+        -   date:
+        -   duration:
+        -   by:
+    -   tutorial:
+        -   [basic and advanced tractography with MRtrix tutorial](https://osf.io/fkyht/)
         -   programming language:
         -   level:
         -   tags:
         -   date:
         -   duration:
         -   by:
+    -   [tutorial video1](https://osf.io/fkyht/), 
+    -   [tutorial video2](https://www.youtube.com/watch?v=lQWucXuAXR8)
 
-
-
-
-
-## DIPY
-
--   [DIPY](https://dipy.org/) -   DIPY is a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis.
--   [GitHub](https://github.com/dipy/dipy)
--   [Website](https://dipy.org/)
--   [Tutorial](https://dipy.org/tutorials/)
--   [Documentation](https://dipy.org/documentation/1.1.1./documentation/)
--   programming language: {python}
--   paper DOI: https://doi.org/10.3389/fninf.2014.00008
--   RRID:
--   [mailing list](https://mail.python.org/mailman/listinfo/neuroimaging)
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
-    -   tutorial:
-        -   [URL]( insert URL )
-        -   programming language:
-        -   level:
-        -   tags:
-        -   date:
-        -   duration:
-        -   by:
-
-
-
-
-
+??? example "DIPY - a free and open source software project for computational neuroanatomy, focusing mainly on dMRI analysis"
+    -   [gitHub](https://github.com/dipy/dipy)
+    -   [website](https://dipy.org/)
+    -   [documentation](https://dipy.org/documentation/1.1.1./documentation/)
+    -   [contact](https://mail.python.org/mailman/listinfo/neuroimaging)
+    -   programming language: {python}
+    -   tags: {dMRI}
+    -   paper: https://doi.org/10.3389/fninf.2014.00008
+    -   RRID:
+    -   [tutorial](https://dipy.org/tutorials/)
 
 ## Pipelines
 
--   [Nipype](https://nipype.readthedocs.io/en/latest/) -   An open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow.
--   repository URL: [GitHub](https://github.com/nipy/nipype)
--   website URL: [https://nipype.readthedocs.io/en/latest/](https://nipype.readthedocs.io/en/latest/)
--   tutorial URL: [tutorial1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), [tutorial2](https://miykael.github.io/nipype_tutorial/), [examples](https://nipype.readthedocs.io/en/latest/examples.html)
--   documentation:
--   programming language: {python}
--   paper DOI:
--   RRID:
--   contact: [chat](https://gitter.im/nipy/nipype)
+??? example "Nipype - provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow."
+    -   [website](https://nipype.readthedocs.io/en/latest/) -   
+    -   [GitHub](https://github.com/nipy/nipype)
+    -   [documentation](https://nipype.readthedocs.io/en/latest/)
+    -   [contact](https://gitter.im/nipy/nipype)
+    -   programming language: {python}
+    -   tags: {fMRI} {MRI}
+    -   paper DOI:
+    -   RRID:
+    -   tutorial:
+        -   [tutorial 1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), 
+        -   [tutorial 2](https://miykael.github.io/nipype_tutorial/), 
+        -   [examples](https://nipype.readthedocs.io/en/latest/examples.html)
+        -   programming language:
+        -   level:
+        -   tags:
+        -   date:
+        -   duration:
+        -   by:
 
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
+??? example "fMRIPrep - A Robust Preprocessing Pipeline for fMRI Data"
+    -   [GitHub](https://github.com/poldracklab/fmriprep)
+    -   [website](https://fmriprep.readthedocs.io/en/stable/)
+    -   [documentation] :
+    -   [contact] :
+    -   [tutorial](http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/)
+    -   programming language: {python}
+    -   tags: {fMRI} {nipype}
+    -   paper DOI: [https://doi.org/10.1038/s41592-018-0235-4](https://doi.org/10.1038/s41592-018-0235-4)
+    -   RRID: SCR_001362
     -   tutorial:
         -   [URL]( insert URL )
         -   programming language:
@@ -178,61 +162,20 @@
         -   date:
         -   duration:
         -   by:
-
-
-
--   [fMRIPrep](https://fmriprep.readthedocs.io/en/stable/) -   A Robust Preprocessing Pipeline for fMRI Data
--   [GitHub](https://github.com/poldracklab/fmriprep)
--   [website](https://fmriprep.readthedocs.io/en/stable/)
--   [tutorial](http://reproducibility.stanford.edu/fmriprep-tutorial-running-the-docker-image/)
--   documentation:
--   programming language: {python}
--   paper DOI: [https://doi.org/10.1038/s41592-018-0235-4](https://doi.org/10.1038/s41592-018-0235-4)
--   RRID:SCR_001362
--   contact:
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
-    -   tutorial:
-        -   [URL]( insert URL )
-        -   programming language:
-        -   level:
-        -   tags:
-        -   date:
-        -   duration:
-        -   by:
-
 
 ## Misc
 
--   [ANTs](http://stnava.github.io/ANTs/) -   ANTs computes high-dimensional mappings to capture the statistics of brain structure and function.
--   repository URL: [GitHub](https://github.com/ANTsX/ANTs)
--   website URL: [http://stnava.github.io/ANTs/](http://stnava.github.io/ANTs/)
--   tutorial URL: [https://github.com/stnava/ANTsTutorial](https://github.com/stnava/ANTsTutorial)
--   documentation: [https://github.com/ANTsX/ANTs](https://github.com/ANTsX/ANTs), [https://github.com/ANTsX/ANTs/wiki](https://github.com/ANTsX/ANTs/wiki)
--   programming language:
--   paper DOI:
--   RRID:
--   contact: [discussion forum](https://sourceforge.net/p/advants/discussion/)
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
-    -   tutorial:
-        -   [URL]( insert URL )
+??? example "ANTs - To compute high-dimensional mappings to capture the statistics of brain structure and function"  
+    -   [GitHub](https://github.com/ANTsX/ANTs)
+    -   [website](http://stnava.github.io/ANTs/)
+    -   [documentation](https://github.com/ANTsX/ANTs/wiki)
+    -   [contact](https://sourceforge.net/p/advants/discussion/)
+    -   programming language:
+    -   tags: {fMRI} {MRI} {nipype}
+    -   paper DOI:
+    -   RRID:
+    -   tutorial: 
+        -   [URL](https://github.com/stnava/ANTsTutorial)
         -   programming language:
         -   level:
         -   tags:
@@ -240,31 +183,16 @@
         -   duration:
         -   by:
 
-
-
-
-
--   [BrainSuite](http://brainsuite.org/) -    A collection of open source software tools that enable largely automated processing of MRI of the human brain.
--   repository URL:
--   website URL: [http://brainsuite.org/](http://brainsuite.org/)
--   tutorial URL: [http://brainsuite.org/tutorials/](http://brainsuite.org/tutorials/)
--   documentation:
--   programming language:
--   paper DOI:
--   RRID:
--   contact: [discussion forum](http://forums.brainsuite.org/)
-
-??? example "insert software name - insert short description"
-    -   [code repository](insert GitHub or GitLab URL )
-    -   [website](insert URL)
-    -   [documentation](insert documentation or wiki URL)
-    -   [contact](insert URL to mailing list, slack, forum, mattermost)
-    -   programming language: {python}, {matlab/octave}, {C}, ...
-    -   tags: {fMRI} {MEG} {EEG} {MRI} {nipype}
-    -   [paper](https://doi.org/insert_paper_DOI_here)
-    -   RRID: insert_RRID_here
-    -   tutorial:
-        -   [URL]( insert URL )
+??? example "BrainSuite - A collection of open source software tools that enable largely automated processing of MRI of the human brain."
+        -   [website](http://brainsuite.org/)
+        -   documentation:
+        -   [contact](http://forums.brainsuite.org/)
+        -   programming language:
+        -   tags: 
+        -   paper DOI:
+        -   RRID:
+        -   tutorial
+            -    [URL](http://brainsuite.org/tutorials/)
         -   programming language:
         -   level:
         -   tags:
