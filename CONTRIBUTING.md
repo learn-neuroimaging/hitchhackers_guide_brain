@@ -85,6 +85,12 @@ mkdocs serve
 
 - Finally, open up [`http://127.0.0.1:8000/`](http://127.0.0.1:8000/) in your browser, and you should see the default home page being displayed.
 
+We also recommend that you use a virtual environment. For example:
+```bash 
+virtualenv --python=python3 ~/env/hhg2b
+. ~/env/hhg2b/bin/activate
+pip install -r requirements.txt
+```
 
 <!--## License
 By contributing, you agree that your contributions will be licensed under its
