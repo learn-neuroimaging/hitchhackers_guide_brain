@@ -1,7 +1,7 @@
 # Processing
 
 ## Processing infrastructure
-Resources currently [here](computing.md#Computing-Resources).
+Resources currently [here](41-computing.md#Computing-Resources).
 
 ## Preprocessing data
 Processing has several stages, and can vary depending on which image modality (or type of data in general) you want to use.
@@ -11,7 +11,7 @@ If you are interested in processing a specific type of data, you can refer to th
 ## Single-modality Processing
 
 ### MRI
-Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-software-for-MRI)
+Resources currently [here](42-analysis_software_MRI.md#Neuroimaging-analysis-software-for-MRI)
 
 #### Structural
 -   T1w
@@ -26,7 +26,7 @@ Resources currently [here](analysis_software_MRI.md#Neuroimaging-analysis-softwa
 ### EEG
 
 ### MEG
-Resources currently [here](analysis_software_MEEG.md#Neuroimaging-analysis-software-for-MEEG).
+Resources currently [here](43-analysis_software_MEEG.md#Neuroimaging-analysis-software-for-MEEG).
 
 ## Multi-modal Processing
 Some processing pipelines require multiple types of data.
@@ -38,4 +38,4 @@ Some processing pipelines require multiple types of data.
 ### Modeling / Computational neuroscience
 
 ## More
-[Here](learning_neuroimaging.md#Neuroimaging) and [here](neuroimaging_resources.md#Neuroimaging-resources).
+[Here](45-learning_neuroimaging.md#Neuroimaging) and [here](46-neuroimaging_resources.md#Neuroimaging-resources).

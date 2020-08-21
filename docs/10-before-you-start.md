@@ -2,7 +2,7 @@
 
 Before you start your study, here are some things you might want to consider:
 
-Resources currently collected [here](programming.md)
+Resources currently collected [here](11-programming.md)
 
 <!--
 * [Reproducibility]
