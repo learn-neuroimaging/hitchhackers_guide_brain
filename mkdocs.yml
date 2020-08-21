@@ -14,7 +14,7 @@ theme:
 
 # Pages
 nav:
-  - Welcome: "00-index.md"
+  - Welcome: "index.md"
   - Before you start:
     - About: "10-before-you-start.md"
     - Programming: "11-programming.md"

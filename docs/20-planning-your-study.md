@@ -2,7 +2,7 @@
 
 When planning your study, here are some things you might want to consider:
 
-Resources currently collected [here](reproducible_neuroimaging_research.md#Reproducible-neuroimaging-research)
+Resources currently collected [here](21-reproducible_neuroimaging_research.md#Reproducible-neuroimaging-research)
 
 <!--
 * [Reusing data]
