@@ -14,36 +14,36 @@ theme:
 
 # Pages
 nav:
-  - Welcome: "index.md"
+  - Welcome: "00-index.md"
   - Before you start:
-    - About: "01-before-you-start.md"
-    - Programming: "programming.md"
+    - About: "10-before-you-start.md"
+    - Programming: "11-programming.md"
   - Planning your study:
-      - About: "02-planning-your-study.md"
-      - Reproducible research: "reproducible_neuroimaging_research.md"
+      - About: "20-planning-your-study.md"
+      - Reproducible research: "21-reproducible_neuroimaging_research.md"
   - Getting data:
-    - About: "03-getting-data.md"
-    - Data repositories: "data-repositories.md"
+    - About: "30-getting-data.md"
+    - Data repositories: "31-data-repositories.md"
   - Processing:
-    - About: "04-processing.md"
-    - Computing: "computing.md"
-    - MRI: "analysis_software_MRI.md"
-    - MEEG: "analysis_software_MEEG.md"
-    - Other physiological signals: "analysis_software_physio.md"
-    - Learning neuroimaging: "learning_neuroimaging.md"
-    - Neuroimaging resources: "neuroimaging_resources.md"
+    - About: "40-processing.md"
+    - Computing: "41-computing.md"
+    - MRI: "42-analysis_software_MRI.md"
+    - MEEG: "43-analysis_software_MEEG.md"
+    - Other physiological signals: "44-analysis_software_physio.md"
+    - Learning neuroimaging: "45-learning_neuroimaging.md"
+    - Neuroimaging resources: "46-neuroimaging_resources.md"
   - Analysis:
-    - About: "05-analysis.md"
-    - Statistics: "statistics.md"
-    - Machine learning and Deep learning: "machine_and_deep_learning.md"
-    - Genetic software: "genetics-software.md"
+    - About: "50-analysis.md"
+    - Statistics: "51-statistics.md"
+    - Machine learning and Deep learning: "52-machine_and_deep_learning.md"
+    - Genetic software: "53-genetics-software.md"
   - Quality control:
-      - About: "06-quality-control.md"
+      - About: "60-quality-control.md"
   - Reporting methods and results:
-    - About: "07-reporting-methods-and-results.md"
+    - About: "70-reporting-methods-and-results.md"
   - Sharing data, code and results:
-    - About: "08-sharing-data-code-and-results.md"
-    - Open science: "open_science.md"
+    - About: "80-sharing-data-code-and-results.md"
+    - Open science: "81-open_science.md"
   - Appendix: "99-appendix.md"
 
 # list of extension
