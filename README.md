@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [contributors-logo]: https://img.shields.io/github/all-contributors/learn-neuroimaging/tutorials-and-resources/master?color=blue
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Github All Contributors][contributors-logo]] 
+![Github All Contributors][contributors-logo]
 [![Build Status](https://travis-ci.org/learn-neuroimaging/tutorials-and-resources.svg?branch=master)](https://travis-ci.org/learn-neuroimaging/tutorials-and-resources)
 
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
