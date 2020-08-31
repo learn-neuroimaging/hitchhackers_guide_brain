@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-25-blue.svg?)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-![Github All Contributors][contributors-logo]
+
 [![Build Status](https://travis-ci.org/learn-neuroimaging/tutorials-and-resources.svg?branch=master)](https://travis-ci.org/learn-neuroimaging/tutorials-and-resources)
 
 <img src="https://user-images.githubusercontent.com/6297454/47931389-f6cc1800-dece-11e8-9169-0477c9400733.gif" style="float:right" />
