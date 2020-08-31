@@ -271,6 +271,7 @@
     }
   ],
   "contributorsPerLine": 7,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-blue.svg?)](#contributors)",
   "projectName": "tutorials-and-resources",
   "projectOwner": "learn-neuroimaging",
   "repoType": "github",
