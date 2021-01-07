@@ -23,7 +23,7 @@ Here are some resources that can guide you through this process.
     -   duration: 00:31
     -   by: Andrew Jahn
 
- ## Interesting paper for understanding QA
+## Interesting paper for understanding QA
 
 ??? example "Basic quality control in routine MRI - Scientific research about the steps of QA"
     -   [URL](https://www.sciencedirect.com/science/article/abs/pii/S112017971630401X)
