@@ -4,12 +4,12 @@
     by Fernando Perez within Neurohackademy 2018
 
     -   duration: 1 hr 25 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Jupyter tutorial](https://www.youtube.com/watch?v=CSkTJRNBTME&index=3&t=4s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9)
     by Eshin Jolly within MIND 2018
     -   duration: 31 min
-    -   type: [video]
+    -   type: {video}
 
 ## Containers
 
@@ -17,7 +17,7 @@
     by Chris Gorgolewski within Neurohackweek 2016
 
     -   duration: 1 hr 13 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Docker for scientists 2](https://neurohackademy.org/course/docker/) by
     Chris Gorgolewski within Neurohackweek
@@ -26,7 +26,7 @@
     by Lucy Owen within MIND 2018
 
     -   duration: 20 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily
     create containers suited to your neuroimaging needs. Here is a
@@ -51,85 +51,85 @@
     by Russ Poldrack within Neurohackweek 2016
 
     -   duration: 1 hr 23 min
-    -   type: [video]
+    -   type: {video}
 
 -   [GNU Make for Neuroimaging Workflows](https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/)
     by Tara Madhyastha within Neurohackweek 2016
 
     -   duration: 48 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Introduction to web technologies](https://neurohackademy.org/course/introduction-to-web-technologies/)
     by Anisha Keshavan within Neurohackademy 2018
 
     -   duration: 56 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Neuroimaging pipelines](https://neurohackademy.org/course/neuroimaging-pipelines-2/)
     by Satra Ghosh within Neurohackweek 2017
 
     -   duration: 1 hr 33 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Reproducibility in fMRI: What is the problem? 1](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-2/)
     by Russ Poldrack within Neurohackweek 2017
 
     -   duration: 1 hr 40 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Same Data - Different Software - Different Results? Analytic Variability of Group fMRI Results](https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/116000)
     by Alexander Bowring
 
     -   duration: 12 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Software pipelines for reproducible neuroimaging](https://neurohackademy.org/course/software-pipelines-for-reproducible-neuroimaging/)
     by Satra Ghosh and Chris Gorgolewski within Neurohackademy 2016
 
     -   duration: 1 hr 14 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Neuroimaging Workflows & Statistics for reproducibility](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115885)
     by Dorota Jarecka, Satrajit Ghosh, Celia Greenwood and Jean-Baptiste Poline
     at OHBM
 
     -   duration: 3 hr 45 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9)
     by Yaroslav Halchenko within MIND 2018
 
     -   duration: 59 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Allen Institute Data and Software](https://neurohackademy.org/course/allen-institute-data-and-software/)
     by Nicolas Cain within Neurohackweek 2017
 
     -   duration: 53 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Allen Institute Datasets](https://neurohackademy.org/course/allen-institute-datasets/)
     by Terri Gilbert within Neurohackweek 2016
 
     -   duration: 1 hr 8 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Allen Institute RNAseq data](https://neurohackademy.org/course/allen-institute-rnaseq-data/)
     by Jeremy Miller within Neurohackweek 2016
 
     -   duration: 52 min
-    -   type: [video]
+    -   type: {video}
 
 -   [AllenSDK and the Allen Brain Observatory](https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/)
     by Nicolas Cain and Justin Kiggins within Neurohackademy 2018
 
     -   duration: 1 hr 42 min
-    -   type: [video]
+    -   type: {video}
 
 -   [Integrating Allen Institute Datasets with MRI data](https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/)
     by Kirstie Whitaker within Neurohackweek 2016
     -   duration: 28 min
-    -   type: [video]
+    -   type: {video}
 
 ### Tutorials/instructions/slides
 
