@@ -2,15 +2,14 @@
 
 When planning your study, here are some things you might want to consider:
 
-Resources currently collected
-[here](21-reproducible-neuroimaging-research.md#Reproducible-neuroimaging-research)
+- [tools for reproducible research](21-reproducible-neuroimaging-research.md)
+- [pre-registration]
 
 <!--
 * [Reusing data]
 * [Defining your terms and your task]
 * [Ontologies]
 * [Piloting]
-* [Pre-registration]
 * [Optimizing your design]
 * [Design efficiency]
 * [Power]
