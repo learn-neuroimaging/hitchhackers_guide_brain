@@ -3,7 +3,7 @@
 When planning your study, here are some things you might want to consider:
 
 - [tools for reproducible research](21-reproducible-neuroimaging-research.md)
-- [pre-registration]
+- [pre-registration](22-preregistration.md)
 
 <!--
 * [Reusing data]

@@ -23,6 +23,7 @@ nav:
   - Planning your study:
       - About: "20-planning-your-study.md"
       - Reproducible research: "21-reproducible-neuroimaging-research.md"
+      - Preregistration: "22-preregistration.md"
   - Getting data:
     - About: "30-getting-data.md"
     - Data repositories: "31-data-repositories.md"
