@@ -12,9 +12,9 @@ Resources currently collected [here](11-programming.md)
  * [Version control]
  * [Coding style]
   * [Avoid selective debugging: unit tests, positive and negative control]
-  * [Data management]
-    * [BIDS]
-    * [Datalad]
-    * [Documentation]
+ * [Data management]
+   * [BIDS]
+   * [Datalad]
+   * [Documentation]
 
 -->

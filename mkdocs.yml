@@ -20,22 +20,22 @@ nav:
     - Programming: "11-programming.md"
   - Planning your study:
       - About: "20-planning-your-study.md"
-      - Reproducible research: "21-reproducible_neuroimaging_research.md"
+      - Reproducible research: "21-reproducible-neuroimaging-research.md"
   - Getting data:
     - About: "30-getting-data.md"
     - Data repositories: "31-data-repositories.md"
   - Processing:
     - About: "40-processing.md"
     - Computing: "41-computing.md"
-    - MRI: "42-analysis_software_MRI.md"
-    - MEEG: "43-analysis_software_MEEG.md"
-    - Other physiological signals: "44-analysis_software_physio.md"
-    - Learning neuroimaging: "45-learning_neuroimaging.md"
-    - Neuroimaging resources: "46-neuroimaging_resources.md"
+    - MRI: "42-analysis-software-MRI.md"
+    - MEEG: "43-analysis-software-MEEG.md"
+    - Other physiological signals: "44-analysis-software-physio.md"
+    - Learning neuroimaging: "45-learning-neuroimaging.md"
+    - Neuroimaging resources: "46-neuroimaging-resources.md"
   - Analysis:
     - About: "50-analysis.md"
     - Statistics: "51-statistics.md"
-    - Machine learning and Deep learning: "52-machine_and_deep_learning.md"
+    - Machine learning and Deep learning: "52-machine-and-deep-learning.md"
     - Genetic software: "53-genetics-software.md"
   - Quality control:
       - About: "60-quality-control.md"
@@ -43,7 +43,7 @@ nav:
     - About: "70-reporting-methods-and-results.md"
   - Sharing data, code and results:
     - About: "80-sharing-data-code-and-results.md"
-    - Open science: "81-open_science.md"
+    - Open science: "81-open-science.md"
   - Appendix: "99-appendix.md"
 
 # list of extension
