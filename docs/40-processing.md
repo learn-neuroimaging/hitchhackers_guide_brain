@@ -21,15 +21,15 @@ Resources currently
 
 #### Structural
 
-- T1w
-- T2w
-- Diffusion MRI
-- Laminar and high-resolution MRI
+-   T1w
+-   T2w
+-   Diffusion MRI
+-   Laminar and high-resolution MRI
 
 #### Functional MRI
 
-- resting state fMRI
-- task-related fMRI
+-   resting state fMRI
+-   task-related fMRI
 
 ### EEG
 
