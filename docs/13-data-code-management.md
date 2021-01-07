@@ -20,7 +20,6 @@ But there are other possibilities: see
 And some project template on OSF that can be forked and reused:
 
 -   [Research Template to Start New Project (Confirmatory)](https://osf.io/qpdth/)
-
 -   [Research Template to Start New Project (Exploratory)](https://osf.io/nc8ha/)
 
 ## The Brain Imaging Data Structure (BIDS)
@@ -43,6 +42,7 @@ tutorials and scripts to help you rearrange your data.
     presented by Chris Gorgolewski within Neurohackademy 2018
     -   duration: 56 min
     -   type: [video]
+    
 -   [BIDS website](http://bids.neuroimaging.io/)
 -   [BIDS apps](https://bids-apps.neuroimaging.io/apps/)
 -   [BIDS starter kit](https://github.com/bids-standard/bids-starter-kit)

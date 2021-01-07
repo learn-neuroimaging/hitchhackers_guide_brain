@@ -7,6 +7,7 @@ https://www.divio.com/blog/documentation/
 Write the docs:
 
 -   website: https://www.writethedocs.org/
+
 -   slackspace:
     https://join.slack.com/t/writethedocs/shared_invite/zt-kiwjl5qr-2P6cY1aU0XEore_8RaF2Bg
 
@@ -24,8 +25,10 @@ when you have to respond to reviewers or when you want to check something in
 that data set or in that function you used 6 months ago.
 
 > -   Most likely, you will have to re-run your analysis more than once.
+>
 > -   In the future, you or a collaborator may have to re-visit part of the
 >     project.
+>
 > -   Your most likely collaborator is your future self, and your past self
 >     doesn’t answer emails.
 
@@ -50,5 +53,4 @@ There are also ways to make it part of a
 [continuous integration](https://predictablynoisy.com/circle-documentation-build).
 
 -   [Write a great project ReadMe](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
-
 -   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
