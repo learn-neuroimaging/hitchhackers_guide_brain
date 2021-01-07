@@ -18,6 +18,8 @@ nav:
   - Before you start:
     - About: "10-before-you-start.md"
     - Programming: "11-programming.md"
+    - Version control: "12-version-control.md"
+    - Organizing your files: "13-data-code-management.md"
   - Planning your study:
       - About: "20-planning-your-study.md"
       - Reproducible research: "21-reproducible-neuroimaging-research.md"
