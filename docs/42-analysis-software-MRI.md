@@ -38,8 +38,6 @@
  # [https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts](https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts)
 * But also [too many repos on Github to list them all](https://github.com/search?q=matlab+fmri) but here are some you might come across: [Rik Henson's](https://github.com/MRC-CBU/riksneurotools), the [canlab](https://github.com/canlab) -->
 
-
-
 ??? example "AFNI - A software suite primarily developed for the analysis and display of anatomical and fMRI data."
     -   [website](https://afni.nimh.nih.gov/)
     -   [documentation](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/index.html)

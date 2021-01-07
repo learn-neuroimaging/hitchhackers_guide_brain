@@ -1,6 +1,7 @@
 # Data repositories
 
-This section contains links to "open" data resources, that can be accessed for research purposes. For some of them, a formal request to the organization or to the data curation team may be required.
+This section contains links to "open" data resources, that can be accessed for research purposes. 
+For some of them, a formal request to the organization or to the data curation team may be required.
 
 This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) also has a nice list with some more suggestions.
 
@@ -13,7 +14,7 @@ This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) a
     -   contact
     -   data type: {MRI} {EEG} {iEEG} {ECoG} {human} {non-human}
     -   datalad compatible: yes
-    -   paper: [10.12751/incf.ni2017.0040](10.12751/incf.ni2017.0040)
+    -   paper: [10.12751/incf.ni2017.0040](https://doi.org/10.12751/incf.ni2017.0040)
     -   RRID: [SCR_015864](https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_015864/resolver?q=GIN&l=GIN)
     -   The G-Node Data Infrastructure Services provides a platform for comprehensive and reproducible management and sharing of neuroscience data. Building on well established versioning technology, GIN offers the power of a web based repository management service combined with a distributed file storage.
         -   Very similar to github but for data.
@@ -42,7 +43,8 @@ This [Wikipedia](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) a
 
 ## NeuroImaging
 
-To get an exhaustive list of the datasets and databases available out there, you should first go to the [data section](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) of the [Neuroimaging Tools
+To get an exhaustive list of the datasets and databases available out there, 
+you should first go to the [data section](https://www.nitrc.org/search/?type_of_search=group&q=category%3A%27Data%27) of the [Neuroimaging Tools
 an Resources Collaboratory](https://www.nitrc.org/).
 
 ### MRI/fMRI
