@@ -33,9 +33,7 @@
     [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html)
     on how to use it.
 
-## Reproducible neuroimaging tools
-
-### Tools
+## Tools for reproducible neuroimaging
 
 -   [ReproNim](http://www.reproducibleimaging.org/index.html) - A Center for
     Reproducible Neuroimaging Computation (a good site to get up to date on
@@ -100,28 +98,9 @@
 
 -   [Tools from the Center for Open Neuroscience](https://www.youtube.com/watch?v=RBaJn2Xtqzg&index=8&t=2278s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9)
     by Yaroslav Halchenko within MIND 2018
+
     -   duration: 59 min
     -   type: [video]
-
-### Tutorials/instructions/slides
-
--   [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/)
-    by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
-
--   [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris
-    Gorgolewski within Neurohackweek
-
--   [Reproducibility in fMRI: What is the problem? 2](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-3/)
-    by Russ Poldrack within Neurohackweek 2017
-
--   [Reproducible research pipelines](https://neurohackademy.org/course/reproducible-research-pipelines/)
-    by Chris Gorgolewski and Satra Ghosh within Neurohackweek 2016
-
--   [Reproducible fMRI analysis with Code Ocean](https://www.fmrwhy.com/2018/10/31/reproducible-fmri-codeocean/)
-    by [Stephan Heunis](https://twitter.com/fmrwhy) describing how he did that
-    with an SPM pipeline.
-
-#### Presentations
 
 -   [Allen Institute Data and Software](https://neurohackademy.org/course/allen-institute-data-and-software/)
     by Nicolas Cain within Neurohackweek 2017
@@ -152,6 +131,24 @@
     -   duration: 28 min
     -   type: [video]
 
-#### Other
+### Tutorials/instructions/slides
+
+-   [Advance Unix and Make](https://neurohackademy.org/course/advance-unix-and-make/)
+    by Valentina Staneva and Tara Madhyastha within Neurohackweek 2016
+
+-   [CRN resources](https://neurohackademy.org/course/crn-resources/) by Chris
+    Gorgolewski within Neurohackweek
+
+-   [Reproducibility in fMRI: What is the problem? 2](https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-3/)
+    by Russ Poldrack within Neurohackweek 2017
+
+-   [Reproducible research pipelines](https://neurohackademy.org/course/reproducible-research-pipelines/)
+    by Chris Gorgolewski and Satra Ghosh within Neurohackweek 2016
+
+-   [Reproducible fMRI analysis with Code Ocean](https://www.fmrwhy.com/2018/10/31/reproducible-fmri-codeocean/)
+    by [Stephan Heunis](https://twitter.com/fmrwhy) describing how he did that
+    with an SPM pipeline.
+
+### Other
 
 -   [Challenges to open data and how to respond](https://github.com/mozillascience/open-data-training/blob/master/Materials/Handouts/ODChallengesQI.md)
