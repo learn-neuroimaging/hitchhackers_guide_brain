@@ -1,9 +1,9 @@
 # Welcome to the hitchhacker's guide to the brain!
 
-This is place where you will find your way around the multiverse of resources and methods 
+This is a place where you will find your way around the multiverse of resources and methods 
 that have almost, but not quite, entirely everything to do about the brain.
 
-So in case you get lost and you don't where to find something 
+So in case you get lost and you don't know where to find something 
 or in case you are not sure what you were looking for in the first place...
 
 _Just remember..._
@@ -35,7 +35,7 @@ with a template of code similar the ones listed below.
 Edit it to add details of your resource and open the issue and you're done!
 We will get back to you to finalize things and add the resource to our list.
 
-If you want to get touch directly , you can find us on 
+If you want to get touch directly, you can find us on 
 [our channel on the mattermost Brainhack](https://mattermost.brainhack.org/brainhack/channels/hitchhackers_guide_to_the_brain).
 
 
