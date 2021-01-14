@@ -3,6 +3,7 @@ site_name: "Hitchhacker's guide to the brain"
 repo_name: 'learn-neuroimaging/hitchhackers_guide_brain'
 repo_url: 'https://github.com/learn-neuroimaging/hitchhackers_guide_brain'
 # docs_dir: alternative_path # docs/ is the default folder
+copyright: "CC-BY 4.0"
 
 # This will use Material them
 theme:

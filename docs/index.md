@@ -1,8 +1,10 @@
 # Welcome to the hitchhacker's guide to the brain!
 
-This is place where you will find your way around the multiverse of resources and methods that have almost, but not quite, entirely everything to do about the brain.
+This is a place where you will find your way around the multiverse of resources and methods 
+that have almost, but not quite, entirely everything to do about the brain.
 
-So in case you get lost and you don't where to find something or in case you are not sure what you were looking for in the first place...
+So in case you get lost and you don't know where to find something 
+or in case you are not sure what you were looking for in the first place...
 
 _Just remember..._
 
@@ -20,13 +22,22 @@ This website is full of links and resources for all your neuro-needs!
 
 Use the links on the left to discover resources belonging to a particular category.
 
-If you're not sure what you're looking for, or you'd like to get an overview, start [here](10-before-you-start.md#Before-you-start).
+If you're not sure what you're looking for, or you'd like to get an overview, 
+start [here](10-before-you-start.md#Before-you-start).
 
 General introductory resources can be found [here](99-appendix.md#Appendix).
 
 ## Contribute
 
-To add new resources, [start an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/new/choose), by selecting the type of resource you want add and this should open an issue with a template of code similar the ones listed below. Edit it to add details of your resource and open the issue and you're done! We will get back to you to finalize things and add the resource to our list.
+To add new resources, [start an issue on GitHub](https://github.com/learn-neuroimaging/tutorials-and-resources/issues/new/choose), 
+by selecting the type of resource you want add and this should open an issue 
+with a template of code similar the ones listed below. 
+Edit it to add details of your resource and open the issue and you're done!
+We will get back to you to finalize things and add the resource to our list.
+
+If you want to get touch directly, you can find us on 
+[our channel on the mattermost Brainhack](https://mattermost.brainhack.org/brainhack/channels/hitchhackers_guide_to_the_brain).
+
 
 ### Software
 
@@ -171,3 +182,8 @@ will render as:
     -   tags:
     -   [paper](https://doi.org/insert_paper_DOI_here)
     -   RRID: insert_RRID_here
+
+## Licence
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
