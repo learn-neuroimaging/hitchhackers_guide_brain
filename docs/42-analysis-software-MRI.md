@@ -142,6 +142,24 @@
         -   duration:
         -   by:
 
+??? example "Automatic Analysis - multimodal MATLAB toolbox processing fMRI, DTI/DKI, and M/EEG"
+    -   code repository
+    -   website
+    -   documentation
+    -   contact
+    -   programming language: {matlab}
+    -   tags: {MRI} {MEG} {EEG} {fMRI} {DTI} {DKI} {MATLAB}
+    -   paper
+    -   RRID:
+    -   tutorial:
+        -   URL
+        -   programming language: {matlab}
+        -   level: {beginner} / {intermediate}
+        -   tags: {PDF}
+        -   date:
+        -   duration:
+        -   by: Tibor Auer
+
 ??? example "fMRIPrep - A Robust Preprocessing Pipeline for fMRI Data"
     -   [GitHub](https://github.com/poldracklab/fmriprep)
     -   [website](https://fmriprep.readthedocs.io/en/stable/)
@@ -160,6 +178,22 @@
         -   date:
         -   duration:
         -   by:
+
+## High-resolution
+
+??? example "Nighres - Neuroimaging at high resolution"
+    -   [code repository](https://github.com/nighres/nighres)
+    -   [documentation](https://nighres.readthedocs.io/)
+    -   programming language: {python}, {java}
+    -   tags: {fMRI} {MRI}
+    -   [paper](https://doi.org/10.1093/gigascience/giy082)
+    -   RRID: SCR_016287
+    -   tutorial:
+    -   [URL](https://nighres.readthedocs.io/en/latest/auto_examples/index.html)
+    -   programming language: {python}
+    -   level: {beginner}
+    -   tags: {notebook}
+    -   by: the Nighres team
 
 ## Misc
 
