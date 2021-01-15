@@ -143,22 +143,23 @@
         -   by:
 
 ??? example "Automatic Analysis - multimodal MATLAB toolbox processing fMRI, DTI/DKI, and M/EEG"
-    -   code repository
-    -   website
-    -   documentation
-    -   contact
+    -   [code repository](https://github.com/automaticanalysis/automaticanalysis)
+    -   [website](https://automaticanalysis.org)
+    -   [documentation](https://github.com/automaticanalysis/automaticanalysis/wiki)
+    -   [contact]()
     -   programming language: {matlab}
     -   tags: {MRI} {MEG} {EEG} {fMRI} {DTI} {DKI} {MATLAB}
-    -   paper
+    -   [paper](http://doi.org/10.3389/fninf.2014.00090)
     -   RRID:
     -   tutorial:
-        -   URL
+        -   [URL](http://www.cubic.rhul.ac.uk/wiki/doku.php?id=aa:aa_workshop)
         -   programming language: {matlab}
         -   level: {beginner} / {intermediate}
         -   tags: {PDF}
         -   date:
         -   duration:
         -   by: Tibor Auer
+
 
 ??? example "fMRIPrep - A Robust Preprocessing Pipeline for fMRI Data"
     -   [GitHub](https://github.com/poldracklab/fmriprep)
