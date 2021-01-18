@@ -665,3 +665,44 @@ The following are general purpose platforms, with functionality including: loadi
         -   date:
         -   duration: HH:MM
         -   by: John Doe and Jane Doe -->
+
+
+## Pipelines
+
+<!-- ??? example "Nipype - provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow."
+    -   [website](https://nipype.readthedocs.io/en/latest/) -   
+    -   [GitHub](https://github.com/nipy/nipype)
+    -   [documentation](https://nipype.readthedocs.io/en/latest/)
+    -   [contact](https://gitter.im/nipy/nipype)
+    -   programming language: {python}
+    -   tags: {fMRI} {MRI}
+    -   paper DOI:
+    -   RRID:
+    -   tutorial:
+        -   [tutorial 1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), 
+        -   [tutorial 2](https://miykael.github.io/nipype_tutorial/), 
+        -   [examples](https://nipype.readthedocs.io/en/latest/examples.html)
+        -   programming language:
+        -   level:
+        -   tags:
+        -   date:
+        -   duration:
+        -   by: -->
+
+??? example "Automatic Analysis - multimodal MATLAB toolbox processing fMRI, DTI/DKI, and M/EEG"
+    -   [code repository](https://github.com/automaticanalysis/automaticanalysis)
+    -   [website](https://automaticanalysis.org)
+    -   [documentation](https://github.com/automaticanalysis/automaticanalysis/wiki)
+    -   [contact]()
+    -   programming language: {matlab}
+    -   tags: {MRI} {MEG} {EEG} {fMRI} {DTI} {DKI} {MATLAB}
+    -   [paper](http://doi.org/10.3389/fninf.2014.00090)
+    -   RRID:
+    -   tutorial:
+        -   [URL](http://www.cubic.rhul.ac.uk/wiki/doku.php?id=aa:aa_workshop)
+        -   programming language: {matlab}
+        -   level: {beginner} / {intermediate}
+        -   tags: {PDF}
+        -   date:
+        -   duration:
+        -   by: Tibor Auer        
