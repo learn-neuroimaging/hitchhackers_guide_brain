@@ -1,6 +1,6 @@
 <!--![shiba love MRI scanner](https://raw.githubusercontent.com/learn-neuroimaging/hitchhackers_guide_brain/master/img/dogeLoveScanner_600x400.gif)-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-blue.svg?)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-blue.svg?)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status](https://travis-ci.org/learn-neuroimaging/hitchhackers_guide_brain.svg?branch=master)](https://travis-ci.org/learn-neuroimaging/hitchhackers_guide_brain)
@@ -65,6 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SaraMorsy"><img src="https://avatars2.githubusercontent.com/u/41592024?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SaraMorsy</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/commits?author=SaraMorsy" title="Code">💻</a> <a href="#content-SaraMorsy" title="Content">🖋</a> <a href="#ideas-SaraMorsy" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/kanishk16"><img src="https://avatars0.githubusercontent.com/u/36276423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kanishk Kalra</b></sub></a><br /><a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/commits?author=kanishk16" title="Code">💻</a> <a href="#content-kanishk16" title="Content">🖋</a> <a href="#ideas-kanishk16" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-kanishk16" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://github.com/tiborauer"><img src="https://avatars3.githubusercontent.com/u/4816041?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tibor Auer</b></sub></a><br /><a href="#content-tiborauer" title="Content">🖋</a> <a href="#ideas-tiborauer" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/piloubazin"><img src="https://avatars3.githubusercontent.com/u/19191770?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pilou Bazin</b></sub></a><br /><a href="#content-piloubazin" title="Content">🖋</a> <a href="#ideas-piloubazin" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
