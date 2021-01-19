@@ -1,0 +1,1754 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>MEEG - Hitchhacker's guide to the brain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#neuroimaging-analysis-software-for-eeg-and-meg" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-header-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Hitchhacker's guide to the brain
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              MEEG
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Hitchhacker's guide to the brain
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        Before you start
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Before you start" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Before you start
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-before-you-start/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-programming/" class="md-nav__link">
+        Programming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-version-control/" class="md-nav__link">
+        Version control
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-data-code-management/" class="md-nav__link">
+        Organizing your files
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Planning your study
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Planning your study" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Planning your study
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-planning-your-study/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21-reproducible-neuroimaging-research/" class="md-nav__link">
+        Reproducible research
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22-preregistration/" class="md-nav__link">
+        Preregistration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        Getting data
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting data" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Getting data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../30-getting-data/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../31-data-repositories/" class="md-nav__link">
+        Data repositories
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      
+      <label class="md-nav__link" for="nav-5">
+        Processing
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Processing" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Processing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../40-processing/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-computing/" class="md-nav__link">
+        Computing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../42-analysis-software-MRI/" class="md-nav__link">
+        MRI
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          MEEG
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        MEEG
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-purpose-tools" class="md-nav__link">
+    General Purpose Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standalone-tools-specific-purposes" class="md-nav__link">
+    Standalone Tools -   Specific Purposes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipelines" class="md-nav__link">
+    Pipelines
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../44-analysis-software-physio/" class="md-nav__link">
+        Other physiological signals
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../45-learning-neuroimaging/" class="md-nav__link">
+        Learning neuroimaging
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../46-neuroimaging-resources/" class="md-nav__link">
+        Neuroimaging resources
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        Analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analysis" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          Analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../50-analysis/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../51-statistics/" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../52-machine-and-deep-learning/" class="md-nav__link">
+        Machine learning and Deep learning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../53-genetics-software/" class="md-nav__link">
+        Genetic software
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        Quality control
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quality control" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          Quality control
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../60-quality-control/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        Reporting methods and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reporting methods and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          Reporting methods and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../70-reporting-methods-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+      
+      <label class="md-nav__link" for="nav-9">
+        Sharing data, code and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sharing data, code and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          Sharing data, code and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../80-sharing-data-code-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../81-open-science/" class="md-nav__link">
+        Open science
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../99-appendix/" class="md-nav__link">
+        Appendix
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-purpose-tools" class="md-nav__link">
+    General Purpose Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standalone-tools-specific-purposes" class="md-nav__link">
+    Standalone Tools -   Specific Purposes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipelines" class="md-nav__link">
+    Pipelines
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/edit/master/docs/43-analysis-software-MEEG.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="neuroimaging-analysis-software-for-eeg-and-meg">Neuroimaging analysis software for EEG and MEG</h1>
+<p>The following list has been shamelessly taken from the excellent repo <a href="https://github.com/voytekresearch/OpenTools">Open Software for Human Electrophysiology</a>. Do check it out as it also includes plugins that are not listed here.</p>
+<h2 id="general-purpose-tools">General Purpose Tools</h2>
+<p>The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures.</p>
+<details class="example"><summary>MNE - Open-source Python software for exploring, visualizing, and analyzing human neurophysiological data</summary><ul>
+<li><a href="https://github.com/mne-tools/mne-python">code repository</a></li>
+<li><a href="http://martinos.org/mne/stable/index.html">website</a></li>
+<li><a href="https://mne.tools/dev/overview/index.html">documentation</a></li>
+<li><a href="https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis">contact</a></li>
+<li>programming language: {python}</li>
+<li>tags: {MEG} {EEG} {sEEG} {ECoG}</li>
+<li><a href="https://doi.org/10.1016/j.neuroimage.2013.10.027">paper</a></li>
+<li>RRID:</li>
+<li>tutorial:<ul>
+<li><a href="https://mne.tools/stable/auto_tutorials/index.html">URL</a></li>
+<li>programming language: {python}</li>
+<li>level:</li>
+<li>tags:</li>
+<li>date:</li>
+<li>duration:</li>
+<li>by:</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>Wonambi - A general purpose tool for processing, analyzing and visualizing EEG, ECoG and other electrophysiology formats data, including specific tools focused on sleep scoring and analysis.</summary><ul>
+<li><a href="https://github.com/wonambi-python/wonambi">code repository</a></li>
+<li><a href="https://wonambi-python.github.io">website</a></li>
+<li><a href="">documentation</a></li>
+<li><a href="">contact</a></li>
+<li>programming language: {python}</li>
+<li>tags: {MEG} {EEG} {sleep} {ECoG}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID:</li>
+<li>tutorial:<ul>
+<li><a href="https://wonambi-python.github.io/analysis/index.html">URL</a></li>
+<li>programming language: {python}</li>
+<li>level:</li>
+<li>tags:</li>
+<li>date:</li>
+<li>duration:</li>
+<li>by:</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>FieldTrip - A general purpose tool for processing, analyzing and visualizing toolbox for MEG, EEG, iEEG and NIRS data</summary><ul>
+<li>repository URL: <a href="https://github.com/fieldtrip/fieldtrip">Github</a></li>
+<li>website URL: <a href="http://www.fieldtriptoolbox.org">http://www.fieldtriptoolbox.org</a></li>
+<li>tutorial URL: <a href="http://www.fieldtriptoolbox.org/tutorial/">http://www.fieldtriptoolbox.org/tutorial/</a></li>
+<li>documentation: <a href="http://www.fieldtriptoolbox.org/documentation/">http://www.fieldtriptoolbox.org/documentation/</a></li>
+<li>programming language: {matlab}</li>
+<li>paper DOI: <a href="https://doi.org/10.1155/2011/156869">https://doi.org/10.1155/2011/156869</a></li>
+<li>RRID:</li>
+<li>contact: <a href="http://www.fieldtriptoolbox.org/discussion_list/">mailing list</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>BrainStorm - A collaborative, open-source application dedicated to the analysis of brain recordings: MEG, EEG, fNIRS, ECoG, depth electrodes and animal invasive neurophysiology.</summary><ul>
+<li><a href="https://neuroimage.usc.edu/brainstorm/">BrainStorm</a> -   </li>
+<li>repository URL: <a href="https://github.com/brainstorm-tools/brainstorm3">Github</a></li>
+<li>website URL: <a href="https://neuroimage.usc.edu/brainstorm/">https://neuroimage.usc.edu/brainstorm/</a></li>
+<li>tutorial URL: <a href="https://neuroimage.usc.edu/brainstorm/Tutorials">https://neuroimage.usc.edu/brainstorm/Tutorials</a></li>
+<li>documentation:</li>
+<li>programming language: {matlab}, {Java}</li>
+<li>paper DOI: <a href="https://doi.org/10.1155/2011/879716">https://doi.org/10.1155/2011/879716</a></li>
+<li>RRID:</li>
+<li>contact: <a href="https://neuroimage.usc.edu/forums/">discussion forum</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>EEGLab - A general purpose tool for processing, analyzing and visualizing EEG data.</summary><ul>
+<li>repository URL:</li>
+<li><a href="https://sccn.ucsd.edu/eeglab/index.php">website</a></li>
+<li>tutorial URL: <a href="https://sccn.ucsd.edu/wiki/EEGLAB_TUTORIAL_OUTLINE">https://sccn.ucsd.edu/wiki/EEGLAB_TUTORIAL_OUTLINE</a></li>
+<li>documentation: <a href="https://sccn.ucsd.edu/wiki/EEGLAB_Wiki">https://sccn.ucsd.edu/wiki/EEGLAB_Wiki</a></li>
+<li>programming language: {matlab}</li>
+<li>paper DOI: <a href="https://doi.org/10.1016/j.jneumeth.2003.10.009">https://doi.org/10.1016/j.jneumeth.2003.10.009</a></li>
+<li>RRID:</li>
+<li>contact: <a href="https://sccn.ucsd.edu/contact/mailinglists.php">mailing list</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>SPM - Software package for the analysis of brain imaging data sequences</summary><ul>
+<li><a href="">code repository</a></li>
+<li><a href="https://www.fil.ion.ucl.ac.uk/spm/">website</a></li>
+<li><a href="https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf">documentation</a></li>
+<li><a href="https://www.fil.ion.ucl.ac.uk/spm/support/">contact</a></li>
+<li>programming language: {matlab} {octave}</li>
+<li>tags: {fMRI} {MEG} {EEG} {SPECT} {PET} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID:</li>
+<li>tutorial:<ul>
+<li><a href="http://www.fil.ion.ucl.ac.uk/spm/course/">URL</a></li>
+<li>programming language: {matlab}</li>
+<li>level:</li>
+<li>tags:</li>
+<li>date:</li>
+<li>duration:</li>
+<li>by:</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>NutMEG - A general purpose tool for processing, analyzing and visualizing MEG data.</summary><ul>
+<li><a href="https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage">website</a> -   </li>
+<li><a href="https://github.com/UCSFBiomagneticImagingLab/nutmeg">Github</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language: {R}</li>
+<li>paper DOI: <a href="https://doi.org/10.1155/2011/758973">https://doi.org/10.1155/2011/758973</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>EEGUtils - A general purpose tool for processing, analyzing and visualizing EEG data.</summary><ul>
+<li><a href="https://github.com/craddm/eegUtils">Github</a></li>
+<li><a href="https://craddm.github.io/eegUtils/">website</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language: {Julia}</li>
+<li>paper DOI:</li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>EEG.jl - An EEG processing library.</summary><ul>
+<li><a href="https://eegjl.readthedocs.io/en/latest/">EEG.jl</a> -   </li>
+<li>repository URL: <a href="https://github.com/rob-luke/EEG.jl">Github</a></li>
+<li>website URL: <a href="https://eegjl.readthedocs.io/en/latest/">https://eegjl.readthedocs.io/en/latest/</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language: {C++}</li>
+<li>paper DOI:</li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>CarTool -  An EEG analysis toolbox.</summary><ul>
+<li>repository URL:</li>
+<li><a href="https://sites.google.com/site/cartoolcommunity/">website</a></li>
+<li>tutorial URL: <a href="https://www.youtube.com/watch?v=xxfotUryojM&amp;list=PLsWOKfVt5ZtIzPy6QZ1u_5c6M2Zs3wM4k">tutorial videos</a></li>
+<li>documentation:</li>
+<li>programming language: {C++}</li>
+<li>paper DOI: <a href="https://doi.org/10.1155/2011/813870">https://doi.org/10.1155/2011/813870</a></li>
+<li>RRID:</li>
+<li>contact: <a href="https://sites.google.com/site/cartoolcommunity/forum">discussion forum</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM --&gt;</li>
+<li>by: John Doe and Jane Doe</li>
+</ul>
+</li>
+</ul>
+</details>
+<h2 id="standalone-tools-specific-purposes">Standalone Tools -   Specific Purposes</h2>
+<details class="example"><summary>NeuroDSP - A package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.</summary><ul>
+<li><a href="https://github.com/voytekresearch/neurodsp">Github</a></li>
+<li><a href="https://neurodsp-tools.github.io/neurodsp/index.html">website</a></li>
+<li>tutorial URL: <a href="https://neurodsp-tools.github.io/neurodsp/auto_tutorials/index.html">https://neurodsp-tools.github.io/neurodsp/auto_tutorials/index.html</a></li>
+<li>documentation:</li>
+<li>programming language: {python}</li>
+<li>paper DOI: <a href="https://doi.org/10.21105/joss.01272">https://doi.org/10.21105/joss.01272</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>FOOOF - A package for parameterizing neural power spectra.</summary><ul>
+<li><a href="https://github.com/voytekresearch/fooof">Github</a></li>
+<li><a href="https://fooof-tools.github.io/fooof/index.html">website</a></li>
+<li>tutorial URL:</li>
+<li>documentation: <a href="https://fooof-tools.github.io/fooof/index.html">https://fooof-tools.github.io/fooof/index.html</a></li>
+<li>programming language: {python}</li>
+<li>paper DOI: <a href="https://doi.org/10.1101/299859">https://doi.org/10.1101/299859</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>Spectral Connectivity -  A package including a group of functional connectivity and coherence related measures.</summary><ul>
+<li><a href="https://github.com/Eden-Kramer-Lab/spectral_connectivity">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL:</li>
+<li><a href="http://spectral-connectivity.readthedocs.io/en/latest/index.html">documentation</a></li>
+<li>programming language: {python}</li>
+<li>paper DOI:</li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>pactools - Provides tools to estimate phase-amplitude coupling (PAC) in neural time series.</summary><ul>
+<li><a href="https://github.com/pactools/pactools">Github</a></li>
+<li>website URL: <a href="https://pactools.github.io">https://pactools.github.io</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.1371/journal.pcbi.1005893">https://doi.org/10.1371/journal.pcbi.1005893</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>Tensor PAC - A tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.</summary><ul>
+<li>repository URL: <a href="https://github.com/EtienneCmb/tensorpac">Github</a></li>
+<li>website URL: <a href="https://etiennecmb.github.io/tensorpac/">https://etiennecmb.github.io/tensorpac/</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language: {python}</li>
+<li>paper DOI:</li>
+<li>RRID:</li>
+<li>contact: <a href="https://etiennecmb.github.io/tensorpac/community.html#chat">chat</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>PyEEG - A Python module with many functions for time series analysis, including brain physiological signals</summary><ul>
+<li><a href="https://github.com/forrestbao/pyeeg">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language: {python}</li>
+<li>paper DOI: <a href="https://doi.org/10.1155/2011/406391">https://doi.org/10.1155/2011/406391</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>ECoGTools - A collection of tools for analyzing ECoG data</summary><ul>
+<li><a href="https://github.com/choldgraf/ecogtools">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI:</li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>restingIAF -  A tool for estimating the peak individual alpha frequency</summary><ul>
+<li><a href="https://github.com/corcorana/restingIAF">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL: <a href="https://github.com/corcorana/restingIAF/blob/master/tutorial/tute_README.md">https://github.com/corcorana/restingIAF/blob/master/tutorial/tute_README.md</a></li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.1111/psyp.13064">https://doi.org/10.1111/psyp.13064</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>Phase Opposition Code - A collection of functions for calculating phase opposition measures</summary><ul>
+<li><a href="http://www.cerco.ups-tlse.fr/~rufin/PhaseOppositionCode/">website</a> -   .</li>
+<li>repository URL:</li>
+<li>website URL:</li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.3389/fnins.2016.00426">https://doi.org/10.3389/fnins.2016.00426</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>ADAM - Amsterdam Decoding and Modeling Toolbox</summary><ul>
+<li><a href="https://github.com/fahrenfort/ADAM">ADAM</a> -   An open source Matlab Toolbox that allows you to perform multivariate analyses on your M/EEG data using BDM and FEM.</li>
+<li>repository URL: <a href="https://github.com/fahrenfort/ADAM">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL: <a href="http://doi.org/10.3389/fnins.2018.00368">http://doi.org/10.3389/fnins.2018.00368</a></li>
+<li>documentation:</li>
+<li>programming language: {matlab}</li>
+<li>paper DOI: <a href="https://doi.org/10.1007/s12021-013-9186-1">https://doi.org/10.1007/s12021-013-9186-1</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>HERMES - A tool for estimating connectivity measures between M/EEG signals</summary><ul>
+<li>repository URL: <a href="https://github.com/guiomar/HERMES">Github</a></li>
+<li>website URL: <a href="http://hermes.ctb.upm.es">http://hermes.ctb.upm.es</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.3389/fnins.2018.00368">https://doi.org/10.3389/fnins.2018.00368</a></li>
+<li>RRID:</li>
+<li>contact: <a href="http://hermes.ctb.upm.es/contact/">http://hermes.ctb.upm.es/contact/</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>SEREEGA - A package for simulating synthetic data that mimic event-related EEG activity.</summary><ul>
+<li><a href="https://github.com/lrkrol/SEREEGA">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL: <a href="https://github.com/lrkrol/SEREEGA#tutorial">https://github.com/lrkrol/SEREEGA#tutorial</a></li>
+<li>documentation:</li>
+<li>programming language: {matlab}</li>
+<li>paper DOI: <a href="https://doi.org/10.1101/326066">https://doi.org/10.1101/326066</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>Unfold - A tool for deconvolving overlapping EEG signals and for non-linear modelling</summary><ul>
+<li><a href="https://www.unfoldtoolbox.org">Unfold</a> -   </li>
+<li>repository URL: <a href="https://github.com/unfoldtoolbox/unfold">Github</a></li>
+<li>website URL: <a href="https://www.unfoldtoolbox.org/">https://www.unfoldtoolbox.org/</a></li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.7717/peerj.7838">https://doi.org/10.7717/peerj.7838</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>ept-TFCE - A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method</summary><ul>
+<li><a href="https://github.com/Mensen/ept_TFCE-matlab">ept-TFCE</a> -   .</li>
+<li><a href="https://github.com/Mensen/ept_TFCE-matlab">Github</a></li>
+<li>website URL:</li>
+<li>tutorial URL:</li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.1016/j.neuroimage.2012.10.027">https://doi.org/10.1016/j.neuroimage.2012.10.027</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>ERP Reliability Analysis - an open-source Matlab program that uses generalizability theory to evaluate the reliability of ERP data</summary><ul>
+<li>repository URL: <a href="https://github.com/peclayson/ERA_Toolbox">Github</a></li>
+<li>website URL: <a href="http://peterclayson.com/era-toolbox/">http://peterclayson.com/era-toolbox/</a></li>
+<li>tutorial URL:</li>
+<li>documentation: <a href="https://github.com/peclayson/ERA_Toolbox/wiki">https://github.com/peclayson/ERA_Toolbox/wiki</a></li>
+<li>programming language: {matlab}</li>
+<li>paper DOI: <a href="https://doi.org/10.1016/j.ijpsycho.2016.10.012">https://doi.org/10.1016/j.ijpsycho.2016.10.012</a></li>
+<li>RRID:</li>
+<li>contact:
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<details class="example"><summary>OpenMEEG - A package for solving forward problems for EEG &amp; MEG data.</summary><ul>
+<li><a href="https://github.com/openmeeg/openmeeg">Github</a></li>
+<li><a href="http://openmeeg.github.io">website</a></li>
+<li>tutorial URL: <a href="https://openmeeg.github.io/tutorial.html">https://openmeeg.github.io/tutorial.html</a></li>
+<li>documentation:</li>
+<li>programming language:</li>
+<li>paper DOI: <a href="https://doi.org/10.1186/1475-925X-9-45">https://doi.org/10.1186/1475-925X-9-45</a></li>
+<li>RRID:</li>
+<li>contact: <a href="https://lists.gforge.inria.fr/mailman/listinfo/openmeeg-info">mailing list</a>
+&lt;!-- -   <a href="insert GitHub or GitLab URL">code repository</a></li>
+<li><a href="insert URL">website</a></li>
+<li><a href="insert documentation or wiki URL">documentation</a></li>
+<li><a href="insert URL to mailing list, slack, forum, mattermost">contact</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>tags: {fMRI} {MEG} {EEG} {MRI} {nipype}</li>
+<li><a href="https://doi.org/insert_paper_DOI_here">paper</a></li>
+<li>RRID: insert_RRID_here</li>
+<li>tutorial:<ul>
+<li><a href="insert URL">URL</a></li>
+<li>programming language: {python}, {matlab/octave}, {C}, ...</li>
+<li>level: {beginner} / {intermediate} / {advanced}</li>
+<li>tags: {video} {notebook}</li>
+<li>date:</li>
+<li>duration: HH:MM</li>
+<li>by: John Doe and Jane Doe --&gt;</li>
+</ul>
+</li>
+</ul>
+</details>
+<h2 id="pipelines">Pipelines</h2>
+<!-- ??? example "Nipype - provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow."
+    -   [website](https://nipype.readthedocs.io/en/latest/) -   
+    -   [GitHub](https://github.com/nipy/nipype)
+    -   [documentation](https://nipype.readthedocs.io/en/latest/)
+    -   [contact](https://gitter.im/nipy/nipype)
+    -   programming language: {python}
+    -   tags: {fMRI} {MRI}
+    -   paper DOI:
+    -   RRID:
+    -   tutorial:
+        -   [tutorial 1](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html), 
+        -   [tutorial 2](https://miykael.github.io/nipype_tutorial/), 
+        -   [examples](https://nipype.readthedocs.io/en/latest/examples.html)
+        -   programming language:
+        -   level:
+        -   tags:
+        -   date:
+        -   duration:
+        -   by: -->
+
+<details class="example"><summary>Automatic Analysis - multimodal MATLAB toolbox processing fMRI, DTI/DKI, and M/EEG</summary><ul>
+<li><a href="https://github.com/automaticanalysis/automaticanalysis">code repository</a></li>
+<li><a href="https://automaticanalysis.org">website</a></li>
+<li><a href="https://github.com/automaticanalysis/automaticanalysis/wiki">documentation</a></li>
+<li><a href="">contact</a></li>
+<li>programming language: {matlab}</li>
+<li>tags: {MRI} {MEG} {EEG} {fMRI} {DTI} {DKI} {MATLAB}</li>
+<li><a href="http://doi.org/10.3389/fninf.2014.00090">paper</a></li>
+<li>RRID:</li>
+<li>tutorial:<ul>
+<li><a href="http://www.cubic.rhul.ac.uk/wiki/doku.php?id=aa:aa_workshop">URL</a></li>
+<li>programming language: {matlab}</li>
+<li>level: {beginner} / {intermediate}</li>
+<li>tags: {PDF}</li>
+<li>date:</li>
+<li>duration:</li>
+<li>by: Tibor Auer        </li>
+</ul>
+</li>
+</ul>
+</details>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../42-analysis-software-MRI/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                MRI
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../44-analysis-software-physio/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Other physiological signals
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            CC-BY 4.0
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

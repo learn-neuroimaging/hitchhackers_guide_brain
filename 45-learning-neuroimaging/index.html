@@ -1,0 +1,1771 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>Learning neuroimaging - Hitchhacker's guide to the brain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#neuroimaging" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-header-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Hitchhacker's guide to the brain
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Learning neuroimaging
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Hitchhacker's guide to the brain
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        Before you start
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Before you start" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Before you start
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-before-you-start/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-programming/" class="md-nav__link">
+        Programming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-version-control/" class="md-nav__link">
+        Version control
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-data-code-management/" class="md-nav__link">
+        Organizing your files
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Planning your study
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Planning your study" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Planning your study
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-planning-your-study/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21-reproducible-neuroimaging-research/" class="md-nav__link">
+        Reproducible research
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22-preregistration/" class="md-nav__link">
+        Preregistration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        Getting data
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting data" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Getting data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../30-getting-data/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../31-data-repositories/" class="md-nav__link">
+        Data repositories
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      
+      <label class="md-nav__link" for="nav-5">
+        Processing
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Processing" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Processing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../40-processing/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-computing/" class="md-nav__link">
+        Computing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../42-analysis-software-MRI/" class="md-nav__link">
+        MRI
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../43-analysis-software-MEEG/" class="md-nav__link">
+        MEEG
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../44-analysis-software-physio/" class="md-nav__link">
+        Other physiological signals
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Learning neuroimaging
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Learning neuroimaging
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mooc-on-neuroimaging" class="md-nav__link">
+    MOOC on neuroimaging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quality-control" class="md-nav__link">
+    Quality control
+  </a>
+  
+    <nav class="md-nav" aria-label="Quality control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neuroimaging-quality-control-task-force" class="md-nav__link">
+    Neuroimaging quality control task force
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quality-control-on-mri-and-fmri" class="md-nav__link">
+    quality control on MRI and fMRI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cobidacq" class="md-nav__link">
+    COBIDacq
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wikibook-neuroimaging-data-processing" class="md-nav__link">
+    wikibook neuroimaging data processing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references-for-quality-control" class="md-nav__link">
+    References for quality control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mriqc" class="md-nav__link">
+    MRIQC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-pcp-quality-assessment-protocol" class="md-nav__link">
+    the PCP Quality Assessment Protocol
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scripts-for-quality-control-of-diffusion-data" class="md-nav__link">
+    Scripts for quality control of diffusion data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qoala-t" class="md-nav__link">
+    Qoala-t
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-qc" class="md-nav__link">
+    Visual QC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diffusion-microstructure-imaging-in-python-dmipy" class="md-nav__link">
+    Diffusion Microstructure Imaging in Python (Dmipy)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-specific-topics" class="md-nav__link">
+    Other specific topics
+  </a>
+  
+    <nav class="md-nav" aria-label="Other specific topics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computer-vision" class="md-nav__link">
+    Computer Vision
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finding-low-dimensional-structure-in-large-scale-neural-recordings" class="md-nav__link">
+    Finding low-dimensional structure in large-scale neural recordings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interactive-data-visualization-with-d3" class="md-nav__link">
+    Interactive Data Visualization with D3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neuroethics" class="md-nav__link">
+    Neuroethics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-and-diffusion-mri-modeling-of-developmental-data" class="md-nav__link">
+    Quantitative and diffusion MRI modeling of developmental data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-analysis" class="md-nav__link">
+    Meta analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="Meta analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_of_meta-analysis_approaches" class="md-nav__link">
+    Overview_of_Meta-Analysis_Approaches
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview_of_Meta-Analysis_Approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ale-and-brainmap" class="md-nav__link">
+    ALE and BrainMap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nimare" class="md-nav__link">
+    NiMARE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinate-based-meta-analysis" class="md-nav__link">
+    coordinate based meta-analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="coordinate based meta-analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brainmap" class="md-nav__link">
+    brainmap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sleuth" class="md-nav__link">
+    Sleuth
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gingerale" class="md-nav__link">
+    GingerALE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-based-meta-analysis" class="md-nav__link">
+    image based meta-analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="image based meta-analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibma" class="md-nav__link">
+    IBMA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../46-neuroimaging-resources/" class="md-nav__link">
+        Neuroimaging resources
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        Analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analysis" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          Analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../50-analysis/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../51-statistics/" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../52-machine-and-deep-learning/" class="md-nav__link">
+        Machine learning and Deep learning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../53-genetics-software/" class="md-nav__link">
+        Genetic software
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        Quality control
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quality control" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          Quality control
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../60-quality-control/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        Reporting methods and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reporting methods and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          Reporting methods and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../70-reporting-methods-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+      
+      <label class="md-nav__link" for="nav-9">
+        Sharing data, code and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sharing data, code and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          Sharing data, code and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../80-sharing-data-code-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../81-open-science/" class="md-nav__link">
+        Open science
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../99-appendix/" class="md-nav__link">
+        Appendix
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mooc-on-neuroimaging" class="md-nav__link">
+    MOOC on neuroimaging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quality-control" class="md-nav__link">
+    Quality control
+  </a>
+  
+    <nav class="md-nav" aria-label="Quality control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neuroimaging-quality-control-task-force" class="md-nav__link">
+    Neuroimaging quality control task force
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quality-control-on-mri-and-fmri" class="md-nav__link">
+    quality control on MRI and fMRI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cobidacq" class="md-nav__link">
+    COBIDacq
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wikibook-neuroimaging-data-processing" class="md-nav__link">
+    wikibook neuroimaging data processing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references-for-quality-control" class="md-nav__link">
+    References for quality control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mriqc" class="md-nav__link">
+    MRIQC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-pcp-quality-assessment-protocol" class="md-nav__link">
+    the PCP Quality Assessment Protocol
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scripts-for-quality-control-of-diffusion-data" class="md-nav__link">
+    Scripts for quality control of diffusion data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qoala-t" class="md-nav__link">
+    Qoala-t
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-qc" class="md-nav__link">
+    Visual QC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diffusion-microstructure-imaging-in-python-dmipy" class="md-nav__link">
+    Diffusion Microstructure Imaging in Python (Dmipy)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-specific-topics" class="md-nav__link">
+    Other specific topics
+  </a>
+  
+    <nav class="md-nav" aria-label="Other specific topics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computer-vision" class="md-nav__link">
+    Computer Vision
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finding-low-dimensional-structure-in-large-scale-neural-recordings" class="md-nav__link">
+    Finding low-dimensional structure in large-scale neural recordings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interactive-data-visualization-with-d3" class="md-nav__link">
+    Interactive Data Visualization with D3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neuroethics" class="md-nav__link">
+    Neuroethics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-and-diffusion-mri-modeling-of-developmental-data" class="md-nav__link">
+    Quantitative and diffusion MRI modeling of developmental data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-analysis" class="md-nav__link">
+    Meta analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="Meta analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_of_meta-analysis_approaches" class="md-nav__link">
+    Overview_of_Meta-Analysis_Approaches
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview_of_Meta-Analysis_Approaches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ale-and-brainmap" class="md-nav__link">
+    ALE and BrainMap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nimare" class="md-nav__link">
+    NiMARE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinate-based-meta-analysis" class="md-nav__link">
+    coordinate based meta-analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="coordinate based meta-analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brainmap" class="md-nav__link">
+    brainmap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sleuth" class="md-nav__link">
+    Sleuth
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gingerale" class="md-nav__link">
+    GingerALE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-based-meta-analysis" class="md-nav__link">
+    image based meta-analysis
+  </a>
+  
+    <nav class="md-nav" aria-label="image based meta-analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibma" class="md-nav__link">
+    IBMA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/edit/master/docs/45-learning-neuroimaging.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="neuroimaging">Neuroimaging</h1>
+<h2 id="mooc-on-neuroimaging">MOOC on neuroimaging</h2>
+<ul>
+<li>description: MOOC on neuroimaging</li>
+<li>URL: <a href="https://en.coursera.org/learn/functional-mri">part 1</a> and
+    <a href="https://en.coursera.org/learn/functional-mri-2">part 2</a></li>
+<li>date:</li>
+<li>tags: [video] [fMRI] [MOOC]</li>
+<li>duration:</li>
+<li>level: [intermediate] [meta-analysis]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:<a href="https://twitter.com/torwager">Tor Wager</a> and Martin Lindquist</li>
+</ul>
+<h2 id="quality-control">Quality control</h2>
+<h3 id="neuroimaging-quality-control-task-force">Neuroimaging quality control task force</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/">URL</a></li>
+<li>date: 2018</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="quality-control-on-mri-and-fmri">quality control on MRI and fMRI</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="cobidacq">COBIDacq</h3>
+<ul>
+<li>description:</li>
+<li>URL: <a href="https://practicalfmri.blogspot.com/2017/12/cobidacq.html">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="wikibook-neuroimaging-data-processing">wikibook neuroimaging data processing</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="references-for-quality-control">References for quality control</h3>
+<ul>
+<li>description:</li>
+<li>URL: <a href="https://www.zotero.org/groups/2221093/niqc">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="mriqc">MRIQC</h3>
+<ul>
+<li>description: MRI quality control. A BIDS app that runs a pipeline to assess
+    the quality of your data.</li>
+<li>URL: <a href="https://mriqc.readthedocs.io/en/stable/">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="the-pcp-quality-assessment-protocol">the PCP Quality Assessment Protocol</h3>
+<ul>
+<li>description: BIDS app based on the protocol of the connectome project data</li>
+<li>URL: <a href="https://github.com/BIDS-Apps/QAP">URL1</a> ,
+    <a href="http://preprocessed-connectomes-project.org/quality-assessment-protocol/">URL2</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="scripts-for-quality-control-of-diffusion-data">Scripts for quality control of diffusion data</h3>
+<p><a href="http://davidroalf.com/script_download/">Scripts</a></p>
+<ul>
+<li>description:</li>
+<li>URL: <a href="https://practicalfmri.blogspot.com/2017/12/cobidacq.html">URL</a></li>
+<li>date:</li>
+<li>tags: [software]</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="qoala-t">Qoala-t</h3>
+<ul>
+<li>description: QA for freesurfer segmentations</li>
+<li>URL: <a href="https://github.com/Qoala-T/Qoala-T">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+<li>shinyapp</li>
+<li>description: QA for freesurfer segmentations</li>
+<li>URL: <a href="https://qoala-t.shinyapps.io/qoala-t_app/">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level:</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="visual-qc">Visual QC</h3>
+<ul>
+<li>description:</li>
+<li>URL: <a href="https://github.com/raamana/visualqc">URL</a></li>
+<li>date: 2018</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:<a href="https://twitter.com/raamana_">Pradeep</a></li>
+</ul>
+<h2 id="diffusion-microstructure-imaging-in-python-dmipy">Diffusion Microstructure Imaging in Python (Dmipy)</h2>
+<ul>
+<li>description: The Dmipy software project is dedicated to fasciliting
+    high-level, reproducible diffusion microstructure research. The Dmipy
+    open-source repository has many examples on implementing and fitting
+    microstructure models.</li>
+<li>URL: <a href="https://github.com/AthenaEPI/dmipy">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [software] [image processing]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:
+    <a href="https://hal.inria.fr/hal-01873353/file/dmipy-diffusion-microstructure.pdf">reference</a></li>
+<li>by:</li>
+</ul>
+<h2 id="other-specific-topics">Other specific topics</h2>
+<h3 id="computer-vision">Computer Vision</h3>
+<ul>
+<li>description: Lecture on Computer Vision by Michael Beyeler within
+    Neurohackademy 2018.</li>
+<li>URL: <a href="https://neurohackademy.org/course/computer-vision/">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [video] [summer school] [image processing] [machine learning]</li>
+<li>duration: 00:53</li>
+<li>level: [intermediate]</li>
+<li>event: Neurohackademy 2018</li>
+<li>by: Michael Beyeler</li>
+</ul>
+<h3 id="finding-low-dimensional-structure-in-large-scale-neural-recordings">Finding low-dimensional structure in large-scale neural recordings</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [video] [summer school]</li>
+<li>duration: 00:36</li>
+<li>level: [intermediate]</li>
+<li>event: Neurohackademy 2018</li>
+<li>reference:</li>
+<li>by: Eva Dyer</li>
+</ul>
+<h3 id="interactive-data-visualization-with-d3">Interactive Data Visualization with D3</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://neurohackademy.org/course/interactive-data-visualization-with-d3/">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [video] [summer school]</li>
+<li>duration: 00:49</li>
+<li>level: [intermediate]</li>
+<li>event: Neurohackweek 2017</li>
+<li>reference:</li>
+<li>by: Anisha Keshavan</li>
+</ul>
+<h3 id="neuroethics">Neuroethics</h3>
+<ul>
+<li>description:</li>
+<li>URL: https://neurohackademy.org/course/neuroethics/</li>
+<li>date: 2018</li>
+<li>tags: [video] [summer school]</li>
+<li>duration: 00:58</li>
+<li>level: [intermediate]</li>
+<li>event: Neurohackademy 2018</li>
+<li>reference:</li>
+<li>by: Eran Klein</li>
+</ul>
+<h3 id="quantitative-and-diffusion-mri-modeling-of-developmental-data">Quantitative and diffusion MRI modeling of developmental data</h3>
+<ul>
+<li>description:</li>
+<li>URL:
+    <a href="https://neurohackademy.org/course/quantitative-and-diffusion-mri-modeling-of-developmental-data/">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [video] [summer school]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event: Neurohackademy</li>
+<li>reference:</li>
+<li>by: by Yason Yeatman</li>
+</ul>
+<h2 id="meta-analysis">Meta analysis</h2>
+<h3 id="overview_of_meta-analysis_approaches">Overview_of_Meta-Analysis_Approaches</h3>
+<h4 id="video">video</h4>
+<ul>
+<li>description: Overview of Meta Analysis Approaches</li>
+<li>URL:
+    <a href="https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072">URL</a></li>
+<li>date: 2018</li>
+<li>tags:</li>
+<li>duration: 00:18</li>
+<li>level: [intermediate]</li>
+<li>event: OHBM 2018</li>
+<li>reference:</li>
+<li>by: <a href="https://twitter.com/ten_photos">Tom Nichols</a></li>
+</ul>
+<h4 id="slides">slides</h4>
+<ul>
+<li>description: Overview of Meta Analysis Approaches</li>
+<li>URL:
+    <a href="https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [slides]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event: OHBM 2018</li>
+<li>reference:</li>
+</ul>
+<h4 id="ale-and-brainmap">ALE and BrainMap</h4>
+<ul>
+<li>description: Overview of Meta Analysis Approaches</li>
+<li>URL:
+    <a href="https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [video]</li>
+<li>duration: 00:22</li>
+<li>level: [intermediate]</li>
+<li>event: OHBM 2018</li>
+<li>reference:</li>
+<li>by: Simon B. Eickhoff</li>
+</ul>
+<h4 id="nimare">NiMARE</h4>
+<ul>
+<li>description: NiMARE is a Python library for coordinate- and image-based
+    meta-analysis.</li>
+<li>URL: <a href="https://github.com/neurostuff/NiMARE">URL</a></li>
+<li>type: [software] [python] [meta-analysis]</li>
+<li>level: [intermediate]</li>
+<li>tutorial</li>
+<li>URL:
+    <a href="https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare">URL</a></li>
+<li>type: [tutorial] [juptyer] [meta-analysis]</li>
+<li>level: [intermediate]</li>
+<li>by: Chris Gorgolewski</li>
+</ul>
+<h3 id="coordinate-based-meta-analysis">coordinate based meta-analysis</h3>
+<h4 id="brainmap">brainmap</h4>
+<ul>
+<li>description:</li>
+<li>URL: <a href="http://www.brainmap.org/">URL</a></li>
+<li>date:</li>
+<li>tags:</li>
+<li>duration:</li>
+<li>level: [intermediate] [meta-analysis]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h4 id="sleuth">Sleuth</h4>
+<ul>
+<li>description:</li>
+<li>URL: <a href="http://www.brainmap.org/software.html#Sleuth">URL</a></li>
+<li>date: 2018</li>
+<li>tags: [software] [meta-analysis]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h4 id="gingerale">GingerALE</h4>
+<ul>
+<li><a href="http://www.brainmap.org/">description</a></li>
+<li>URL: <a href="http://www.brainmap.org/software.html#GingerALE">URL</a></li>
+<li>date:</li>
+<li>tags: [software] [meta-analysis]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+<h3 id="image-based-meta-analysis">image based meta-analysis</h3>
+<h4 id="ibma">IBMA</h4>
+<ul>
+<li>description: IBMA is the Image-Based Meta-Analysis toolbox for SPM.</li>
+<li>URL: <a href="https://github.com/NeuroimagingMetaAnalysis/ibma">URL</a></li>
+<li>date:</li>
+<li>tags: [software] [meta-analysis]</li>
+<li>duration:</li>
+<li>level: [intermediate]</li>
+<li>event:</li>
+<li>reference:</li>
+<li>by:</li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../44-analysis-software-physio/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Other physiological signals
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../46-neuroimaging-resources/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Neuroimaging resources
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            CC-BY 4.0
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1231 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>Data repositories - Hitchhacker's guide to the brain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-repositories" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-header-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Hitchhacker's guide to the brain
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Data repositories
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Hitchhacker&#39;s guide to the brain" class="md-nav__button md-logo" aria-label="Hitchhacker's guide to the brain">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Hitchhacker's guide to the brain
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    learn-neuroimaging/hitchhackers_guide_brain
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        Before you start
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Before you start" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Before you start
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-before-you-start/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-programming/" class="md-nav__link">
+        Programming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-version-control/" class="md-nav__link">
+        Version control
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-data-code-management/" class="md-nav__link">
+        Organizing your files
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Planning your study
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Planning your study" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Planning your study
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-planning-your-study/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21-reproducible-neuroimaging-research/" class="md-nav__link">
+        Reproducible research
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22-preregistration/" class="md-nav__link">
+        Preregistration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      
+      <label class="md-nav__link" for="nav-4">
+        Getting data
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting data" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Getting data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../30-getting-data/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data repositories
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Data repositories
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generic" class="md-nav__link">
+    Generic
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neuroimaging" class="md-nav__link">
+    NeuroImaging
+  </a>
+  
+    <nav class="md-nav" aria-label="NeuroImaging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mrifmri" class="md-nav__link">
+    MRI/fMRI
+  </a>
+  
+    <nav class="md-nav" aria-label="MRI/fMRI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fnirs" class="md-nav__link">
+    fNIRS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrophysiology" class="md-nav__link">
+    Electrophysiology
+  </a>
+  
+    <nav class="md-nav" aria-label="Electrophysiology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#surface-eegmeg" class="md-nav__link">
+    Surface (EEG/MEG)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intracranial-ecog-ieeg-lfp-single-cell" class="md-nav__link">
+    Intracranial (ECoG / iEEG / LFP / Single cell)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        Processing
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Processing" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Processing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../40-processing/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-computing/" class="md-nav__link">
+        Computing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../42-analysis-software-MRI/" class="md-nav__link">
+        MRI
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../43-analysis-software-MEEG/" class="md-nav__link">
+        MEEG
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../44-analysis-software-physio/" class="md-nav__link">
+        Other physiological signals
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../45-learning-neuroimaging/" class="md-nav__link">
+        Learning neuroimaging
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../46-neuroimaging-resources/" class="md-nav__link">
+        Neuroimaging resources
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        Analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analysis" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          Analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../50-analysis/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../51-statistics/" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../52-machine-and-deep-learning/" class="md-nav__link">
+        Machine learning and Deep learning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../53-genetics-software/" class="md-nav__link">
+        Genetic software
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      
+      <label class="md-nav__link" for="nav-7">
+        Quality control
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quality control" data-md-level="1">
+        <label class="md-nav__title" for="nav-7">
+          <span class="md-nav__icon md-icon"></span>
+          Quality control
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../60-quality-control/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+      
+      <label class="md-nav__link" for="nav-8">
+        Reporting methods and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reporting methods and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-8">
+          <span class="md-nav__icon md-icon"></span>
+          Reporting methods and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../70-reporting-methods-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+      
+      <label class="md-nav__link" for="nav-9">
+        Sharing data, code and results
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sharing data, code and results" data-md-level="1">
+        <label class="md-nav__title" for="nav-9">
+          <span class="md-nav__icon md-icon"></span>
+          Sharing data, code and results
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../80-sharing-data-code-and-results/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../81-open-science/" class="md-nav__link">
+        Open science
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../99-appendix/" class="md-nav__link">
+        Appendix
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generic" class="md-nav__link">
+    Generic
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neuroimaging" class="md-nav__link">
+    NeuroImaging
+  </a>
+  
+    <nav class="md-nav" aria-label="NeuroImaging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mrifmri" class="md-nav__link">
+    MRI/fMRI
+  </a>
+  
+    <nav class="md-nav" aria-label="MRI/fMRI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fnirs" class="md-nav__link">
+    fNIRS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrophysiology" class="md-nav__link">
+    Electrophysiology
+  </a>
+  
+    <nav class="md-nav" aria-label="Electrophysiology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#surface-eegmeg" class="md-nav__link">
+    Surface (EEG/MEG)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intracranial-ecog-ieeg-lfp-single-cell" class="md-nav__link">
+    Intracranial (ECoG / iEEG / LFP / Single cell)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/learn-neuroimaging/hitchhackers_guide_brain/edit/master/docs/31-data-repositories.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="data-repositories">Data repositories</h1>
+<p>This section contains links to "open" data resources, that can be accessed for research purposes. 
+For some of them, a formal request to the organization or to the data curation team may be required.</p>
+<p>This <a href="https://en.wikipedia.org/wiki/List_of_neuroscience_databases">Wikipedia</a> also has a nice list with some more suggestions.</p>
+<h2 id="generic">Generic</h2>
+<!-- ### GIN -->
+
+<details class="example"><summary>GIN - The equivalent of github but for data. Based in Europe.</summary><ul>
+<li><a href="https://gin.g-node.org/">database repository</a></li>
+<li>contact</li>
+<li>data type: {MRI} {EEG} {iEEG} {ECoG} {human} {non-human}</li>
+<li>datalad compatible: yes</li>
+<li>paper: <a href="https://doi.org/10.12751/incf.ni2017.0040">10.12751/incf.ni2017.0040</a></li>
+<li>RRID: <a href="https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_015864/resolver?q=GIN&amp;l=GIN">SCR_015864</a></li>
+<li>The G-Node Data Infrastructure Services provides a platform for comprehensive and reproducible management and sharing of neuroscience data. Building on well established versioning technology, GIN offers the power of a web based repository management service combined with a distributed file storage.<ul>
+<li>Very similar to github but for data.</li>
+<li>As it is based in Europe, this can an interesting option for GDPR compliance.</li>
+</ul>
+</li>
+</ul>
+</details>
+<!-- ### Open science framework -->
+
+<details class="example"><summary>OSF - The interface can be slow and clunky but it can definitely be used to host and share data... and many other things.</summary><ul>
+<li><a href="https://osf.io/">database repository</a></li>
+<li>contact</li>
+<li>data type: pretty much anything goes</li>
+<li>datalad compatible:</li>
+<li>paper</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_017419/resolver?q=open%20science%20framework&amp;l=open%20science%20framework">SCR_017419</a></li>
+<li>OSF is a platform to support research and enable collaboration. Used to discover projects, data, materials, and collaborators helpful to your own research.</li>
+</ul>
+</details>
+<!-- ### eBrains -->
+
+<details class="example"><summary>eBrains - For human &amp; non-human data sets matching specific criteria</summary><ul>
+<li><a href="https://ebrains.eu/">database repository</a></li>
+<li>contact</li>
+<li>data type: {human} {non-human} {fMRI} {MRI} {EEG} {DWI} {histology}</li>
+<li>datalad compatible:</li>
+<li>paper</li>
+<li>RRID:</li>
+</ul>
+</details>
+<h2 id="neuroimaging">NeuroImaging</h2>
+<p>To get an exhaustive list of the datasets and databases available out there, 
+you should first go to the <a href="https://www.nitrc.org/search/?type_of_search=group&amp;q=category%3A%27Data%27">data section</a> of the <a href="https://www.nitrc.org/">Neuroimaging Tools
+an Resources Collaboratory</a>.</p>
+<h3 id="mrifmri">MRI/fMRI</h3>
+<!-- #### OpenNeuro -->
+
+<details class="example"><summary>OpenNeuro - A go to for MRI, MEG, EEG, iEEG, and ECoG data</summary><ul>
+<li><a href="https://openneuro.org/">database repository</a></li>
+<li>contact</li>
+<li>data type: {MRI} {EEG} {iEEG} {ECoG} {human}</li>
+<li>datalad compatible: yes</li>
+<li>paper</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_005031/resolver?q=openneuro&amp;l=openneuro">SCR_005031</a></li>
+<li>Open platform for analyzing and sharing neuroimaging data from human brain imaging research studies. Brain Imaging Data Structure (BIDS) compliant database. Formerly known as OpenfMRI. Platform for sharing MRI, MEG, EEG, iEEG, and ECoG data.</li>
+</ul>
+</details>
+<!-- #### Neurovault -->
+
+<details class="example"><summary>Neurovault - The place for your group results.</summary><ul>
+<li><a href="https://neurovault.org/">database repository</a></li>
+<li>contact</li>
+<li>data type: {MRI} {PET} {human} {non-human}</li>
+<li>datalad compatible: yes</li>
+<li>paper:</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Tools/record/nlx_144509-1/SCR_003806/resolver?q=Neurovault&amp;l=Neurovault">SCR_003806</a></li>
+<li>A data repository where researchers can publicly store and share unthresholded statistical brain activation maps produced by MRI and PET studies.</li>
+</ul>
+</details>
+<!-- #### INDI -->
+
+<details class="example"><summary>INDI - International Neuroimaging Data-Sharing Initiative for rawdata</summary><ul>
+<li><a href="http://fcon_1000.projects.nitrc.org/">database repository</a></li>
+<li>contact</li>
+<li>data type: {MRI} {PET} {human} {non-human} {EEG}</li>
+<li>datalad compatible: yes</li>
+<li>paper:</li>
+<li>RRID: [SCR_015771]</li>
+<li>A data repository containing the 1000 Functional Connectomes project with more than 1200 resting state fMRI indenpendently collected at 33 sites. Age, sex and imaging center information are provided for each of the datasets. In accordance with HIPAA guidelines, all datasets are anonymous, with no protected health information included. The repository also provides INDI prospective and retrospective data Sharing Samples (resting state fMRI, behavioural, DTI, PET,...).</li>
+</ul>
+<!-- #### ACPI -->
+</details>
+<details class="example"><summary>ACPI - Addiction Connectome Preprocessed Initiative</summary><ul>
+<li><a href="http://fcon_1000.projects.nitrc.org/indi/ACPI/html/index.html">database repository</a></li>
+<li>contact</li>
+<li>data type: {MRI} {resting state} {ADHD} {human}</li>
+<li>datalad compatible: yes</li>
+<li>paper:</li>
+<li>The Addiction Connectome Preprocessed Initiative (ACPI) aims to facilitate the image processing and analysis of datasets generated by NIDA investigators, with a particular focus on the determination of robustness to preprocessing decisions. In this regard, we are providing 8 preprocessed versions of the resting state fMRI datasets. ACPI includes 2 datasets, raw and preprocessed data (158 Subjects, 129 Anatomicla Scans, 185 Resting Functional Scans).</li>
+</ul>
+</details>
+<!-- #### BALSA -->
+
+<details class="example"><summary>BALSA (Brain Analysis Library of Spatial Maps and Atlases) - A database for neuroimaging and neuroanatomical datasets for human and primate species.</summary><ul>
+<li><a href="https://balsa.wustl.edu/">database repository</a></li>
+<li>contact</li>
+<li>data type:{MRI} {PET} {human} {non-human} {DTI}</li>
+<li>datalad compatible:</li>
+<li>paper:</li>
+<li>BALSA hosts two types of extensively analyzed neuroimaging data. BALSA Studies: extensively analyzed neuroimaging data associated with published figures. BALSA Reference: reference data mapped to brain atlas surfaces and volumes in humans and nonhuman primates</li>
+</ul>
+</details>
+<!-- #### Mouse Connectome Project -->
+
+<details class="example"><summary>MCP (Mouse Connectome Project).</summary><ul>
+<li><a href="https://cic.ini.usc.edu">database repository</a></li>
+<li>contact</li>
+<li>data type: {mouse} {fluorescent label}</li>
+<li>datalad compatible:</li>
+<li>paper:</li>
+<li>RRID: [SCR_004096] (https://www.nitrc.org/projects/mcp/)</li>
+<li>The CIC, home of the Mouse Connectome Project (MCP) seeks to create a complete mesoscale connectivity atlas of the C57Black/6 mouse brain and to subsequently generate its global neural networks. Multiple fluorescent neural dyes are used to trace all of the connections of the roughly 800 identified structures of the mouse brain. Our crossdisciplinary group develops neuroanatomic and neuroinformatic approaches to understand connectivity patterns in both health and disease.</li>
+</ul>
+</details>
+<!-- #### ABIDE -->
+
+<details class="example"><summary>ABIDE - the Autism Brain Imaging Data Exchange</summary><ul>
+<li><a href="http://fcon_1000.projects.nitrc.org/indi/abide/">database repository</a></li>
+<li>contact</li>
+<li>data type: {human} {healthy} {autism} {fMRI} {MRI} {resting state}</li>
+<li>paper</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_003612/resolver?q=abide&amp;l=abide">SCR_003612</a></li>
+<li>Resting state functional magnetic resonance imaging (R-fMRI) datasets from 539 individuals with autism spectrum disorder (ASD) and 573 typical controls. This initiative involved 16 international sites, sharing 20 samples yielding 1112 datasets composed of both MRI data and an extensive array of phenotypic information common across nearly all sites. This effort is expected to facilitate discovery science and comparisons across samples. All datasets are anonymous, with no protected health information included.</li>
+</ul>
+</details>
+<!-- #### ADNI -->
+
+<details class="example"><summary>ADNI - Alzheimer's Disease Neuroimaging Initiative</summary><ul>
+<li><a href="http://adni.loni.usc.edu/data-samples/access-data/">database repository</a></li>
+<li>contact</li>
+<li>data type: {human} {alzheimer} {MRI} {fMRI} {PET}</li>
+<li>paper</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_003007/resolver?q=adni&amp;l=adni">SCR_003007</a></li>
+<li>Database of the results of the Alzheimer's Disease Neuroimaging Initiative study. ADNI is an initiative to develop biomarker-based methods to detect and track the progression of Alzheimer's disease (AD) that provides access to qualified scientists to their database of imaging, clinical, genomic, and biomarker data.</li>
+</ul>
+</details>
+<!-- [Pain repository](https://www.painrepository.org/]) -->
+
+<!-- [Brain Development IXI Dataset]([https://brain-development.org/ixi-dataset/]) -->
+<details class="example"><summary>IXI Dataset - Brain Development from ICL</summary><ul>
+<li><a href="https://brain-development.org/ixi-dataset/">database repository</a></li>
+<li>contact: Biomedical Image Analysis Group, Imperial College London</li>
+<li>data type: {human} {MRI} {DTI}</li>
+<li>RRID: <a href="https://scicrunch.org/resources/Any/record/nlx_144509-1/SCR_005839/resolver?q=*&amp;l=">SCR_005839</a></li>
+<li>Nearly 600 MR images from normal, healthy subjects. The MR image acquisition protocol for each subject includes: T1, T2 and PD-weighted images, MRA images, and Diffusion-weighted images (15 directions).</li>
+</ul>
+</details>
+<h4 id="fnirs">fNIRS</h4>
+<h2 id="electrophysiology">Electrophysiology</h2>
+<p>You definitely want to check this <a href="https://github.com/openlists/ElectrophysiologyData">list openly available electrophysiological data</a>, including EEG, MEG, ECoG/iEEG, and LFP data compiled by <a href="https://twitter.com/tomdonoghue">Tom Donoghue</a></p>
+<h3 id="surface-eegmeg">Surface (EEG/MEG)</h3>
+<h3 id="intracranial-ecog-ieeg-lfp-single-cell">Intracranial (ECoG / iEEG / LFP / Single cell)</h3>
+<!-- #### LORIS
+
+-   [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS) -   Open datasets available through LORIS projects
+
+??? example "LORIS - "
+    -   [database repository]()
+    -   contact
+    -   data type:
+    -   datalad compatible:
+    -   paper:
+    -   RRID: []() -->
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../30-getting-data/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                About
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../40-processing/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                About
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            CC-BY 4.0
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
