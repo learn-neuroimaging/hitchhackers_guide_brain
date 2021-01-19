@@ -280,11 +280,21 @@
         "ideas",
         "infra"
       ]
+    },
+    {
+      "login": "tiborauer",
+      "name": "Tibor Auer",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4816041?v=4",
+      "profile": "https://github.com/tiborauer",
+      "contributions": [
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-blue.svg?)](#contributors)",
-  "projectName": "tutorials-and-resources",
+  "projectName": "hitchhackers_guide_brain",
   "projectOwner": "learn-neuroimaging",
   "repoType": "github",
   "repoHost": "https://github.com",
