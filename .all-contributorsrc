@@ -290,6 +290,16 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "piloubazin",
+      "name": "Pilou Bazin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19191770?v=4",
+      "profile": "https://github.com/piloubazin",
+      "contributions": [
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
